@@ -1,5 +1,5 @@
 {
-  "performed_at": "2026-11-15T15:37:10.600941+00:00",
+  "performed_at": "2026-11-15T15:48:07.945103+00:00",
   "site_url": "https://p16157038-max.github.io/ai-deepfake-wiki-hw10/",
   "repo_url": "https://github.com/p16157038-max/ai-deepfake-wiki-hw10",
   "anonymous": true,
@@ -21,7 +21,7 @@
       "path": "wiki.html",
       "status": 200,
       "matches_local_after_newline_normalization": true,
-      "normalized_sha256": "b0995621d6d299c9c63e1f6117b5b28c3699909ef8e7721e338c36ab70f6b3ba"
+      "normalized_sha256": "1c5511dfa0d94c24324c0c2702c46ac5e09209628e88fde2e36d708223eee8e7"
     },
     {
       "path": "workflow.html",
@@ -39,7 +39,7 @@
       "path": "raw/manifest.json",
       "status": 200,
       "matches_local_after_newline_normalization": true,
-      "normalized_sha256": "1cca2dabe094f9fab1e083600fd3296796df466966c484ca4459083da586a4d7"
+      "normalized_sha256": "bb033b976c0e782251b0c5b175143aa36d17b31ae33d21b0113ca18237d2a069"
     },
     {
       "path": "wiki/index.md",
@@ -50,15 +50,15 @@
     {
       "path": "wiki/log.md",
       "status": 200,
-      "matches_local_after_newline_normalization": false,
-      "normalized_sha256": "2a2e35e62c76487985e7f2080e8c305001de3b0cf9b0690d240de989465bacb3"
+      "matches_local_after_newline_normalization": true,
+      "normalized_sha256": "ccd01ecac2222f2a6c671ed38eefe241ff3c3c3f9192967ef0ada93a9ebf6cd3"
     },
     {
       "path": "wiki/catalog.json",
       "status": 200,
       "matches_local_after_newline_normalization": true,
-      "normalized_sha256": "9f345f5de0f663ea6dcc9acb36dbe7bd3d9d2f211c1daec2af5b645a4e108464"
+      "normalized_sha256": "269e3b2120dcb9c470fc2bde18a70ad918cf667789361c4cb8c4e18802de46f6"
     }
   ],
-  "note": "No login or API key needed to view static artifacts; source log may be one validation pass ahead locally until evidence commit."
+  "note": "All nine anonymously fetched targets match current local content after standard CRLF/LF normalization. Static artifacts need no login, API key, or persistent runtime."
 }

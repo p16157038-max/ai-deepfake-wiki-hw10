@@ -1,0 +1,47 @@
+{
+  "performed_at": "2026-11-15T15:50:42.299411+00:00",
+  "method": "Actual git ls-tree and rev-parse, not file creation-time assumptions",
+  "stages": [
+    {
+      "commit": "366cabb96352ef7233ae5a25ee1fb7e11574db0f",
+      "deck_html_exists": false,
+      "source_wiki_pages": 0,
+      "concept_wiki_pages": 0,
+      "query_files": 0,
+      "slide_drafts": 0
+    },
+    {
+      "commit": "d23ce68b8ba236e3f7102660277693ea8e8edf62",
+      "deck_html_exists": false,
+      "source_wiki_pages": 2,
+      "concept_wiki_pages": 0,
+      "query_files": 0,
+      "slide_drafts": 0
+    },
+    {
+      "commit": "4895e751cb191f62aab8f33adac134575d2e116d",
+      "deck_html_exists": false,
+      "source_wiki_pages": 8,
+      "concept_wiki_pages": 6,
+      "query_files": 0,
+      "slide_drafts": 0
+    },
+    {
+      "commit": "e3523a65fdf170aa0f01520bbdd1ee652c415438",
+      "deck_html_exists": false,
+      "source_wiki_pages": 8,
+      "concept_wiki_pages": 6,
+      "query_files": 6,
+      "slide_drafts": 14
+    },
+    {
+      "commit": "1b9a06773ae2c28e041d54184d0a56f85dc0756e",
+      "deck_html_exists": true,
+      "source_wiki_pages": 8,
+      "concept_wiki_pages": 6,
+      "query_files": 6,
+      "slide_drafts": 14
+    }
+  ],
+  "wiki_before_slides_verified": true
+}
