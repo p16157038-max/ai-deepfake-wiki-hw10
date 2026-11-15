@@ -1,0 +1,348 @@
+{
+  "slides": [
+    {
+      "slide": "s01",
+      "title": "聲音很像，為什麼還不能匯款",
+      "queries": [
+        "Q01",
+        "Q03"
+      ],
+      "cards": [
+        "cards/Q01.json",
+        "cards/Q03.json"
+      ],
+      "wiki_pages": [
+        "concepts/basics.md",
+        "concepts/trust.md"
+      ],
+      "claim_ids": [
+        "S01-C1",
+        "S03-C2",
+        "S04-C2"
+      ],
+      "sources": [
+        "S01",
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "slide": "s02",
+      "title": "這堂課要練會的三件事",
+      "queries": [
+        "Q01",
+        "Q05"
+      ],
+      "cards": [
+        "cards/Q01.json",
+        "cards/Q05.json"
+      ],
+      "wiki_pages": [
+        "concepts/basics.md",
+        "concepts/verification.md"
+      ],
+      "claim_ids": [
+        "S03-C2",
+        "S04-C1",
+        "S04-C2",
+        "S05-C3"
+      ],
+      "sources": [
+        "S03",
+        "S04",
+        "S05"
+      ]
+    },
+    {
+      "slide": "s03",
+      "title": "深偽改變媒體，詐騙利用信任",
+      "queries": [
+        "Q01"
+      ],
+      "cards": [
+        "cards/Q01.json"
+      ],
+      "wiki_pages": [
+        "concepts/basics.md"
+      ],
+      "claim_ids": [
+        "S01-C1",
+        "S04-C1",
+        "S04-C2"
+      ],
+      "sources": [
+        "S01",
+        "S04"
+      ]
+    },
+    {
+      "slide": "s04",
+      "title": "從內容到要求，風險藏在哪一步",
+      "queries": [
+        "Q03",
+        "Q04"
+      ],
+      "cards": [
+        "cards/Q03.json",
+        "cards/Q04.json"
+      ],
+      "wiki_pages": [
+        "concepts/trust.md",
+        "concepts/platforms.md"
+      ],
+      "claim_ids": [
+        "S02-C1",
+        "S02-C3",
+        "S03-C1",
+        "S08-C1"
+      ],
+      "sources": [
+        "S02",
+        "S03",
+        "S08"
+      ]
+    },
+    {
+      "slide": "s05",
+      "title": "臺灣案例：影像威脅不代表影像是真的",
+      "queries": [
+        "Q02"
+      ],
+      "cards": [
+        "cards/Q02.json"
+      ],
+      "wiki_pages": [
+        "concepts/cases.md"
+      ],
+      "claim_ids": [
+        "S05-C1",
+        "S05-C2",
+        "S05-C3"
+      ],
+      "sources": [
+        "S05"
+      ]
+    },
+    {
+      "slide": "s06",
+      "title": "香港案例：熟悉的臉仍要另行查證",
+      "queries": [
+        "Q02"
+      ],
+      "cards": [
+        "cards/Q02.json"
+      ],
+      "wiki_pages": [
+        "concepts/cases.md"
+      ],
+      "claim_ids": [
+        "S02-C1",
+        "S02-C2",
+        "S02-C3"
+      ],
+      "sources": [
+        "S02"
+      ]
+    },
+    {
+      "slide": "s07",
+      "title": "情境一：聽到室友聲音，你先做什麼",
+      "queries": [
+        "Q03"
+      ],
+      "cards": [
+        "cards/Q03.json"
+      ],
+      "wiki_pages": [
+        "concepts/trust.md"
+      ],
+      "claim_ids": [
+        "S03-C1",
+        "S03-C2",
+        "S04-C4"
+      ],
+      "sources": [
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "slide": "s08",
+      "title": "找破綻有幫助，但不是驗真保證",
+      "queries": [
+        "Q03",
+        "Q05"
+      ],
+      "cards": [
+        "cards/Q03.json",
+        "cards/Q05.json"
+      ],
+      "wiki_pages": [
+        "concepts/verification.md"
+      ],
+      "claim_ids": [
+        "S01-C2",
+        "S03-C2",
+        "S04-C4"
+      ],
+      "sources": [
+        "S01",
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "slide": "s09",
+      "title": "TikTok 的 AI 標籤能告訴你什麼",
+      "queries": [
+        "Q04"
+      ],
+      "cards": [
+        "cards/Q04.json"
+      ],
+      "wiki_pages": [
+        "concepts/platforms.md"
+      ],
+      "claim_ids": [
+        "S06-C1",
+        "S06-C2",
+        "S06-C3"
+      ],
+      "sources": [
+        "S06"
+      ]
+    },
+    {
+      "slide": "s10",
+      "title": "Instagram、LINE：熟悉帳號也要查證",
+      "queries": [
+        "Q04"
+      ],
+      "cards": [
+        "cards/Q04.json"
+      ],
+      "wiki_pages": [
+        "concepts/platforms.md"
+      ],
+      "claim_ids": [
+        "S07-C1",
+        "S07-C2",
+        "S08-C1",
+        "S08-C2"
+      ],
+      "sources": [
+        "S07",
+        "S08"
+      ]
+    },
+    {
+      "slide": "s11",
+      "title": "把查證做成四個動作",
+      "queries": [
+        "Q05"
+      ],
+      "cards": [
+        "cards/Q05.json"
+      ],
+      "wiki_pages": [
+        "concepts/verification.md"
+      ],
+      "claim_ids": [
+        "S01-C3",
+        "S03-C2",
+        "S04-C4",
+        "S05-C3",
+        "S08-C2"
+      ],
+      "sources": [
+        "S01",
+        "S03",
+        "S04",
+        "S05",
+        "S08"
+      ]
+    },
+    {
+      "slide": "s12",
+      "title": "情境二：被影像威脅，先保護自己",
+      "queries": [
+        "Q06",
+        "Q05"
+      ],
+      "cards": [
+        "cards/Q06.json",
+        "cards/Q05.json"
+      ],
+      "wiki_pages": [
+        "concepts/response.md"
+      ],
+      "claim_ids": [
+        "S04-C3",
+        "S05-C3"
+      ],
+      "sources": [
+        "S04",
+        "S05"
+      ]
+    },
+    {
+      "slide": "s13",
+      "title": "在臺灣，求助要找正式管道",
+      "queries": [
+        "Q05",
+        "Q06"
+      ],
+      "cards": [
+        "cards/Q05.json",
+        "cards/Q06.json"
+      ],
+      "wiki_pages": [
+        "concepts/response.md"
+      ],
+      "claim_ids": [
+        "S01-C3",
+        "S05-C3",
+        "S07-C1",
+        "S08-C3"
+      ],
+      "sources": [
+        "S01",
+        "S05",
+        "S07",
+        "S08"
+      ]
+    },
+    {
+      "slide": "s14",
+      "title": "下一次收到訊息，你會先問什麼",
+      "queries": [
+        "Q01",
+        "Q05",
+        "Q04"
+      ],
+      "cards": [
+        "cards/Q01.json",
+        "cards/Q05.json",
+        "cards/Q04.json"
+      ],
+      "wiki_pages": [
+        "concepts/verification.md",
+        "concepts/platforms.md"
+      ],
+      "claim_ids": [
+        "S03-C2",
+        "S04-C4",
+        "S05-C3",
+        "S06-C3",
+        "S08-C2"
+      ],
+      "sources": [
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S08"
+      ]
+    }
+  ]
+}

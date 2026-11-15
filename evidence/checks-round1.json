@@ -1,0 +1,47 @@
+{
+  "performed_at": "2026-11-15T15:33:44.576792+00:00",
+  "passed": false,
+  "sources": 8,
+  "concept_pages": 6,
+  "query_answers": 6,
+  "slides": 14,
+  "quiz_count": 2,
+  "slide_citation_coverage": 14,
+  "source_coverage": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08"
+  ],
+  "local_link_checks": 47,
+  "rendered_text_preserved": true,
+  "raw_sha256_verified": true,
+  "numeric_case_evidence": {
+    "港幣2億元": {
+      "claim": "S02-C2",
+      "source_wording": "港幣兩億元",
+      "value": 200000000,
+      "currency": "HKD"
+    },
+    "八個機關": {
+      "claim": "S05-C1",
+      "source_wording": "八個機關",
+      "value": 8,
+      "unit": "機關"
+    },
+    "五個香港銀行帳戶": {
+      "claim": "S02-C2",
+      "source_wording": "五個香港銀行帳戶",
+      "value": 5,
+      "unit": "銀行帳戶"
+    }
+  },
+  "semantic_truth_proved_by_script": false,
+  "errors": [
+    "workflow.html broken local link evidence/checks.json"
+  ]
+}

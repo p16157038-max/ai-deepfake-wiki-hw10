@@ -1,0 +1,476 @@
+{
+  "performed_at": "2026-11-15T15:31:25+00:00",
+  "role": "fresh-context independent semantic fidelity, citation coverage and teaching accuracy reviewer; not an author",
+  "fresh_context": true,
+  "reviewed_artifact": "teaching/deck.json and deck.html",
+  "artifact_sha256": {
+    "teaching/deck.json": "358a4c49f102cb48061d5e954525351cf61821fdd6ccae0c46e3d5cfe1597016",
+    "deck.html": "0afd683a90b5135dd41f6c7dee8e1adbe91a28c0080040c91cd6e414700dcbd4",
+    "raw/manifest.json": "fec987bfdc4833827aad0cd4a1533f2e780140d12a0c7faf2ffbe21313d4675a"
+  },
+  "scope": {
+    "reviewed": [
+      "all 14 slides including notes",
+      "all 6 quiz options and their feedback",
+      "all 6 cited Wiki concept pages",
+      "wiki/sources/S01.md through S08.md",
+      "raw/manifest.json and raw/S01.md through S08.md",
+      "all 8 official original URLs via web reader",
+      "raw hashes and 7 saved full capture hashes"
+    ],
+    "not_performed": [
+      "browser or native-app control",
+      "responsive layout or runtime interaction testing",
+      "audit of ingest-before-deck chronology or complete workflow execution",
+      "independent live verification of platform recovery success"
+    ],
+    "edits": "Only evidence/independent-review.json and evidence/independent-review.md were written; no teaching or source content modified."
+  },
+  "verdict": "PASS_WITH_NONBLOCKING_PROVENANCE_LIMITATION",
+  "verdict_explanation": "未發現需阻擋交付的事實錯誤、來源錯置、誤導保證或教學正解問題。FTC原始全文快取未留存的限制需持續如實揭露；官方web reader正文於本次可重新讀取，不將直接HTTP404說成成功。此結論限語意與教學，非瀏覽器測試或流程順序背書。",
+  "blocking_issues": 0,
+  "issues": [],
+  "nonblocking_observations": [
+    {
+      "id": "OBS-FTC-01",
+      "severity": "info",
+      "slide": [
+        "s01",
+        "s02",
+        "s04",
+        "s07",
+        "s08",
+        "s11",
+        "s14"
+      ],
+      "source": [
+        "S03"
+      ],
+      "finding": "S03 direct HTTP capture recorded 404, and no S03.html full capture exists. Original FTC article body independently reopened successfully using the web reader during this review. Two attempts to reopen the official March 2023 archive timed out, so the exact publication date 2023-03-20 was not independently revalidated here.",
+      "evidence": "raw/manifest.json S03.capture; source-cache inventory; official article paragraphs 2–12; archive reader timeouts.",
+      "required_action": "No content correction required. Preserve this provenance limitation and do not claim eight direct full captures. If a future ingest requires stronger date reproducibility, append a new dated capture without rewriting raw."
+    }
+  ],
+  "coverage": {
+    "slides_with_existing_wiki_citations": 14,
+    "slides_reviewed_semantically": 14,
+    "quiz_options_and_feedback_reviewed": 6,
+    "unique_official_documents_reopened": 8,
+    "minimum_five_documents_satisfied_for_content": true,
+    "cited_source_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S08"
+    ],
+    "concept_pages_reviewed": 6,
+    "source_pages_reviewed": 8,
+    "raw_hash_matches": 8,
+    "saved_full_capture_hash_matches": 7,
+    "all_deck_text_strings_present_in_html": true,
+    "missing_wiki_claim_ids": 0,
+    "scope_note": "Presence, identity and topic coverage are verified here. This does not by itself prove process chronology or that every source ingest/query execution happened before rendering."
+  },
+  "checked_slides": [
+    {
+      "slide": "s01",
+      "title": "聲音很像，為什麼還不能匯款",
+      "result": "pass",
+      "wiki_pages": [
+        "concepts/basics.md",
+        "concepts/trust.md"
+      ],
+      "claim_ids": [
+        "S01-C1",
+        "S03-C2",
+        "S04-C2"
+      ],
+      "sources": [
+        "S01",
+        "S03",
+        "S04"
+      ],
+      "semantic_assessment": "入門主張與課程對象清楚；核心行動是核實身分與要求，未把聲音相似當付款授權。"
+    },
+    {
+      "slide": "s02",
+      "title": "這堂課要練會的三件事",
+      "result": "pass",
+      "wiki_pages": [
+        "concepts/basics.md",
+        "concepts/verification.md"
+      ],
+      "claim_ids": [
+        "S03-C2",
+        "S04-C1",
+        "S04-C2",
+        "S05-C3"
+      ],
+      "sources": [
+        "S03",
+        "S04",
+        "S05"
+      ],
+      "semantic_assessment": "三項學習目標與後續概念、案例、查證及兩題練習對應；可由日常操作理解，不依賴模型背景。"
+    },
+    {
+      "slide": "s03",
+      "title": "深偽改變媒體，詐騙利用信任",
+      "result": "pass",
+      "wiki_pages": [
+        "concepts/basics.md"
+      ],
+      "claim_ids": [
+        "S01-C1",
+        "S04-C1",
+        "S04-C2"
+      ],
+      "sources": [
+        "S01",
+        "S04"
+      ],
+      "semantic_assessment": "換臉、仿聲、假視訊與一般文字／帳號冒用分開；未把合成媒體本身判定犯罪。合法用途敘述是FBI「本身不當然違法」的合理教學轉述。"
+    },
+    {
+      "slide": "s04",
+      "title": "從內容到要求，風險藏在哪一步",
+      "result": "pass",
+      "wiki_pages": [
+        "concepts/trust.md",
+        "concepts/platforms.md"
+      ],
+      "claim_ids": [
+        "S02-C1",
+        "S02-C3",
+        "S03-C1",
+        "S08-C1"
+      ],
+      "sources": [
+        "S02",
+        "S03",
+        "S08"
+      ],
+      "semantic_assessment": "明示跨來源整理而非單一案件；親友聲音、主管權威、投票與認證碼要求分別有來源，未混成一件真實受害案。"
+    },
+    {
+      "slide": "s05",
+      "title": "臺灣案例：影像威脅不代表影像是真的",
+      "result": "pass",
+      "wiki_pages": [
+        "concepts/cases.md"
+      ],
+      "claim_ids": [
+        "S05-C1",
+        "S05-C2",
+        "S05-C3"
+      ],
+      "sources": [
+        "S05"
+      ],
+      "semantic_assessment": "八個機關、紙本恐嚇信、警方鑑識確認深偽、2025-03-15發布日期均符合臺中原文；無學生／IG私訊或付款損失的擴寫。"
+    },
+    {
+      "slide": "s06",
+      "title": "香港案例：熟悉的臉仍要另行查證",
+      "result": "pass",
+      "wiki_pages": [
+        "concepts/cases.md"
+      ],
+      "claim_ids": [
+        "S02-C1",
+        "S02-C2",
+        "S02-C3"
+      ],
+      "sources": [
+        "S02"
+      ],
+      "semantic_assessment": "港幣約2億元、五個香港帳戶、2024年1月底接報均正確；最關鍵的預錄、沒有互動及後續即時訊息指令完整保留，未假稱即時自由對話。"
+    },
+    {
+      "slide": "s07",
+      "title": "情境一：聽到室友聲音，你先做什麼",
+      "result": "pass",
+      "wiki_pages": [
+        "concepts/trust.md"
+      ],
+      "claim_ids": [
+        "S03-C1",
+        "S03-C2",
+        "S04-C4"
+      ],
+      "sources": [
+        "S03",
+        "S04"
+      ],
+      "semantic_assessment": "明示教學模擬；B先掛斷並撥原已知電話為唯一正解，符合FTC；A不可先付款、C更多同源影音非獨立查證的回饋均合理。",
+      "quiz_review": [
+        {
+          "option": "A",
+          "marked_correct": false,
+          "correctness_and_feedback_result": "pass",
+          "text": "先轉帳，晚點再確認",
+          "feedback": "熟悉聲音不能替付款要求授權；先停止付款。"
+        },
+        {
+          "option": "B",
+          "marked_correct": true,
+          "correctness_and_feedback_result": "pass",
+          "text": "掛斷，撥原本已知的室友電話",
+          "feedback": "離開對方提供的查證路線；聯絡不到時再向其他親友確認。"
+        },
+        {
+          "option": "C",
+          "marked_correct": false,
+          "correctness_and_feedback_result": "pass",
+          "text": "請他傳更多語音就相信",
+          "feedback": "更多同一來源的影音不等於獨立驗證。"
+        }
+      ]
+    },
+    {
+      "slide": "s08",
+      "title": "找破綻有幫助，但不是驗真保證",
+      "result": "pass",
+      "wiki_pages": [
+        "concepts/verification.md"
+      ],
+      "claim_ids": [
+        "S01-C2",
+        "S03-C2",
+        "S04-C4"
+      ],
+      "sources": [
+        "S01",
+        "S03",
+        "S04"
+      ],
+      "semantic_assessment": "視聽異常和密語定位為線索，沒有通用準確率或驗真保證；原文FBI Tips及臺北警方包含相應建議，課程轉向已知管道核實。"
+    },
+    {
+      "slide": "s09",
+      "title": "TikTok 的 AI 標籤能告訴你什麼",
+      "result": "pass",
+      "wiki_pages": [
+        "concepts/platforms.md"
+      ],
+      "claim_ids": [
+        "S06-C1",
+        "S06-C2",
+        "S06-C3"
+      ],
+      "sources": [
+        "S06"
+      ],
+      "semantic_assessment": "明示依2024-05-09公告；自動標示依中繼資料且逐步導入符合TikTok原文。有標籤不保證身分／投資為真、無標籤不能證明真人，是有根據的教學推論。"
+    },
+    {
+      "slide": "s10",
+      "title": "Instagram、LINE：熟悉帳號也要查證",
+      "result": "pass",
+      "wiki_pages": [
+        "concepts/platforms.md"
+      ],
+      "claim_ids": [
+        "S07-C1",
+        "S07-C2",
+        "S08-C1",
+        "S08-C2"
+      ],
+      "sources": [
+        "S07",
+        "S08"
+      ],
+      "semantic_assessment": "LINE被盜親友帳號、另行通話／見面及認證碼不給均符合2026公告；Meta官方帳號存取入口符合2022公告，並有版本與未實測限制。"
+    },
+    {
+      "slide": "s11",
+      "title": "把查證做成四個動作",
+      "result": "pass",
+      "wiki_pages": [
+        "concepts/verification.md"
+      ],
+      "claim_ids": [
+        "S01-C3",
+        "S03-C2",
+        "S04-C4",
+        "S05-C3",
+        "S08-C2"
+      ],
+      "sources": [
+        "S01",
+        "S03",
+        "S04",
+        "S05",
+        "S08"
+      ],
+      "semantic_assessment": "停、離、查、留清楚標為本課自訂口訣；各動作可追溯官方建議，沒有假稱官方既有品牌或絕對防詐效果。"
+    },
+    {
+      "slide": "s12",
+      "title": "情境二：被影像威脅，先保護自己",
+      "result": "pass",
+      "wiki_pages": [
+        "concepts/response.md"
+      ],
+      "claim_ids": [
+        "S04-C3",
+        "S05-C3"
+      ],
+      "sources": [
+        "S04",
+        "S05"
+      ],
+      "semantic_assessment": "明示教學模擬；B留證、停止交付、向警方求助為唯一正解。A不公開轉傳、C付款不保證刪除的回饋符合留證不擴散原則，未引用不存在的刪除／追回率。",
+      "quiz_review": [
+        {
+          "option": "A",
+          "marked_correct": false,
+          "correctness_and_feedback_result": "pass",
+          "text": "公開轉傳圖片，請大家鑑定",
+          "feedback": "會擴大散播與傷害；保留必要證據，私下提供警方。"
+        },
+        {
+          "option": "B",
+          "marked_correct": true,
+          "correctness_and_feedback_result": "pass",
+          "text": "先保留證據，停止交付並向警方求助",
+          "feedback": "收到影像不代表內容真實；可向165諮詢，需要報案可找警方。"
+        },
+        {
+          "option": "C",
+          "marked_correct": false,
+          "correctness_and_feedback_result": "pass",
+          "text": "付款就能保證對方刪除",
+          "feedback": "沒有這種保證；不要把威脅者的承諾當作安全機制。"
+        }
+      ]
+    },
+    {
+      "slide": "s13",
+      "title": "在臺灣，求助要找正式管道",
+      "result": "pass",
+      "wiki_pages": [
+        "concepts/response.md"
+      ],
+      "claim_ids": [
+        "S01-C3",
+        "S05-C3",
+        "S07-C1",
+        "S08-C3"
+      ],
+      "sources": [
+        "S01",
+        "S05",
+        "S07",
+        "S08"
+      ],
+      "semantic_assessment": "165諮詢、110或就近警察機關報案有臺灣官方依據；IG與LINE官方支援分流適當，不刪LINE App符合原文；沒有復原或追回款項保證。"
+    },
+    {
+      "slide": "s14",
+      "title": "下一次收到訊息，你會先問什麼",
+      "result": "pass",
+      "wiki_pages": [
+        "concepts/verification.md",
+        "concepts/platforms.md"
+      ],
+      "claim_ids": [
+        "S03-C2",
+        "S04-C4",
+        "S05-C3",
+        "S06-C3",
+        "S08-C2"
+      ],
+      "sources": [
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S08"
+      ],
+      "semantic_assessment": "三個收束問題重申已知管道、對方要求及停下留證求助；與課程目標一致。真實案例和模擬題有區分，未提供或暗示臺灣Gen Z受害率。"
+    }
+  ],
+  "official_source_checks": [
+    {
+      "source": "S01",
+      "url": "https://md-fraud.police.gov.taipei/News_Content.aspx?n=BD99F0864A7983ED&s=1A33FBCA5115E6C9",
+      "method": "independent official-page web reader reopen",
+      "body_result": "pass",
+      "assessment": "官方正文110–132：換臉仿聲、暗語、先不匯款與個資交付、165；文章更新日期147行為民國113-04-08。",
+      "full_saved_capture": true
+    },
+    {
+      "source": "S02",
+      "url": "https://www.info.gov.hk/gia/general/202406/26/P2024062600192p.htm",
+      "method": "independent official-page web reader reopen",
+      "body_result": "pass",
+      "assessment": "官方正文25–27：預錄、沒有互動、約HK$200 million、五個本地帳戶、後續即時訊息；未援用提問中的統計作已證實數字。",
+      "full_saved_capture": true
+    },
+    {
+      "source": "S03",
+      "url": "https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes",
+      "method": "independent official-page web reader reopen",
+      "body_result": "pass",
+      "assessment": "官方正文2–12可讀：短音訊仿聲、已知電話回撥、找其他親友、難追回付款方式；未把開場解說或留言當查證個案。",
+      "full_saved_capture": false
+    },
+    {
+      "source": "S04",
+      "url": "https://www.ic3.gov/PSA/2024/PSA241203",
+      "method": "independent official-page web reader reopen",
+      "body_result": "pass",
+      "assessment": "官方正文8–48：AI文字／圖像／音訊／影片、偽造性影像勒索、家庭暗語及掛斷另找聯絡方式；不保證偵測。",
+      "full_saved_capture": true
+    },
+    {
+      "source": "S05",
+      "url": "https://www.taichung.gov.tw/8868/8872/1269419/2931416",
+      "method": "independent official-page web reader reopen",
+      "body_result": "pass",
+      "assessment": "官方正文137–157：八個機關、實體信封／郵戳、相片鑑識深偽、留證報案不轉傳、110／165、2025-03-15。",
+      "full_saved_capture": true
+    },
+    {
+      "source": "S06",
+      "url": "https://newsroom.tiktok.com/partnering-with-our-industry-to-advance-ai-transparency-and-literacy?lang=en",
+      "method": "independent official-page web reader reopen",
+      "body_result": "pass",
+      "assessment": "官方正文4–18：2024-05-09、部分外來平台、C2PA、逼真AIGC創作者標示、中繼資料限制與漸進導入。",
+      "full_saved_capture": true
+    },
+    {
+      "source": "S07",
+      "url": "https://about.fb.com/news/2022/12/designing-account-security-across-our-apps/",
+      "method": "independent official-page web reader reopen",
+      "body_result": "pass",
+      "assessment": "官方正文255–284：聯絡點安全、復原驗證與instagram.com/hacked官方入口；未實測2026介面或復原成功。",
+      "full_saved_capture": true
+    },
+    {
+      "source": "S08",
+      "url": "https://www.linecorp.com/tw/pr/news/2026/0909/",
+      "method": "independent official-page web reader reopen",
+      "body_result": "pass",
+      "assessment": "官方正文25–46：2026-09-09、被盜帳號投票訊息、另行通話／面對面、認證碼不外流、不直接刪App及官方客服；97%未誤作人口受害率。",
+      "full_saved_capture": true
+    }
+  ],
+  "beginner_learning_assessment": {
+    "result": "pass",
+    "basis": [
+      "繁體中文與日常情境適合沒有模型知識的臺灣讀者。",
+      "三項目標有概念、案例與行動支援，兩題練習涵蓋仿聲匯款與影像威脅；不要求學生製作或自行檢驗傷害影像。",
+      "案例保留時間、地區、媒介與調查限制；情境題都明標模擬，非真實受害者紀錄。",
+      "核心行動是暫停、獨立聯絡與留證求助；未把外觀、密語、AI標籤、驗證徽章或偵測器作付款安全保證。",
+      "平台差異與歷史公告日期清楚，沒有把一般釣魚／帳號盜用全稱深偽。",
+      "不提供或推論Gen Z受害率、不展示性影像、不責備受害者、不保證金錢或帳號復原。"
+    ],
+    "interpretation_note": "停離查留、標籤不保證陳述為真及付款不保證刪除是教學整理／限制性推論，不是捏造的官方統計或功效宣稱。"
+  }
+}
