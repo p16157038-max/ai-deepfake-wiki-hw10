@@ -472,5 +472,247 @@
       "不提供或推論Gen Z受害率、不展示性影像、不責備受害者、不保證金錢或帳號復原。"
     ],
     "interpretation_note": "停離查留、標籤不保證陳述為真及付款不保證刪除是教學整理／限制性推論，不是捏造的官方統計或功效宣稱。"
+  },
+  "visual_review": {
+    "performed_at": "2026-11-15T15:37:28+00:00",
+    "role": "fresh-context independent reviewer; read-only screenshot inspection",
+    "verdict": "PASS_NO_BLOCKING_VISUAL_ISSUES",
+    "checked_screenshots": [
+      {
+        "file": "evidence/screenshots/01_教學投影片.png",
+        "sha256": "57b03bc53863b44900f8697037681368f126b80bbd43c17b3dd8eafdc798d58c",
+        "dimensions": {
+          "width": 1366,
+          "height": 768
+        },
+        "actually_viewed": true,
+        "method": "tools.view_image; visual inspection by independent reviewer",
+        "result": "pass",
+        "scope": "desktop full slide",
+        "observations": "標題、內文與Wiki出處清楚可辨；沒有文字遭截斷、重疊或導覽蓋住內容。"
+      },
+      {
+        "file": "evidence/screenshots/02_教學投影片.png",
+        "sha256": "0ac05d1f6ce9ee54e4ec1a7841de0fcea3ddb525dde126d3e5aa1a74ae412f86",
+        "dimensions": {
+          "width": 1366,
+          "height": 768
+        },
+        "actually_viewed": true,
+        "method": "tools.view_image; visual inspection by independent reviewer",
+        "result": "pass",
+        "scope": "desktop full slide",
+        "observations": "標題、內文與Wiki出處清楚可辨；沒有文字遭截斷、重疊或導覽蓋住內容。"
+      },
+      {
+        "file": "evidence/screenshots/03_教學投影片.png",
+        "sha256": "d2aaad4aa4627ee09115943877d2aab966f85d14a97bc162bd77cf8ff882b78b",
+        "dimensions": {
+          "width": 1366,
+          "height": 768
+        },
+        "actually_viewed": true,
+        "method": "tools.view_image; visual inspection by independent reviewer",
+        "result": "pass",
+        "scope": "desktop full slide",
+        "observations": "標題、內文與Wiki出處清楚可辨；沒有文字遭截斷、重疊或導覽蓋住內容。"
+      },
+      {
+        "file": "evidence/screenshots/04_教學投影片.png",
+        "sha256": "7f1ae09fcbcd987f01f7b09dea1380a7021a2ee85b91305b06e22489a28316c5",
+        "dimensions": {
+          "width": 1366,
+          "height": 768
+        },
+        "actually_viewed": true,
+        "method": "tools.view_image; visual inspection by independent reviewer",
+        "result": "pass",
+        "scope": "desktop full slide",
+        "observations": "標題、內文與Wiki出處清楚可辨；沒有文字遭截斷、重疊或導覽蓋住內容。"
+      },
+      {
+        "file": "evidence/screenshots/05_教學投影片.png",
+        "sha256": "5968cc777d0a152c975aaceb5ec7b26bdb2bf82e3e451e67a215a6923b96b086",
+        "dimensions": {
+          "width": 1366,
+          "height": 768
+        },
+        "actually_viewed": true,
+        "method": "tools.view_image; visual inspection by independent reviewer",
+        "result": "pass",
+        "scope": "desktop full slide",
+        "observations": "標題、內文與Wiki出處清楚可辨；沒有文字遭截斷、重疊或導覽蓋住內容。"
+      },
+      {
+        "file": "evidence/screenshots/06_教學投影片.png",
+        "sha256": "462fed0e114d277350e2eaa31b13afcdc5bf4453659716a3ac2efc227a5d3c61",
+        "dimensions": {
+          "width": 1366,
+          "height": 768
+        },
+        "actually_viewed": true,
+        "method": "tools.view_image; visual inspection by independent reviewer",
+        "result": "pass",
+        "scope": "desktop full slide",
+        "observations": "標題、內文與Wiki出處清楚可辨；沒有文字遭截斷、重疊或導覽蓋住內容。"
+      },
+      {
+        "file": "evidence/screenshots/07_教學投影片.png",
+        "sha256": "eeb256e7c92eda6fca7e45b08ea3773936d2e379c4454b27cce5e2680592dcfd",
+        "dimensions": {
+          "width": 1366,
+          "height": 768
+        },
+        "actually_viewed": true,
+        "method": "tools.view_image; visual inspection by independent reviewer",
+        "result": "pass",
+        "scope": "desktop full slide",
+        "observations": "標題、內文與Wiki出處清楚可辨；沒有文字遭截斷、重疊或導覽蓋住內容。"
+      },
+      {
+        "file": "evidence/screenshots/08_教學投影片.png",
+        "sha256": "1d9a97fe46dd55a67549d0064e7e66e724e1c68c6279277f14f3974fefe7d298",
+        "dimensions": {
+          "width": 1366,
+          "height": 768
+        },
+        "actually_viewed": true,
+        "method": "tools.view_image; visual inspection by independent reviewer",
+        "result": "pass",
+        "scope": "desktop full slide",
+        "observations": "標題、內文與Wiki出處清楚可辨；沒有文字遭截斷、重疊或導覽蓋住內容。"
+      },
+      {
+        "file": "evidence/screenshots/09_教學投影片.png",
+        "sha256": "daf0e07331b6b76c1cc0a413edbaa48b8bc8e3b63d0686522fb68e7a0e21f1ec",
+        "dimensions": {
+          "width": 1366,
+          "height": 768
+        },
+        "actually_viewed": true,
+        "method": "tools.view_image; visual inspection by independent reviewer",
+        "result": "pass",
+        "scope": "desktop full slide",
+        "observations": "標題、內文與Wiki出處清楚可辨；沒有文字遭截斷、重疊或導覽蓋住內容。"
+      },
+      {
+        "file": "evidence/screenshots/10_教學投影片.png",
+        "sha256": "e936e9c590790c72451328e86510f9c1bc36b27deb915aee8092f5ed2f820e87",
+        "dimensions": {
+          "width": 1366,
+          "height": 768
+        },
+        "actually_viewed": true,
+        "method": "tools.view_image; visual inspection by independent reviewer",
+        "result": "pass",
+        "scope": "desktop full slide",
+        "observations": "標題、內文與Wiki出處清楚可辨；沒有文字遭截斷、重疊或導覽蓋住內容。"
+      },
+      {
+        "file": "evidence/screenshots/11_教學投影片.png",
+        "sha256": "99c56b919bfa4de1c33cf55fe74b4c42593da96dc259c1c6bb568c0befb54ec2",
+        "dimensions": {
+          "width": 1366,
+          "height": 768
+        },
+        "actually_viewed": true,
+        "method": "tools.view_image; visual inspection by independent reviewer",
+        "result": "pass",
+        "scope": "desktop full slide",
+        "observations": "標題、內文與Wiki出處清楚可辨；沒有文字遭截斷、重疊或導覽蓋住內容。"
+      },
+      {
+        "file": "evidence/screenshots/12_教學投影片.png",
+        "sha256": "3b4db6d464b77f1e58fa574dc4c6f0b12ca2f08ef7c5ae9cad69a7a6c6e5e348",
+        "dimensions": {
+          "width": 1366,
+          "height": 768
+        },
+        "actually_viewed": true,
+        "method": "tools.view_image; visual inspection by independent reviewer",
+        "result": "pass",
+        "scope": "desktop full slide",
+        "observations": "標題、內文與Wiki出處清楚可辨；沒有文字遭截斷、重疊或導覽蓋住內容。"
+      },
+      {
+        "file": "evidence/screenshots/13_教學投影片.png",
+        "sha256": "c3fd23eb5ac7549ebd3f45d2392ecebf5fcd9a0e49b3e34b7e818a55b01ca80a",
+        "dimensions": {
+          "width": 1366,
+          "height": 768
+        },
+        "actually_viewed": true,
+        "method": "tools.view_image; visual inspection by independent reviewer",
+        "result": "pass",
+        "scope": "desktop full slide",
+        "observations": "標題、內文與Wiki出處清楚可辨；沒有文字遭截斷、重疊或導覽蓋住內容。"
+      },
+      {
+        "file": "evidence/screenshots/14_教學投影片.png",
+        "sha256": "851519f82683088e2b344227aad40d7101032fde03253710f2e2db103a76f4c7",
+        "dimensions": {
+          "width": 1366,
+          "height": 768
+        },
+        "actually_viewed": true,
+        "method": "tools.view_image; visual inspection by independent reviewer",
+        "result": "pass",
+        "scope": "desktop full slide",
+        "observations": "標題、內文與Wiki出處清楚可辨；沒有文字遭截斷、重疊或導覽蓋住內容。"
+      },
+      {
+        "file": "evidence/screenshots/s07_情境題作答結果.png",
+        "sha256": "d9b2f96618c8728e87c0d1c2d566a62e9e4c23c9cb6936c4fd7946c4847185f8",
+        "dimensions": {
+          "width": 1366,
+          "height": 768
+        },
+        "actually_viewed": true,
+        "method": "tools.view_image; visual inspection by independent reviewer",
+        "result": "pass",
+        "scope": "desktop quiz answer state",
+        "observations": "B已選，綠色狀態與答對文字回饋清楚；回饋為另找已知管道及找其他親友確認，未與選項衝突，Wiki出處仍可見。"
+      },
+      {
+        "file": "evidence/screenshots/s12_情境題作答結果.png",
+        "sha256": "efd298b22d6e00bab561a715ece3ca6b35a3f3e2bd175870a9dc26c279f5df48",
+        "dimensions": {
+          "width": 1366,
+          "height": 768
+        },
+        "actually_viewed": true,
+        "method": "tools.view_image; visual inspection by independent reviewer",
+        "result": "pass",
+        "scope": "desktop quiz answer state",
+        "observations": "B已選，綠色狀態與答對文字回饋清楚；165諮詢與警方求助內容完整可見，Wiki出處仍可見。"
+      },
+      {
+        "file": "evidence/screenshots/16_手機寬度情境題.png",
+        "sha256": "f415b0c882691b68194c84d94138a268d516e1a0619f5b3550a01ac78e5f65c7",
+        "dimensions": {
+          "width": 390,
+          "height": 930
+        },
+        "actually_viewed": true,
+        "method": "tools.view_image; visual inspection by independent reviewer",
+        "result": "pass",
+        "scope": "mobile 390px initial viewport, answered s12",
+        "observations": "標題、對話、三個選項、已選B、完整答對回饋與導覽均可讀；換行正常，未見水平方向內容截斷。",
+        "limitation": "Wiki來源頁尾未出現在此初始視窗截圖中，可能在垂直捲動下方；未由此截圖聲稱手機頁尾可見或實際操作已驗證。"
+      }
+    ],
+    "total_actually_viewed": 17,
+    "desktop_slides_checked": 14,
+    "desktop_slides_with_visible_wiki_footer": 14,
+    "quiz_answer_screenshots_checked": 2,
+    "mobile_screenshots_checked": 1,
+    "issues": [],
+    "limitations": [
+      "沒有啟動瀏覽器或重做點選，截圖檢視本身不證明互動程式運作；實際執行應看root保存的測試證據。",
+      "手機截圖只呈現一個390px寬初始視窗；來源頁尾在畫面外，需捲動狀態的截圖或相應操作證據確認。",
+      "不由單一手機截圖推論所有尺寸或列印版面均正確。"
+    ],
+    "overall_assessment": "畫面層次清楚、繁體中文可讀、兩個作答狀態不遮蔽回饋；桌面14頁都保留可見來源頁尾，無須為裝飾性圖片缺席提出修改。",
+    "edits": "Only this visual_review key was appended to evidence/independent-review.json; no screenshots, teaching text, source pages or deck changed."
   }
 }

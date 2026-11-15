@@ -1,0 +1,64 @@
+{
+  "performed_at": "2026-11-15T15:37:10.600941+00:00",
+  "site_url": "https://p16157038-max.github.io/ai-deepfake-wiki-hw10/",
+  "repo_url": "https://github.com/p16157038-max/ai-deepfake-wiki-hw10",
+  "anonymous": true,
+  "pages_public": true,
+  "http_checks": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "matches_local_after_newline_normalization": true,
+      "normalized_sha256": "c48429803b78e1bb892c756305a31926546bbf5dd36937926dd0b0f881c4f8fa"
+    },
+    {
+      "path": "deck.html",
+      "status": 200,
+      "matches_local_after_newline_normalization": true,
+      "normalized_sha256": "0afd683a90b5135dd41f6c7dee8e1adbe91a28c0080040c91cd6e414700dcbd4"
+    },
+    {
+      "path": "wiki.html",
+      "status": 200,
+      "matches_local_after_newline_normalization": true,
+      "normalized_sha256": "b0995621d6d299c9c63e1f6117b5b28c3699909ef8e7721e338c36ab70f6b3ba"
+    },
+    {
+      "path": "workflow.html",
+      "status": 200,
+      "matches_local_after_newline_normalization": true,
+      "normalized_sha256": "aad573ec70dc003084d037ccd675ce4ad6456c3768343113d80cdede588c72f2"
+    },
+    {
+      "path": "AGENTS.md",
+      "status": 200,
+      "matches_local_after_newline_normalization": true,
+      "normalized_sha256": "f061985364ab708e3a6dd4b0e18e847bdbf12fb5c58c9a2f850e990320e34ecb"
+    },
+    {
+      "path": "raw/manifest.json",
+      "status": 200,
+      "matches_local_after_newline_normalization": true,
+      "normalized_sha256": "1cca2dabe094f9fab1e083600fd3296796df466966c484ca4459083da586a4d7"
+    },
+    {
+      "path": "wiki/index.md",
+      "status": 200,
+      "matches_local_after_newline_normalization": true,
+      "normalized_sha256": "8761474caa235904a49adfc7f4e2bc1cbd2abc489bd303c150c6641da5bf6b33"
+    },
+    {
+      "path": "wiki/log.md",
+      "status": 200,
+      "matches_local_after_newline_normalization": false,
+      "normalized_sha256": "2a2e35e62c76487985e7f2080e8c305001de3b0cf9b0690d240de989465bacb3"
+    },
+    {
+      "path": "wiki/catalog.json",
+      "status": 200,
+      "matches_local_after_newline_normalization": true,
+      "normalized_sha256": "9f345f5de0f663ea6dcc9acb36dbe7bd3d9d2f211c1daec2af5b645a4e108464"
+    }
+  ],
+  "note": "No login or API key needed to view static artifacts; source log may be one validation pass ahead locally until evidence commit."
+}

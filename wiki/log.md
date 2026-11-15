@@ -82,3 +82,7 @@ Q05：查證 165 證據 → concepts/verification.md,concepts/response.md,concep
 ## [2026-11-15T15:23:59.711246+00:00] query
 
 Q06：勒索 認證碼 復原 → concepts/platforms.md,concepts/response.md,concepts/basics.md,concepts/verification.md。
+
+## [2026-11-15T15:36:24.014652+00:00] lint
+
+{"performed_at": "2026-11-15T15:36:24.014066+00:00", "source_count": 8, "concept_count": 6, "raw_immutable": true, "errors": [], "semantic_truth_proved_by_script": false}
