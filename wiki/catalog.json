@@ -1,0 +1,82 @@
+{
+  "pages": [
+    {
+      "id": "S01",
+      "path": "sources/S01.md",
+      "title": "慎防AI深偽詐騙",
+      "kind": "source",
+      "sources": [
+        "S01"
+      ],
+      "summary": "在臺灣情境中介紹165、先停下匯款與個資交付；以S03、S04補足已知聯絡方式回撥。",
+      "claims": [
+        {
+          "id": "S01-C1",
+          "text": "警方宣導指出，換臉與仿聲可被用來冒充親友。",
+          "location": "正文：AI變臉／AI變聲假親友",
+          "sources": [
+            "S01"
+          ],
+          "locator": "正文：AI變臉／AI變聲假親友"
+        },
+        {
+          "id": "S01-C2",
+          "text": "可事先與親友約定通關密語，遇到疑似假親友時查核身分。",
+          "location": "正文：通關密語",
+          "sources": [
+            "S01"
+          ],
+          "locator": "正文：通關密語"
+        },
+        {
+          "id": "S01-C3",
+          "text": "遇可疑要求先不匯款、不提供個資，有疑慮可撥165反詐騙專線。",
+          "location": "正文：2不3要",
+          "sources": [
+            "S01"
+          ],
+          "locator": "正文：2不3要"
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "path": "sources/S02.md",
+      "title": "LCQ9: Combating frauds involving deepfake",
+      "kind": "source",
+      "sources": [
+        "S02"
+      ],
+      "summary": "用於具體案例：熟悉的臉與主管權威，不能替代組織核准流程和另外查證。",
+      "claims": [
+        {
+          "id": "S02-C1",
+          "text": "警方於2024年1月底接獲一宗案件：騙徒冒充英國總部財務總監，先用釣魚電郵邀請員工參與所謂機密交易的視訊會議。",
+          "location": "答覆(1)：end-January 2024",
+          "sources": [
+            "S02"
+          ],
+          "locator": "答覆(1)：end-January 2024"
+        },
+        {
+          "id": "S02-C2",
+          "text": "報案者依指示授權款項轉往五個香港銀行帳戶，損失約港幣兩億元。",
+          "location": "答覆(1)：HK$200 million",
+          "sources": [
+            "S02"
+          ],
+          "locator": "答覆(1)：HK$200 million"
+        },
+        {
+          "id": "S02-C3",
+          "text": "警方當時相信會議是由公開影片與聲音製作的預錄內容，報案者與騙徒實際沒有互動，後續匯款指示透過即時通訊傳送。",
+          "location": "答覆(1)：pre-recorded；no interaction",
+          "sources": [
+            "S02"
+          ],
+          "locator": "答覆(1)：pre-recorded；no interaction"
+        }
+      ]
+    }
+  ]
+}

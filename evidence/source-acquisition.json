@@ -1,0 +1,84 @@
+{
+  "performed_at": "2026-11-15T15:19:57.890493+00:00",
+  "captures": [
+    {
+      "source": "S01",
+      "url": "https://md-fraud.police.gov.taipei/News_Content.aspx?n=BD99F0864A7983ED&s=1A33FBCA5115E6C9",
+      "started_at": "2026-11-15T15:19:50.154292+00:00",
+      "status": 200,
+      "final_url": "https://md-fraud.police.gov.taipei/News_Content.aspx?n=BD99F0864A7983ED&s=1A33FBCA5115E6C9",
+      "bytes": 63959,
+      "sha256": "a468af346aa01947f85cd1def4999c333901c59fdf408d8418f2fad9c612375a",
+      "cache_path": "S01.html"
+    },
+    {
+      "source": "S02",
+      "url": "https://www.info.gov.hk/gia/general/202406/26/P2024062600192p.htm",
+      "started_at": "2026-11-15T15:19:50.155292+00:00",
+      "status": 200,
+      "final_url": "https://www.info.gov.hk/gia/general/202406/26/P2024062600192p.htm",
+      "bytes": 14869,
+      "sha256": "b33af822f3731741054654d5b9b1d54fd3b6c5358ac525ad98c9d05f4f74c874",
+      "cache_path": "S02.html"
+    },
+    {
+      "source": "S03",
+      "url": "https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes",
+      "started_at": "2026-11-15T15:19:50.155791+00:00",
+      "status": "fetch_failed",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "source": "S04",
+      "url": "https://www.ic3.gov/PSA/2024/PSA241203",
+      "started_at": "2026-11-15T15:19:50.156291+00:00",
+      "status": 200,
+      "final_url": "https://www.ic3.gov/PSA/2024/PSA241203",
+      "bytes": 10577,
+      "sha256": "9dfebaaceca86ca1a291bf2390c66d34ecc4a7cbbc66eb9eaa9e74ddc636acef",
+      "cache_path": "S04.html"
+    },
+    {
+      "source": "S05",
+      "url": "https://www.taichung.gov.tw/8868/8872/1269419/2931416",
+      "started_at": "2026-11-15T15:19:50.405801+00:00",
+      "status": 200,
+      "final_url": "https://www.taichung.gov.tw/8868/8872/1269419/2931416",
+      "bytes": 72881,
+      "sha256": "bef25de36c80cec8acbf1bf2c422ff00657f24fd18cd410144fccd4f3cde4a14",
+      "cache_path": "S05.html"
+    },
+    {
+      "source": "S06",
+      "url": "https://newsroom.tiktok.com/partnering-with-our-industry-to-advance-ai-transparency-and-literacy?lang=en",
+      "started_at": "2026-11-15T15:19:50.520376+00:00",
+      "status": 200,
+      "final_url": "https://newsroom.tiktok.com/partnering-with-our-industry-to-advance-ai-transparency-and-literacy?lang=en",
+      "bytes": 124198,
+      "sha256": "6dcee74f62322545b4e1f48fd3405138f126c109acc20951c436dbd35f7d8cf6",
+      "cache_path": "S06.html"
+    },
+    {
+      "source": "S07",
+      "url": "https://about.fb.com/news/2022/12/designing-account-security-across-our-apps/",
+      "started_at": "2026-11-15T15:19:50.897425+00:00",
+      "status": 200,
+      "final_url": "https://about.fb.com/news/2022/12/designing-account-security-across-our-apps/",
+      "bytes": 684717,
+      "sha256": "97eb2a55f3921d66c6d3274b62bc9a6b6ac18c036b71715cfc693260e9c4ef99",
+      "cache_path": "S07.html"
+    },
+    {
+      "source": "S08",
+      "url": "https://www.linecorp.com/tw/pr/news/2026/0909/",
+      "started_at": "2026-11-15T15:19:51.067054+00:00",
+      "status": 200,
+      "final_url": "https://www.linecorp.com/tw/pr/news/2026/0909/",
+      "bytes": 1828673,
+      "sha256": "7596dc7e75499df1614cca951944ab16f3a9e4809067c546a8543a6bae199c5d",
+      "cache_path": "S08.html"
+    }
+  ],
+  "official_body_read_by_research_agent": 8,
+  "notes": "HTTP fetch failure does not mean the web reader failed; the two verification paths are recorded separately."
+}

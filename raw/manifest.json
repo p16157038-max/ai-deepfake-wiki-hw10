@@ -1,0 +1,435 @@
+{
+  "sources": [
+    {
+      "id": "S01",
+      "title": "慎防AI深偽詐騙",
+      "issuer": "臺北市政府警察局刑事警察大隊／臺北市政府警察局防制詐騙專區",
+      "source_type": "臺灣警察官方防詐宣導",
+      "published_at": null,
+      "updated_at": "2024-04-08",
+      "date_basis": "文章資料更新欄為113-04-08 16:47；資料檢視為113-05-15。未將網站頁尾總站更新日期115-09-11誤作文章發布日。",
+      "accessed_at": "2026-11-15",
+      "url": "https://md-fraud.police.gov.taipei/News_Content.aspx?n=BD99F0864A7983ED&s=1A33FBCA5115E6C9",
+      "canonical_url": "https://md-fraud.police.gov.taipei/News_Content.aspx?n=BD99F0864A7983ED&s=1A33FBCA5115E6C9",
+      "verified_body": true,
+      "verification_method": "web.open取得188行可讀官方頁；核讀正文第110–134行與文章日期第149–151行。",
+      "claims": [
+        {
+          "id": "S01-C1",
+          "text": "警方宣導指出，換臉與仿聲可被用來冒充親友。",
+          "location": "正文：AI變臉／AI變聲假親友"
+        },
+        {
+          "id": "S01-C2",
+          "text": "可事先與親友約定通關密語，遇到疑似假親友時查核身分。",
+          "location": "正文：通關密語"
+        },
+        {
+          "id": "S01-C3",
+          "text": "遇可疑要求先不匯款、不提供個資，有疑慮可撥165反詐騙專線。",
+          "location": "正文：2不3要"
+        }
+      ],
+      "does_not_support": [
+        "沒有具體受害者、日期或損失資料，不能包裝成一則已證實的臺灣深偽案件。",
+        "頁面提到左右擺頭／臉前揮手，但沒有檢測準確率；不能宣稱某個動作能保證辨真偽。",
+        "沒有臺灣Gen Z的受害率或平台差異數據。"
+      ],
+      "short_excerpt": "不匯款、不提供個人資料",
+      "case_use": false,
+      "teaching_use": "在臺灣情境中介紹165、先停下匯款與個資交付；以S03、S04補足已知聯絡方式回撥。",
+      "raw_path": "raw/S01.md",
+      "raw_sha256": "3baa5b73902bcd5e847baba815e9afef132e328ed8696ad70d719ee89d009216",
+      "capture": {
+        "source": "S01",
+        "url": "https://md-fraud.police.gov.taipei/News_Content.aspx?n=BD99F0864A7983ED&s=1A33FBCA5115E6C9",
+        "started_at": "2026-11-15T15:19:50.154292+00:00",
+        "status": 200,
+        "final_url": "https://md-fraud.police.gov.taipei/News_Content.aspx?n=BD99F0864A7983ED&s=1A33FBCA5115E6C9",
+        "bytes": 63959,
+        "sha256": "a468af346aa01947f85cd1def4999c333901c59fdf408d8418f2fad9c612375a",
+        "cache_path": "S01.html"
+      }
+    },
+    {
+      "id": "S02",
+      "title": "LCQ9: Combating frauds involving deepfake",
+      "issuer": "香港特別行政區政府新聞公報／保安局局長鄧炳強於立法會的書面答覆，引用警方調查",
+      "source_type": "官方政府答覆／具體案件",
+      "published_at": "2024-06-26",
+      "updated_at": null,
+      "date_basis": "頁首June 26與網址202406/26；公報末尾2024年6月26日。",
+      "accessed_at": "2026-11-15",
+      "url": "https://www.info.gov.hk/gia/general/202406/26/P2024062600192p.htm",
+      "canonical_url": "https://www.info.gov.hk/gia/general/202406/26/P2024062600192p.htm",
+      "verified_body": true,
+      "verification_method": "web.open取得60行官方公報；核讀警方案件敘述第22–29行。",
+      "claims": [
+        {
+          "id": "S02-C1",
+          "text": "警方於2024年1月底接獲一宗案件：騙徒冒充英國總部財務總監，先用釣魚電郵邀請員工參與所謂機密交易的視訊會議。",
+          "location": "答覆(1)：end-January 2024"
+        },
+        {
+          "id": "S02-C2",
+          "text": "報案者依指示授權款項轉往五個香港銀行帳戶，損失約港幣兩億元。",
+          "location": "答覆(1)：HK$200 million"
+        },
+        {
+          "id": "S02-C3",
+          "text": "警方當時相信會議是由公開影片與聲音製作的預錄內容，報案者與騙徒實際沒有互動，後續匯款指示透過即時通訊傳送。",
+          "location": "答覆(1)：pre-recorded；no interaction"
+        }
+      ],
+      "does_not_support": [
+        "不能寫成即時、可自由對話的多人AI換臉會議；本頁明言預錄且無互動。",
+        "公報未在這段案件中指名受害公司；不自行加入Arup等公司名稱。",
+        "這是香港企業員工案件；不能稱臺灣學生案件或推算臺灣損失。",
+        "『仍在調查』是2024-06-26當時狀態，未查證2026年的最終案情。"
+      ],
+      "short_excerpt": "Since the meeting was pre-recorded, there was actually no interaction between the informant and the fraudster.",
+      "case_use": true,
+      "case_date": "2024-01（月底警方接報）",
+      "teaching_use": "用於具體案例：熟悉的臉與主管權威，不能替代組織核准流程和另外查證。",
+      "raw_path": "raw/S02.md",
+      "raw_sha256": "100ed386e5fb194bb65aa4053691d03d5362c435abcf2e92e91f25cbb0f2e8a6",
+      "capture": {
+        "source": "S02",
+        "url": "https://www.info.gov.hk/gia/general/202406/26/P2024062600192p.htm",
+        "started_at": "2026-11-15T15:19:50.155292+00:00",
+        "status": 200,
+        "final_url": "https://www.info.gov.hk/gia/general/202406/26/P2024062600192p.htm",
+        "bytes": 14869,
+        "sha256": "b33af822f3731741054654d5b9b1d54fd3b6c5358ac525ad98c9d05f4f74c874",
+        "cache_path": "S02.html"
+      }
+    },
+    {
+      "id": "S03",
+      "title": "Scammers use AI to enhance their family emergency schemes",
+      "issuer": "Federal Trade Commission（美國聯邦貿易委員會），作者Alvaro Puig",
+      "source_type": "政府消費者警示",
+      "published_at": "2023-03-20",
+      "updated_at": null,
+      "date_basis": "原文可讀正文未顯示文首日期；另開FTC官方2023年3月Consumer Alerts Archive，核對標題、作者與March 20, 2023。未以留言日期推定。",
+      "metadata_verification_url": "https://consumer.ftc.gov/consumer-alerts/archive/202303",
+      "accessed_at": "2026-11-15",
+      "url": "https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes",
+      "canonical_url": "https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes",
+      "verified_body": true,
+      "verification_method": "web.open核讀官方文章第2–13行；另核讀官方月份彙整第46–50行確認日期與作者。",
+      "claims": [
+        {
+          "id": "S03-C1",
+          "text": "騙徒可能取得網路上的短音訊，再利用仿聲程式冒充親友遇急難需要金錢。",
+          "location": "正文：short audio clip／voice-cloning program"
+        },
+        {
+          "id": "S03-C2",
+          "text": "不能只信聲音；應用自己已知屬於本人的電話查證，聯絡不到時向其他親友確認。",
+          "location": "正文：Don’t trust the voice"
+        },
+        {
+          "id": "S03-C3",
+          "text": "對方要求電匯、加密貨幣或禮物卡卡號與PIN等難追回的付款方式，可能是警訊。",
+          "location": "正文：payment methods"
+        }
+      ],
+      "does_not_support": [
+        "開場祖孫急難情境是解說範例，不是附鑑識與當事人的具名個案。",
+        "未訂出通用的三秒音訊門檻、成功率或任何聲音都可完美複製的保證。",
+        "頁面讀者留言不是FTC查證的案例證據，尤其不能把留言中的秒數當官方結論。",
+        "美國通報入口不替代臺灣165與警方報案。"
+      ],
+      "short_excerpt": "Use a phone number you know is theirs.",
+      "case_use": false,
+      "teaching_use": "將『熟悉聲音＋急迫匯款』拆成警訊，建立已知電話回撥的練習。",
+      "raw_path": "raw/S03.md",
+      "raw_sha256": "926d557d7a29a7fe45576022b5e7e2ac49283b0a8280cf0874dc3bba088bf5a8",
+      "capture": {
+        "source": "S03",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes",
+        "started_at": "2026-11-15T15:19:50.155791+00:00",
+        "status": "fetch_failed",
+        "error": "HTTPError: HTTP Error 404: Not Found"
+      }
+    },
+    {
+      "id": "S04",
+      "title": "Criminals Use Generative Artificial Intelligence to Facilitate Financial Fraud",
+      "issuer": "Federal Bureau of Investigation／Internet Crime Complaint Center（FBI IC3）",
+      "source_type": "官方Public Service Announcement，Alert I-120324-PSA",
+      "published_at": "2024-12-03",
+      "updated_at": null,
+      "date_basis": "頁首December 3, 2024與警示編號。",
+      "accessed_at": "2026-11-15",
+      "url": "https://www.ic3.gov/PSA/2024/PSA241203",
+      "canonical_url": "https://www.ic3.gov/PSA/2024/PSA241203",
+      "verified_body": true,
+      "verification_method": "web.open取得61行官方警示；核讀文字、圖片、音訊、影片與保護建議各節。",
+      "claims": [
+        {
+          "id": "S04-C1",
+          "text": "生成式AI可協助騙徒大量製作較可信的訊息、假社群人物與圖片；文字更流暢不代表內容可信。",
+          "location": "AI-Generated Text與Images"
+        },
+        {
+          "id": "S04-C2",
+          "text": "仿聲能被用來冒充親友急需資金；假視訊可被用來冒充主管或證明網友是所謂真人。",
+          "location": "AI-Generated Audio與Videos"
+        },
+        {
+          "id": "S04-C3",
+          "text": "騙徒也可偽造受害者色情圖片要求付款，形成性影像勒索。",
+          "location": "AI-Generated Images：sextortion"
+        },
+        {
+          "id": "S04-C4",
+          "text": "防範包括親友暗語、限制公開影像聲音與帳號追蹤者，掛斷後另找官方或已知電話查證，不向僅網路認識的人提供敏感資料或付款。",
+          "location": "Tips to protect yourself"
+        }
+      ],
+      "does_not_support": [
+        "這是手法警示，未提供臺灣Gen Z各類詐騙發生率或受害統計。",
+        "沒有證明每個假帳號、釣魚訊息或社群詐騙都使用深偽。",
+        "雖列視聽瑕疵供留意，未提供保證辨識方法；看不出瑕疵不能證明真人。",
+        "本頁未提供專門處理性影像勒索的完整臺灣求助流程或支付後結果統計。"
+      ],
+      "short_excerpt": "The creation or distribution of synthetic content is not inherently illegal",
+      "case_use": false,
+      "teaching_use": "用於概念分類、AI與社會工程關係、偽造性影像風險及查證步驟。",
+      "raw_path": "raw/S04.md",
+      "raw_sha256": "05b2700fe8faf43e5be6f59f36017c18c534d75db12de55d48286244a028a89d",
+      "capture": {
+        "source": "S04",
+        "url": "https://www.ic3.gov/PSA/2024/PSA241203",
+        "started_at": "2026-11-15T15:19:50.156291+00:00",
+        "status": 200,
+        "final_url": "https://www.ic3.gov/PSA/2024/PSA241203",
+        "bytes": 10577,
+        "sha256": "9dfebaaceca86ca1a291bf2390c66d34ecc4a7cbbc66eb9eaa9e74ddc636acef",
+        "cache_path": "S04.html"
+      }
+    },
+    {
+      "id": "S05",
+      "title": "【謠言澄清】AI換臉性行為恐嚇信件入侵 中市警局：假訊息依法究辦",
+      "issuer": "臺中市政府／臺中市政府警察局",
+      "source_type": "臺灣官方案件查核與警方鑑識說明",
+      "published_at": "2025-03-15",
+      "updated_at": null,
+      "date_basis": "文章發布日期2025-03-15。",
+      "accessed_at": "2026-11-15",
+      "url": "https://www.taichung.gov.tw/8868/8872/1269419/2931416",
+      "canonical_url": "https://www.taichung.gov.tw/8868/8872/1269419/2931416",
+      "verified_body": true,
+      "verification_method": "web.open取得255行官方頁；核讀背景、查核、結論與日期第131–157行。",
+      "claims": [
+        {
+          "id": "S05-C1",
+          "text": "臺中警方說明，當時已有八個機關收到附換臉不雅影像的恐嚇信，要求付款。",
+          "location": "背景"
+        },
+        {
+          "id": "S05-C2",
+          "text": "警方指出照片背景與位置相同、男性頭像不同，並稱相片鑑識已確認為深偽合成。",
+          "location": "查核2、3"
+        },
+        {
+          "id": "S05-C3",
+          "text": "這類信件被判為廣發式恐嚇取財；官方提醒保留相關證據向警方報案，不轉傳散播內容，可撥110或165。",
+          "location": "查核4、結論"
+        }
+      ],
+      "does_not_support": [
+        "是機關收到的紙本恐嚇信，不能改成Instagram私訊、LINE視訊或Gen Z學生個案。",
+        "沒有給出受害者已付款金額，不能寫成警方證實多少損失。",
+        "不能推論收信者曾拍攝真實性影像；本頁正是澄清合成內容。",
+        "發布時調查狀態不等於2026年已破案或定罪。"
+      ],
+      "short_excerpt": "相片鑑識結果確認為深偽（Deepfake）技術合成",
+      "case_use": true,
+      "case_date": "2025-03-15前，官方頁未列每封信的具體收到日",
+      "teaching_use": "證明臺灣有官方確認的合成性影像恐嚇案；教材不展示或散播原影像。",
+      "raw_path": "raw/S05.md",
+      "raw_sha256": "dc9c3ba57b4b3a24dd469216169fc4e2d106454bfb71e47a790b6147aac427a4",
+      "capture": {
+        "source": "S05",
+        "url": "https://www.taichung.gov.tw/8868/8872/1269419/2931416",
+        "started_at": "2026-11-15T15:19:50.405801+00:00",
+        "status": 200,
+        "final_url": "https://www.taichung.gov.tw/8868/8872/1269419/2931416",
+        "bytes": 72881,
+        "sha256": "bef25de36c80cec8acbf1bf2c422ff00657f24fd18cd410144fccd4f3cde4a14",
+        "cache_path": "S05.html"
+      }
+    },
+    {
+      "id": "S06",
+      "title": "Partnering with our industry to advance AI transparency and literacy",
+      "issuer": "TikTok Newsroom",
+      "source_type": "平台官方AI標示功能公告",
+      "published_at": "2024-05-09",
+      "updated_at": null,
+      "date_basis": "頁首May 09, 2024。",
+      "accessed_at": "2026-11-15",
+      "url": "https://newsroom.tiktok.com/partnering-with-our-industry-to-advance-ai-transparency-and-literacy?lang=en",
+      "canonical_url": "https://newsroom.tiktok.com/partnering-with-our-industry-to-advance-ai-transparency-and-literacy?lang=en",
+      "verified_body": true,
+      "verification_method": "web.open取得65行官方頁；核讀標示、Content Credentials及逐步導入限制第4–21行。",
+      "claims": [
+        {
+          "id": "S06-C1",
+          "text": "TikTok在2024年5月宣布開始對來自部分其他平台的AI內容自動加標，使用C2PA Content Credentials資訊。",
+          "location": "開頭與Partnering with our industry to label AIGC"
+        },
+        {
+          "id": "S06-C2",
+          "text": "該公告說，平台已有TikTok AI特效標示，且要求創作者標示逼真的AI生成內容。",
+          "location": "Investing in transparency as AI evolves"
+        },
+        {
+          "id": "S06-C3",
+          "text": "自動辨認受限於內容是否帶有相應中繼資料，官方預期標示增加會是漸進的。",
+          "location": "Driving industry adoption"
+        }
+      ],
+      "does_not_support": [
+        "沒有AI標籤不等於真人或未經合成；來源明示中繼資料限制。",
+        "有AI標籤只交代製作背景，不足證明其中商品、投資或身分敘述為真。",
+        "這是2024年的功能公告，不保證2026年所有地區、版本或所有上傳內容的標示覆蓋。",
+        "不是TikTok深偽詐騙發生率、通報成功率或介面逐步操作指南。"
+      ],
+      "short_excerpt": "it needs to have the Content Credentials metadata for us to identify and label it",
+      "case_use": false,
+      "teaching_use": "讓學生學會閱讀AI標示並理解『無標示』仍需查證；不把標籤當身分證。",
+      "raw_path": "raw/S06.md",
+      "raw_sha256": "e6474431079b1732fcaa4b3d09bb4acdf8cf621798233af8a46da68143e0b5b9",
+      "capture": {
+        "source": "S06",
+        "url": "https://newsroom.tiktok.com/partnering-with-our-industry-to-advance-ai-transparency-and-literacy?lang=en",
+        "started_at": "2026-11-15T15:19:50.520376+00:00",
+        "status": 200,
+        "final_url": "https://newsroom.tiktok.com/partnering-with-our-industry-to-advance-ai-transparency-and-literacy?lang=en",
+        "bytes": 124198,
+        "sha256": "6dcee74f62322545b4e1f48fd3405138f126c109acc20951c436dbd35f7d8cf6",
+        "cache_path": "S06.html"
+      }
+    },
+    {
+      "id": "S07",
+      "title": "Designing Account Security Across Our Apps",
+      "issuer": "Meta Newsroom；作者Nathaniel Gleicher、Jimena Almendares",
+      "source_type": "平台官方帳號安全與復原公告",
+      "published_at": "2022-12-15",
+      "updated_at": null,
+      "date_basis": "文章標題下December 15, 2022。",
+      "accessed_at": "2026-11-15",
+      "url": "https://about.fb.com/news/2022/12/designing-account-security-across-our-apps/",
+      "canonical_url": "https://about.fb.com/news/2022/12/designing-account-security-across-our-apps/",
+      "verified_body": true,
+      "verification_method": "web.open取得474行官方頁；核讀文章日期、Contact Points與Instagram Account Access Support。Instagram Help原候選頁429後改採此已讀官方公告。",
+      "claims": [
+        {
+          "id": "S07-C1",
+          "text": "Meta公告以instagram.com/hacked作為回報、處理Instagram帳號存取問題的官方入口。",
+          "location": "Instagram Account Access Support"
+        },
+        {
+          "id": "S07-C2",
+          "text": "保持帳號綁定的電子郵件與電話安全、有效，與取得復原支援有關。",
+          "location": "Taking a Closer Look at Contact Points"
+        },
+        {
+          "id": "S07-C3",
+          "text": "帳號復原會涉及多種信號與驗證挑戰，支援系統也可能被惡意人士濫用。",
+          "location": "Applying Adversarial Design to Account Security"
+        }
+      ],
+      "does_not_support": [
+        "是2022年公告；未實際登入、測試或證實2026年每個帳號能看到相同復原步驟。",
+        "不保證帳號可取回，也不提供復原完成時限。",
+        "公告的驗證徽章說明不等於任何私訊、投資邀請或匯款要求都可信。",
+        "帳號盜用與復原不是深偽技術的存在證據。"
+      ],
+      "short_excerpt": "We’ve launched instagram.com/hacked to help people to report and resolve account access issues.",
+      "action_url": "https://www.instagram.com/hacked/",
+      "action_url_status": "由已讀官方公告直接連結確認為其推薦入口；未登入或實測復原成功。",
+      "case_use": false,
+      "teaching_use": "學生遇帳號存取問題先從官方入口開始，避免相信陌生私訊自稱能付費代救帳號。",
+      "raw_path": "raw/S07.md",
+      "raw_sha256": "99c3112263705b1572d074d3a0e2b1aa7b01a73758020e2a7bd37eef020c2f87",
+      "capture": {
+        "source": "S07",
+        "url": "https://about.fb.com/news/2022/12/designing-account-security-across-our-apps/",
+        "started_at": "2026-11-15T15:19:50.897425+00:00",
+        "status": 200,
+        "final_url": "https://about.fb.com/news/2022/12/designing-account-security-across-our-apps/",
+        "bytes": 684717,
+        "sha256": "97eb2a55f3921d66c6d3274b62bc9a6b6ac18c036b71715cfc693260e9c4ef99",
+        "cache_path": "S07.html"
+      }
+    },
+    {
+      "id": "S08",
+      "title": "注意！「幫忙投票」是盜帳號陷阱，8月帳號被盜通報數增加97%",
+      "issuer": "LINE台灣／LINE Plus Corporation官方新聞室",
+      "source_type": "平台官方臺灣防詐與復原說明",
+      "published_at": "2026-09-09",
+      "updated_at": null,
+      "date_basis": "頁首2026.09.09。",
+      "accessed_at": "2026-11-15",
+      "url": "https://www.linecorp.com/tw/pr/news/2026/0909/",
+      "canonical_url": "https://www.linecorp.com/tw/pr/news/2026/0909/",
+      "verified_body": true,
+      "verification_method": "web.open取得67行官方頁；核讀日期、停查碼不給與三項安全設定第20–46行。",
+      "claims": [
+        {
+          "id": "S08-C1",
+          "text": "LINE說明常見手法包括已被盜的親友帳號傳投票邀請，誘點連結或騙取認證碼，再盜用帳號。",
+          "location": "開頭常見手法"
+        },
+        {
+          "id": "S08-C2",
+          "text": "官方建議先停下、不急點連結，另用通話或見面確認親友；不把LINE認證碼交給別人或填入不明網頁。",
+          "location": "停、查、碼不給；認證碼就是帳號鑰匙"
+        },
+        {
+          "id": "S08-C3",
+          "text": "若帳號遭盜用，官方提醒不要直接刪除App；尚可登入時嘗試再次登入並改密碼，無法登入時用免登入客服表單求助。",
+          "location": "三項安全設定第3項"
+        },
+        {
+          "id": "S08-C4",
+          "text": "綁定Apple或Google帳號、開啟偵測可疑網站，是該公告列出的防護選項。",
+          "location": "三項安全設定第1、2項"
+        }
+      ],
+      "does_not_support": [
+        "標題97%是LINE內部2026年8月相較7月的帳號被盜客服通報件數變化；不是臺灣全部帳號、Gen Z或深偽案件成長率。教材可省略這個數字。",
+        "這則說明是釣魚與帳號盜用，不代表使用AI換臉或仿聲。",
+        "綁定或客服不保證復原成功，功能選項可能因版本而不同。",
+        "未提供所有其他社群平台相同操作或跨平台共用驗證碼規則。"
+      ],
+      "short_excerpt": "停、查、碼不給",
+      "action_url": "https://contact-cc.line.me/tw/11242?continue_without_login=true",
+      "action_url_status": "由已讀官方文章直接連結取得；未登入、填表或提交個資。",
+      "case_use": false,
+      "teaching_use": "臺灣熟悉情境的對照：朋友頭像與既有聊天室仍可能來自被盜帳號，需另外驗身分。",
+      "raw_path": "raw/S08.md",
+      "raw_sha256": "918d28ff823c39242f9c7974343450fea0e2718172f24214b5f3e8252716db12",
+      "capture": {
+        "source": "S08",
+        "url": "https://www.linecorp.com/tw/pr/news/2026/0909/",
+        "started_at": "2026-11-15T15:19:51.067054+00:00",
+        "status": 200,
+        "final_url": "https://www.linecorp.com/tw/pr/news/2026/0909/",
+        "bytes": 1828673,
+        "sha256": "7596dc7e75499df1614cca951944ab16f3a9e4809067c546a8543a6bae199c5d",
+        "cache_path": "S08.html"
+      }
+    }
+  ],
+  "accessed_date": "2026-11-15",
+  "representation": "immutable curated source extracts; official originals were read with web tools; fetch captures are supplementary"
+}
