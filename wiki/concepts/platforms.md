@@ -1,0 +1,27 @@
+# W04 TikTok 標籤與 Instagram LINE 帳號風險
+
+平台標示、帳號安全與深偽是三個不同問題。
+
+## 跨來源知識
+
+### TikTok 的 AI 標示
+
+2024-05-09 公告說 TikTok 開始讀取部分外來內容的 C2PA Content Credentials 自動標示 AI 內容。標示受中繼資料與逐步導入限制；沒有標示不能證明真人。有標示只交代製作背景，也不能保證其中的身分或投資說法。這不是 2026 年全覆蓋功能測試。
+
+依據：S06-C1、S06-C2、S06-C3。
+
+### 熟悉聊天室仍可能被冒用
+
+LINE 2026-09-09 警告，被盜親友帳號會發投票訊息、騙取認證碼。應另外通話或見面核實，不把認證碼交給他人。這是帳號盜用/釣魚範例，未證明用到深偽。Meta 2022 年公告的 instagram.com/hacked 是帳號存取問題官方入口，不代表任何帳號都能立即復原。
+
+依據：S08-C1、S08-C2、S07-C1、S07-C2、S07-C3。
+
+## 原始來源
+- [S06](../sources/S06.md)
+- [S07](../sources/S07.md)
+- [S08](../sources/S08.md)
+
+## 相關知識
+- [concepts/basics.md](../concepts/basics.md)
+- [concepts/response.md](../concepts/response.md)
+- [回知識索引](../index.md)

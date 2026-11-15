@@ -77,6 +77,914 @@
           "locator": "答覆(1)：pre-recorded；no interaction"
         }
       ]
+    },
+    {
+      "id": "S03",
+      "path": "sources/S03.md",
+      "title": "Scammers use AI to enhance their family emergency schemes",
+      "kind": "source",
+      "sources": [
+        "S03"
+      ],
+      "summary": "將『熟悉聲音＋急迫匯款』拆成警訊，建立已知電話回撥的練習。",
+      "claims": [
+        {
+          "id": "S03-C1",
+          "text": "騙徒可能取得網路上的短音訊，再利用仿聲程式冒充親友遇急難需要金錢。",
+          "location": "正文：short audio clip／voice-cloning program",
+          "sources": [
+            "S03"
+          ],
+          "locator": "正文：short audio clip／voice-cloning program"
+        },
+        {
+          "id": "S03-C2",
+          "text": "不能只信聲音；應用自己已知屬於本人的電話查證，聯絡不到時向其他親友確認。",
+          "location": "正文：Don’t trust the voice",
+          "sources": [
+            "S03"
+          ],
+          "locator": "正文：Don’t trust the voice"
+        },
+        {
+          "id": "S03-C3",
+          "text": "對方要求電匯、加密貨幣或禮物卡卡號與PIN等難追回的付款方式，可能是警訊。",
+          "location": "正文：payment methods",
+          "sources": [
+            "S03"
+          ],
+          "locator": "正文：payment methods"
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "path": "sources/S04.md",
+      "title": "Criminals Use Generative Artificial Intelligence to Facilitate Financial Fraud",
+      "kind": "source",
+      "sources": [
+        "S04"
+      ],
+      "summary": "用於概念分類、AI與社會工程關係、偽造性影像風險及查證步驟。",
+      "claims": [
+        {
+          "id": "S04-C1",
+          "text": "生成式AI可協助騙徒大量製作較可信的訊息、假社群人物與圖片；文字更流暢不代表內容可信。",
+          "location": "AI-Generated Text與Images",
+          "sources": [
+            "S04"
+          ],
+          "locator": "AI-Generated Text與Images"
+        },
+        {
+          "id": "S04-C2",
+          "text": "仿聲能被用來冒充親友急需資金；假視訊可被用來冒充主管或證明網友是所謂真人。",
+          "location": "AI-Generated Audio與Videos",
+          "sources": [
+            "S04"
+          ],
+          "locator": "AI-Generated Audio與Videos"
+        },
+        {
+          "id": "S04-C3",
+          "text": "騙徒也可偽造受害者色情圖片要求付款，形成性影像勒索。",
+          "location": "AI-Generated Images：sextortion",
+          "sources": [
+            "S04"
+          ],
+          "locator": "AI-Generated Images：sextortion"
+        },
+        {
+          "id": "S04-C4",
+          "text": "防範包括親友暗語、限制公開影像聲音與帳號追蹤者，掛斷後另找官方或已知電話查證，不向僅網路認識的人提供敏感資料或付款。",
+          "location": "Tips to protect yourself",
+          "sources": [
+            "S04"
+          ],
+          "locator": "Tips to protect yourself"
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "path": "sources/S05.md",
+      "title": "【謠言澄清】AI換臉性行為恐嚇信件入侵 中市警局：假訊息依法究辦",
+      "kind": "source",
+      "sources": [
+        "S05"
+      ],
+      "summary": "證明臺灣有官方確認的合成性影像恐嚇案；教材不展示或散播原影像。",
+      "claims": [
+        {
+          "id": "S05-C1",
+          "text": "臺中警方說明，當時已有八個機關收到附換臉不雅影像的恐嚇信，要求付款。",
+          "location": "背景",
+          "sources": [
+            "S05"
+          ],
+          "locator": "背景"
+        },
+        {
+          "id": "S05-C2",
+          "text": "警方指出照片背景與位置相同、男性頭像不同，並稱相片鑑識已確認為深偽合成。",
+          "location": "查核2、3",
+          "sources": [
+            "S05"
+          ],
+          "locator": "查核2、3"
+        },
+        {
+          "id": "S05-C3",
+          "text": "這類信件被判為廣發式恐嚇取財；官方提醒保留相關證據向警方報案，不轉傳散播內容，可撥110或165。",
+          "location": "查核4、結論",
+          "sources": [
+            "S05"
+          ],
+          "locator": "查核4、結論"
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "path": "sources/S06.md",
+      "title": "Partnering with our industry to advance AI transparency and literacy",
+      "kind": "source",
+      "sources": [
+        "S06"
+      ],
+      "summary": "讓學生學會閱讀AI標示並理解『無標示』仍需查證；不把標籤當身分證。",
+      "claims": [
+        {
+          "id": "S06-C1",
+          "text": "TikTok在2024年5月宣布開始對來自部分其他平台的AI內容自動加標，使用C2PA Content Credentials資訊。",
+          "location": "開頭與Partnering with our industry to label AIGC",
+          "sources": [
+            "S06"
+          ],
+          "locator": "開頭與Partnering with our industry to label AIGC"
+        },
+        {
+          "id": "S06-C2",
+          "text": "該公告說，平台已有TikTok AI特效標示，且要求創作者標示逼真的AI生成內容。",
+          "location": "Investing in transparency as AI evolves",
+          "sources": [
+            "S06"
+          ],
+          "locator": "Investing in transparency as AI evolves"
+        },
+        {
+          "id": "S06-C3",
+          "text": "自動辨認受限於內容是否帶有相應中繼資料，官方預期標示增加會是漸進的。",
+          "location": "Driving industry adoption",
+          "sources": [
+            "S06"
+          ],
+          "locator": "Driving industry adoption"
+        }
+      ]
+    },
+    {
+      "id": "S07",
+      "path": "sources/S07.md",
+      "title": "Designing Account Security Across Our Apps",
+      "kind": "source",
+      "sources": [
+        "S07"
+      ],
+      "summary": "學生遇帳號存取問題先從官方入口開始，避免相信陌生私訊自稱能付費代救帳號。",
+      "claims": [
+        {
+          "id": "S07-C1",
+          "text": "Meta公告以instagram.com/hacked作為回報、處理Instagram帳號存取問題的官方入口。",
+          "location": "Instagram Account Access Support",
+          "sources": [
+            "S07"
+          ],
+          "locator": "Instagram Account Access Support"
+        },
+        {
+          "id": "S07-C2",
+          "text": "保持帳號綁定的電子郵件與電話安全、有效，與取得復原支援有關。",
+          "location": "Taking a Closer Look at Contact Points",
+          "sources": [
+            "S07"
+          ],
+          "locator": "Taking a Closer Look at Contact Points"
+        },
+        {
+          "id": "S07-C3",
+          "text": "帳號復原會涉及多種信號與驗證挑戰，支援系統也可能被惡意人士濫用。",
+          "location": "Applying Adversarial Design to Account Security",
+          "sources": [
+            "S07"
+          ],
+          "locator": "Applying Adversarial Design to Account Security"
+        }
+      ]
+    },
+    {
+      "id": "S08",
+      "path": "sources/S08.md",
+      "title": "注意！「幫忙投票」是盜帳號陷阱，8月帳號被盜通報數增加97%",
+      "kind": "source",
+      "sources": [
+        "S08"
+      ],
+      "summary": "臺灣熟悉情境的對照：朋友頭像與既有聊天室仍可能來自被盜帳號，需另外驗身分。",
+      "claims": [
+        {
+          "id": "S08-C1",
+          "text": "LINE說明常見手法包括已被盜的親友帳號傳投票邀請，誘點連結或騙取認證碼，再盜用帳號。",
+          "location": "開頭常見手法",
+          "sources": [
+            "S08"
+          ],
+          "locator": "開頭常見手法"
+        },
+        {
+          "id": "S08-C2",
+          "text": "官方建議先停下、不急點連結，另用通話或見面確認親友；不把LINE認證碼交給別人或填入不明網頁。",
+          "location": "停、查、碼不給；認證碼就是帳號鑰匙",
+          "sources": [
+            "S08"
+          ],
+          "locator": "停、查、碼不給；認證碼就是帳號鑰匙"
+        },
+        {
+          "id": "S08-C3",
+          "text": "若帳號遭盜用，官方提醒不要直接刪除App；尚可登入時嘗試再次登入並改密碼，無法登入時用免登入客服表單求助。",
+          "location": "三項安全設定第3項",
+          "sources": [
+            "S08"
+          ],
+          "locator": "三項安全設定第3項"
+        },
+        {
+          "id": "S08-C4",
+          "text": "綁定Apple或Google帳號、開啟偵測可疑網站，是該公告列出的防護選項。",
+          "location": "三項安全設定第1、2項",
+          "sources": [
+            "S08"
+          ],
+          "locator": "三項安全設定第1、2項"
+        }
+      ]
+    },
+    {
+      "id": "W01",
+      "path": "concepts/basics.md",
+      "title": "深偽與社群詐騙的基本概念",
+      "summary": "分清合成媒體、冒名與釣魚；逼真不等於可信。",
+      "sources": [
+        "S01",
+        "S04"
+      ],
+      "claim_ids": [
+        "S01-C1",
+        "S04-C1",
+        "S04-C2",
+        "S04-C3"
+      ],
+      "related": [
+        "concepts/trust.md",
+        "concepts/verification.md"
+      ],
+      "sections": [
+        {
+          "title": "深偽改變的是媒體",
+          "text": "本課用『深偽』指以 AI 合成或操控人物影像、影片或聲音，造成身分或事件的錯誤印象。可見形式包括換臉、仿聲與假視訊。這是依官方列出的媒體手法整理的入門定義。",
+          "claims": [
+            "S01-C1",
+            "S04-C2"
+          ]
+        },
+        {
+          "title": "詐騙利用的是信任",
+          "text": "AI 也會生成更流暢的文字、假頭像與假人物。一般釣魚或帳號盜用未必使用深偽；不能把全部社群詐騙都叫 deepfake。合成媒體本身也不等於犯罪，需看是否被用來欺騙、勒索或傷害。",
+          "claims": [
+            "S04-C1",
+            "S04-C3"
+          ]
+        }
+      ],
+      "kind": "concept",
+      "claims": [
+        {
+          "id": "S01-C1",
+          "text": "警方宣導指出，換臉與仿聲可被用來冒充親友。",
+          "location": "正文：AI變臉／AI變聲假親友",
+          "sources": [
+            "S01"
+          ],
+          "locator": "正文：AI變臉／AI變聲假親友"
+        },
+        {
+          "id": "S04-C1",
+          "text": "生成式AI可協助騙徒大量製作較可信的訊息、假社群人物與圖片；文字更流暢不代表內容可信。",
+          "location": "AI-Generated Text與Images",
+          "sources": [
+            "S04"
+          ],
+          "locator": "AI-Generated Text與Images"
+        },
+        {
+          "id": "S04-C2",
+          "text": "仿聲能被用來冒充親友急需資金；假視訊可被用來冒充主管或證明網友是所謂真人。",
+          "location": "AI-Generated Audio與Videos",
+          "sources": [
+            "S04"
+          ],
+          "locator": "AI-Generated Audio與Videos"
+        },
+        {
+          "id": "S04-C3",
+          "text": "騙徒也可偽造受害者色情圖片要求付款，形成性影像勒索。",
+          "location": "AI-Generated Images：sextortion",
+          "sources": [
+            "S04"
+          ],
+          "locator": "AI-Generated Images：sextortion"
+        }
+      ]
+    },
+    {
+      "id": "W02",
+      "path": "concepts/trust.md",
+      "title": "熟悉聲音與急迫要求的信任陷阱",
+      "summary": "辨識催促、保密與付款要求，改用已知管道驗身分。",
+      "sources": [
+        "S02",
+        "S03",
+        "S04",
+        "S08"
+      ],
+      "claim_ids": [
+        "S02-C1",
+        "S02-C3",
+        "S03-C1",
+        "S03-C2",
+        "S03-C3",
+        "S04-C2",
+        "S04-C4",
+        "S08-C1",
+        "S08-C2"
+      ],
+      "related": [
+        "concepts/basics.md",
+        "concepts/verification.md"
+      ],
+      "sections": [
+        {
+          "title": "聲音不是付款授權",
+          "text": "FTC 示警，騙徒可能用公開短音訊仿聲，假冒親友急需金錢。收到請求先停止付款，用原本就知道的電話回撥；聯絡不到時再找其他親友。不要把對方新提供的電話當獨立查證。",
+          "claims": [
+            "S03-C1",
+            "S03-C2",
+            "S03-C3",
+            "S04-C4"
+          ]
+        },
+        {
+          "title": "不同平台會承載不同環節",
+          "text": "香港個案是電郵邀請、預錄視訊建立權威、再以即時訊息下匯款指示；LINE 另示警被盜親友帳號傳投票邀請。兩者不是同一案件，也不表示所有跨平台聊天都使用 AI。教材以『身分線索 → 信任 → 行動要求』整理共同風險。",
+          "claims": [
+            "S02-C1",
+            "S02-C3",
+            "S08-C1",
+            "S08-C2"
+          ]
+        }
+      ],
+      "kind": "concept",
+      "claims": [
+        {
+          "id": "S02-C1",
+          "text": "警方於2024年1月底接獲一宗案件：騙徒冒充英國總部財務總監，先用釣魚電郵邀請員工參與所謂機密交易的視訊會議。",
+          "location": "答覆(1)：end-January 2024",
+          "sources": [
+            "S02"
+          ],
+          "locator": "答覆(1)：end-January 2024"
+        },
+        {
+          "id": "S02-C3",
+          "text": "警方當時相信會議是由公開影片與聲音製作的預錄內容，報案者與騙徒實際沒有互動，後續匯款指示透過即時通訊傳送。",
+          "location": "答覆(1)：pre-recorded；no interaction",
+          "sources": [
+            "S02"
+          ],
+          "locator": "答覆(1)：pre-recorded；no interaction"
+        },
+        {
+          "id": "S03-C1",
+          "text": "騙徒可能取得網路上的短音訊，再利用仿聲程式冒充親友遇急難需要金錢。",
+          "location": "正文：short audio clip／voice-cloning program",
+          "sources": [
+            "S03"
+          ],
+          "locator": "正文：short audio clip／voice-cloning program"
+        },
+        {
+          "id": "S03-C2",
+          "text": "不能只信聲音；應用自己已知屬於本人的電話查證，聯絡不到時向其他親友確認。",
+          "location": "正文：Don’t trust the voice",
+          "sources": [
+            "S03"
+          ],
+          "locator": "正文：Don’t trust the voice"
+        },
+        {
+          "id": "S03-C3",
+          "text": "對方要求電匯、加密貨幣或禮物卡卡號與PIN等難追回的付款方式，可能是警訊。",
+          "location": "正文：payment methods",
+          "sources": [
+            "S03"
+          ],
+          "locator": "正文：payment methods"
+        },
+        {
+          "id": "S04-C2",
+          "text": "仿聲能被用來冒充親友急需資金；假視訊可被用來冒充主管或證明網友是所謂真人。",
+          "location": "AI-Generated Audio與Videos",
+          "sources": [
+            "S04"
+          ],
+          "locator": "AI-Generated Audio與Videos"
+        },
+        {
+          "id": "S04-C4",
+          "text": "防範包括親友暗語、限制公開影像聲音與帳號追蹤者，掛斷後另找官方或已知電話查證，不向僅網路認識的人提供敏感資料或付款。",
+          "location": "Tips to protect yourself",
+          "sources": [
+            "S04"
+          ],
+          "locator": "Tips to protect yourself"
+        },
+        {
+          "id": "S08-C1",
+          "text": "LINE說明常見手法包括已被盜的親友帳號傳投票邀請，誘點連結或騙取認證碼，再盜用帳號。",
+          "location": "開頭常見手法",
+          "sources": [
+            "S08"
+          ],
+          "locator": "開頭常見手法"
+        },
+        {
+          "id": "S08-C2",
+          "text": "官方建議先停下、不急點連結，另用通話或見面確認親友；不把LINE認證碼交給別人或填入不明網頁。",
+          "location": "停、查、碼不給；認證碼就是帳號鑰匙",
+          "sources": [
+            "S08"
+          ],
+          "locator": "停、查、碼不給；認證碼就是帳號鑰匙"
+        }
+      ]
+    },
+    {
+      "id": "W03",
+      "path": "concepts/cases.md",
+      "title": "香港與臺中兩個官方查核案例",
+      "summary": "保留案發時間、地區、媒介與調查限制，不改寫成學生社群個案。",
+      "sources": [
+        "S02",
+        "S05"
+      ],
+      "claim_ids": [
+        "S02-C1",
+        "S02-C2",
+        "S02-C3",
+        "S05-C1",
+        "S05-C2",
+        "S05-C3"
+      ],
+      "related": [
+        "concepts/trust.md",
+        "concepts/response.md"
+      ],
+      "sections": [
+        {
+          "title": "香港預錄視訊案",
+          "text": "香港政府 2024-06-26 答覆說，警方於 2024 年 1 月底接獲案件。騙徒假冒英國總部財務總監，經釣魚電郵邀請員工加入會議。報案者授權轉款往五個香港銀行帳戶，損失約港幣兩億元。警方當時相信影片由公開影音製作，屬預錄且沒有互動，後續指令經即時通訊傳送。不能稱即時自由對話，也不推斷之後的調查結論。",
+          "claims": [
+            "S02-C1",
+            "S02-C2",
+            "S02-C3"
+          ]
+        },
+        {
+          "title": "臺中合成影像恐嚇信",
+          "text": "臺中市政府 2025-03-15 公布：當時八個機關收到附不雅合成影像的恐嚇信，警方稱鑑識已確認深偽。這是紙本信件，不是 Instagram 私訊或臺灣學生案件；來源沒有給出已支付損失。官方建議保留證據報案、不轉傳內容。",
+          "claims": [
+            "S05-C1",
+            "S05-C2",
+            "S05-C3"
+          ]
+        }
+      ],
+      "kind": "concept",
+      "claims": [
+        {
+          "id": "S02-C1",
+          "text": "警方於2024年1月底接獲一宗案件：騙徒冒充英國總部財務總監，先用釣魚電郵邀請員工參與所謂機密交易的視訊會議。",
+          "location": "答覆(1)：end-January 2024",
+          "sources": [
+            "S02"
+          ],
+          "locator": "答覆(1)：end-January 2024"
+        },
+        {
+          "id": "S02-C2",
+          "text": "報案者依指示授權款項轉往五個香港銀行帳戶，損失約港幣兩億元。",
+          "location": "答覆(1)：HK$200 million",
+          "sources": [
+            "S02"
+          ],
+          "locator": "答覆(1)：HK$200 million"
+        },
+        {
+          "id": "S02-C3",
+          "text": "警方當時相信會議是由公開影片與聲音製作的預錄內容，報案者與騙徒實際沒有互動，後續匯款指示透過即時通訊傳送。",
+          "location": "答覆(1)：pre-recorded；no interaction",
+          "sources": [
+            "S02"
+          ],
+          "locator": "答覆(1)：pre-recorded；no interaction"
+        },
+        {
+          "id": "S05-C1",
+          "text": "臺中警方說明，當時已有八個機關收到附換臉不雅影像的恐嚇信，要求付款。",
+          "location": "背景",
+          "sources": [
+            "S05"
+          ],
+          "locator": "背景"
+        },
+        {
+          "id": "S05-C2",
+          "text": "警方指出照片背景與位置相同、男性頭像不同，並稱相片鑑識已確認為深偽合成。",
+          "location": "查核2、3",
+          "sources": [
+            "S05"
+          ],
+          "locator": "查核2、3"
+        },
+        {
+          "id": "S05-C3",
+          "text": "這類信件被判為廣發式恐嚇取財；官方提醒保留相關證據向警方報案，不轉傳散播內容，可撥110或165。",
+          "location": "查核4、結論",
+          "sources": [
+            "S05"
+          ],
+          "locator": "查核4、結論"
+        }
+      ]
+    },
+    {
+      "id": "W04",
+      "path": "concepts/platforms.md",
+      "title": "TikTok 標籤與 Instagram LINE 帳號風險",
+      "summary": "平台標示、帳號安全與深偽是三個不同問題。",
+      "sources": [
+        "S06",
+        "S07",
+        "S08"
+      ],
+      "claim_ids": [
+        "S06-C1",
+        "S06-C2",
+        "S06-C3",
+        "S07-C1",
+        "S07-C2",
+        "S07-C3",
+        "S08-C1",
+        "S08-C2",
+        "S08-C3",
+        "S08-C4"
+      ],
+      "related": [
+        "concepts/basics.md",
+        "concepts/response.md"
+      ],
+      "sections": [
+        {
+          "title": "TikTok 的 AI 標示",
+          "text": "2024-05-09 公告說 TikTok 開始讀取部分外來內容的 C2PA Content Credentials 自動標示 AI 內容。標示受中繼資料與逐步導入限制；沒有標示不能證明真人。有標示只交代製作背景，也不能保證其中的身分或投資說法。這不是 2026 年全覆蓋功能測試。",
+          "claims": [
+            "S06-C1",
+            "S06-C2",
+            "S06-C3"
+          ]
+        },
+        {
+          "title": "熟悉聊天室仍可能被冒用",
+          "text": "LINE 2026-09-09 警告，被盜親友帳號會發投票訊息、騙取認證碼。應另外通話或見面核實，不把認證碼交給他人。這是帳號盜用/釣魚範例，未證明用到深偽。Meta 2022 年公告的 instagram.com/hacked 是帳號存取問題官方入口，不代表任何帳號都能立即復原。",
+          "claims": [
+            "S08-C1",
+            "S08-C2",
+            "S07-C1",
+            "S07-C2",
+            "S07-C3"
+          ]
+        }
+      ],
+      "kind": "concept",
+      "claims": [
+        {
+          "id": "S06-C1",
+          "text": "TikTok在2024年5月宣布開始對來自部分其他平台的AI內容自動加標，使用C2PA Content Credentials資訊。",
+          "location": "開頭與Partnering with our industry to label AIGC",
+          "sources": [
+            "S06"
+          ],
+          "locator": "開頭與Partnering with our industry to label AIGC"
+        },
+        {
+          "id": "S06-C2",
+          "text": "該公告說，平台已有TikTok AI特效標示，且要求創作者標示逼真的AI生成內容。",
+          "location": "Investing in transparency as AI evolves",
+          "sources": [
+            "S06"
+          ],
+          "locator": "Investing in transparency as AI evolves"
+        },
+        {
+          "id": "S06-C3",
+          "text": "自動辨認受限於內容是否帶有相應中繼資料，官方預期標示增加會是漸進的。",
+          "location": "Driving industry adoption",
+          "sources": [
+            "S06"
+          ],
+          "locator": "Driving industry adoption"
+        },
+        {
+          "id": "S07-C1",
+          "text": "Meta公告以instagram.com/hacked作為回報、處理Instagram帳號存取問題的官方入口。",
+          "location": "Instagram Account Access Support",
+          "sources": [
+            "S07"
+          ],
+          "locator": "Instagram Account Access Support"
+        },
+        {
+          "id": "S07-C2",
+          "text": "保持帳號綁定的電子郵件與電話安全、有效，與取得復原支援有關。",
+          "location": "Taking a Closer Look at Contact Points",
+          "sources": [
+            "S07"
+          ],
+          "locator": "Taking a Closer Look at Contact Points"
+        },
+        {
+          "id": "S07-C3",
+          "text": "帳號復原會涉及多種信號與驗證挑戰，支援系統也可能被惡意人士濫用。",
+          "location": "Applying Adversarial Design to Account Security",
+          "sources": [
+            "S07"
+          ],
+          "locator": "Applying Adversarial Design to Account Security"
+        },
+        {
+          "id": "S08-C1",
+          "text": "LINE說明常見手法包括已被盜的親友帳號傳投票邀請，誘點連結或騙取認證碼，再盜用帳號。",
+          "location": "開頭常見手法",
+          "sources": [
+            "S08"
+          ],
+          "locator": "開頭常見手法"
+        },
+        {
+          "id": "S08-C2",
+          "text": "官方建議先停下、不急點連結，另用通話或見面確認親友；不把LINE認證碼交給別人或填入不明網頁。",
+          "location": "停、查、碼不給；認證碼就是帳號鑰匙",
+          "sources": [
+            "S08"
+          ],
+          "locator": "停、查、碼不給；認證碼就是帳號鑰匙"
+        },
+        {
+          "id": "S08-C3",
+          "text": "若帳號遭盜用，官方提醒不要直接刪除App；尚可登入時嘗試再次登入並改密碼，無法登入時用免登入客服表單求助。",
+          "location": "三項安全設定第3項",
+          "sources": [
+            "S08"
+          ],
+          "locator": "三項安全設定第3項"
+        },
+        {
+          "id": "S08-C4",
+          "text": "綁定Apple或Google帳號、開啟偵測可疑網站，是該公告列出的防護選項。",
+          "location": "三項安全設定第1、2項",
+          "sources": [
+            "S08"
+          ],
+          "locator": "三項安全設定第1、2項"
+        }
+      ]
+    },
+    {
+      "id": "W05",
+      "path": "concepts/verification.md",
+      "title": "可操作的獨立查證流程",
+      "summary": "先停止不可逆行動，再離開原對話用已知管道核對，留存證據。",
+      "sources": [
+        "S01",
+        "S03",
+        "S04",
+        "S05",
+        "S08"
+      ],
+      "claim_ids": [
+        "S01-C2",
+        "S01-C3",
+        "S03-C2",
+        "S04-C4",
+        "S05-C3",
+        "S08-C2"
+      ],
+      "related": [
+        "concepts/trust.md",
+        "concepts/response.md"
+      ],
+      "sections": [
+        {
+          "title": "停 離 查 留",
+          "text": "本課將官方建議整理為自訂教學口訣：停＝先不匯款、不交個資與認證碼；離＝離開對方提供的查證路徑；查＝自行撥已知電話或開官方 App/網站，必要時向其他親友確認；留＝保留相關帳號、時間、對話與交易證據，私下提供官方。此口訣是課程整理，不冒稱官方既有品牌。",
+          "claims": [
+            "S01-C3",
+            "S03-C2",
+            "S04-C4",
+            "S05-C3",
+            "S08-C2"
+          ]
+        },
+        {
+          "title": "線索不能變成保證",
+          "text": "部分官方宣導提出觀察視聽異常、要求特定動作或家庭密語。這些只增加線索，來源沒有準確率或通用保證；最重要仍是另用已知聯絡方式核實。不能看不出破綻就匯款，也不把單一偵測器結果當身分授權。",
+          "claims": [
+            "S01-C2",
+            "S03-C2",
+            "S04-C4"
+          ]
+        }
+      ],
+      "kind": "concept",
+      "claims": [
+        {
+          "id": "S01-C2",
+          "text": "可事先與親友約定通關密語，遇到疑似假親友時查核身分。",
+          "location": "正文：通關密語",
+          "sources": [
+            "S01"
+          ],
+          "locator": "正文：通關密語"
+        },
+        {
+          "id": "S01-C3",
+          "text": "遇可疑要求先不匯款、不提供個資，有疑慮可撥165反詐騙專線。",
+          "location": "正文：2不3要",
+          "sources": [
+            "S01"
+          ],
+          "locator": "正文：2不3要"
+        },
+        {
+          "id": "S03-C2",
+          "text": "不能只信聲音；應用自己已知屬於本人的電話查證，聯絡不到時向其他親友確認。",
+          "location": "正文：Don’t trust the voice",
+          "sources": [
+            "S03"
+          ],
+          "locator": "正文：Don’t trust the voice"
+        },
+        {
+          "id": "S04-C4",
+          "text": "防範包括親友暗語、限制公開影像聲音與帳號追蹤者，掛斷後另找官方或已知電話查證，不向僅網路認識的人提供敏感資料或付款。",
+          "location": "Tips to protect yourself",
+          "sources": [
+            "S04"
+          ],
+          "locator": "Tips to protect yourself"
+        },
+        {
+          "id": "S05-C3",
+          "text": "這類信件被判為廣發式恐嚇取財；官方提醒保留相關證據向警方報案，不轉傳散播內容，可撥110或165。",
+          "location": "查核4、結論",
+          "sources": [
+            "S05"
+          ],
+          "locator": "查核4、結論"
+        },
+        {
+          "id": "S08-C2",
+          "text": "官方建議先停下、不急點連結，另用通話或見面確認親友；不把LINE認證碼交給別人或填入不明網頁。",
+          "location": "停、查、碼不給；認證碼就是帳號鑰匙",
+          "sources": [
+            "S08"
+          ],
+          "locator": "停、查、碼不給；認證碼就是帳號鑰匙"
+        }
+      ]
+    },
+    {
+      "id": "W06",
+      "path": "concepts/response.md",
+      "title": "遇到冒用或勒索時的求助與復原",
+      "summary": "不責備受害者；保留證據，使用臺灣警察與平台正式管道。",
+      "sources": [
+        "S01",
+        "S04",
+        "S05",
+        "S07",
+        "S08"
+      ],
+      "claim_ids": [
+        "S01-C3",
+        "S04-C3",
+        "S04-C4",
+        "S05-C3",
+        "S07-C1",
+        "S08-C3"
+      ],
+      "related": [
+        "concepts/verification.md",
+        "concepts/cases.md"
+      ],
+      "sections": [
+        {
+          "title": "在臺灣找誰協助",
+          "text": "可疑詐騙先停止付款與個資交付，保留證據，撥 165 反詐騙專線諮詢；需要報案可撥 110 或向警察機關報案。收到合成性影像威脅不表示曾拍攝該影像，不轉傳散播。不要把付款寫成能保證刪除或止損，也不承諾一定追回款項。",
+          "claims": [
+            "S01-C3",
+            "S05-C3",
+            "S04-C3"
+          ]
+        },
+        {
+          "title": "使用官方帳號支援",
+          "text": "Instagram 帳號存取問題可自行開官方 instagram.com/hacked。LINE 公告提醒帳號遭盜時不要直接刪除 App；無法登入時用官方免登入客服表單。這裡只提供官方入口與原文日期，沒有登入、提交個資或測試復原成功；介面可能依版本不同。",
+          "claims": [
+            "S07-C1",
+            "S08-C3"
+          ]
+        }
+      ],
+      "kind": "concept",
+      "claims": [
+        {
+          "id": "S01-C3",
+          "text": "遇可疑要求先不匯款、不提供個資，有疑慮可撥165反詐騙專線。",
+          "location": "正文：2不3要",
+          "sources": [
+            "S01"
+          ],
+          "locator": "正文：2不3要"
+        },
+        {
+          "id": "S04-C3",
+          "text": "騙徒也可偽造受害者色情圖片要求付款，形成性影像勒索。",
+          "location": "AI-Generated Images：sextortion",
+          "sources": [
+            "S04"
+          ],
+          "locator": "AI-Generated Images：sextortion"
+        },
+        {
+          "id": "S04-C4",
+          "text": "防範包括親友暗語、限制公開影像聲音與帳號追蹤者，掛斷後另找官方或已知電話查證，不向僅網路認識的人提供敏感資料或付款。",
+          "location": "Tips to protect yourself",
+          "sources": [
+            "S04"
+          ],
+          "locator": "Tips to protect yourself"
+        },
+        {
+          "id": "S05-C3",
+          "text": "這類信件被判為廣發式恐嚇取財；官方提醒保留相關證據向警方報案，不轉傳散播內容，可撥110或165。",
+          "location": "查核4、結論",
+          "sources": [
+            "S05"
+          ],
+          "locator": "查核4、結論"
+        },
+        {
+          "id": "S07-C1",
+          "text": "Meta公告以instagram.com/hacked作為回報、處理Instagram帳號存取問題的官方入口。",
+          "location": "Instagram Account Access Support",
+          "sources": [
+            "S07"
+          ],
+          "locator": "Instagram Account Access Support"
+        },
+        {
+          "id": "S08-C3",
+          "text": "若帳號遭盜用，官方提醒不要直接刪除App；尚可登入時嘗試再次登入並改密碼，無法登入時用免登入客服表單求助。",
+          "location": "三項安全設定第3項",
+          "sources": [
+            "S08"
+          ],
+          "locator": "三項安全設定第3項"
+        }
+      ]
     }
   ]
 }
