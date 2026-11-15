@@ -37,7 +37,8 @@
           ],
           "locator": "正文：2不3要"
         }
-      ]
+      ],
+      "updated": "2026-11-15"
     },
     {
       "id": "S02",
@@ -76,7 +77,8 @@
           ],
           "locator": "答覆(1)：pre-recorded；no interaction"
         }
-      ]
+      ],
+      "updated": "2026-11-15"
     },
     {
       "id": "S03",
@@ -115,7 +117,8 @@
           ],
           "locator": "正文：payment methods"
         }
-      ]
+      ],
+      "updated": "2026-11-15"
     },
     {
       "id": "S04",
@@ -163,7 +166,8 @@
           ],
           "locator": "Tips to protect yourself"
         }
-      ]
+      ],
+      "updated": "2026-11-15"
     },
     {
       "id": "S05",
@@ -202,7 +206,8 @@
           ],
           "locator": "查核4、結論"
         }
-      ]
+      ],
+      "updated": "2026-11-15"
     },
     {
       "id": "S06",
@@ -241,7 +246,8 @@
           ],
           "locator": "Driving industry adoption"
         }
-      ]
+      ],
+      "updated": "2026-11-15"
     },
     {
       "id": "S07",
@@ -280,7 +286,8 @@
           ],
           "locator": "Applying Adversarial Design to Account Security"
         }
-      ]
+      ],
+      "updated": "2026-11-15"
     },
     {
       "id": "S08",
@@ -328,7 +335,8 @@
           ],
           "locator": "三項安全設定第1、2項"
         }
-      ]
+      ],
+      "updated": "2026-11-15"
     },
     {
       "id": "W01",
@@ -405,7 +413,8 @@
           ],
           "locator": "AI-Generated Images：sextortion"
         }
-      ]
+      ],
+      "updated": "2026-11-15"
     },
     {
       "id": "W02",
@@ -538,7 +547,8 @@
           ],
           "locator": "停、查、碼不給；認證碼就是帳號鑰匙"
         }
-      ]
+      ],
+      "updated": "2026-11-15"
     },
     {
       "id": "W03",
@@ -637,7 +647,8 @@
           ],
           "locator": "查核4、結論"
         }
-      ]
+      ],
+      "updated": "2026-11-15"
     },
     {
       "id": "W04",
@@ -779,7 +790,8 @@
           ],
           "locator": "三項安全設定第1、2項"
         }
-      ]
+      ],
+      "updated": "2026-11-15"
     },
     {
       "id": "W05",
@@ -883,7 +895,8 @@
           ],
           "locator": "停、查、碼不給；認證碼就是帳號鑰匙"
         }
-      ]
+      ],
+      "updated": "2026-11-15"
     },
     {
       "id": "W06",
@@ -984,7 +997,8 @@
           ],
           "locator": "三項安全設定第3項"
         }
-      ]
+      ],
+      "updated": "2026-11-15"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "performed_at": "2026-11-15T15:36:24.497135+00:00",
+  "performed_at": "2026-11-15T15:46:36.466960+00:00",
   "passed": true,
   "sources": 8,
   "concept_pages": 6,
@@ -20,6 +20,7 @@
   "local_link_checks": 47,
   "rendered_text_preserved": true,
   "raw_sha256_verified": true,
+  "raw_hash_mode": "canonical LF content hash; original local byte hashes retained separately",
   "numeric_case_evidence": {
     "港幣2億元": {
       "claim": "S02-C2",

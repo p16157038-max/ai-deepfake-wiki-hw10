@@ -86,3 +86,15 @@ Q06：勒索 認證碼 復原 → concepts/platforms.md,concepts/response.md,con
 ## [2026-11-15T15:36:24.014652+00:00] lint
 
 {"performed_at": "2026-11-15T15:36:24.014066+00:00", "source_count": 8, "concept_count": 6, "raw_immutable": true, "errors": [], "semantic_truth_proved_by_script": false}
+
+## [2026-11-15T15:41:25.860959+00:00] lint
+
+{"performed_at": "2026-11-15T15:41:25.860959+00:00", "source_count": 8, "concept_count": 6, "raw_immutable": true, "errors": [], "semantic_truth_proved_by_script": false}
+
+## [2026-11-15T15:46:35.339329+00:00] maintenance
+
+依AGENTS格式補上每頁Wiki更新日期，未改來源主張、逐頁稿或教學內容。
+
+## [2026-11-15T15:46:35.984361+00:00] lint
+
+{"performed_at": "2026-11-15T15:46:35.983859+00:00", "source_count": 8, "concept_count": 6, "raw_immutable": true, "errors": [], "semantic_truth_proved_by_script": false}

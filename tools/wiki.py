@@ -23,9 +23,10 @@ def ingest(ids):
     manifest=read(ROOT/'raw/manifest.json')['sources'];data=catalog()
     for s in manifest:
         if s['id'] not in ids:continue
-        raw=ROOT/s['raw_path'];assert hashlib.sha256(raw.read_bytes()).hexdigest()==s['raw_sha256']
+        raw=ROOT/s['raw_path'];assert hashlib.sha256(raw.read_bytes().replace(b'\r\n',b'\n')).hexdigest()==s.get('raw_lf_sha256',s['raw_sha256'])
         page={'id':s['id'],'path':f"sources/{s['id']}.md",'title':s['title'],'kind':'source','sources':[s['id']],'summary':s['teaching_use'],'claims':[{**c,'sources':[s['id']],'locator':c['location']} for c in s['claims']]}
-        lines=[f"# {s['id']} {s['title']}",'',f"原文：[{s['issuer']}]({s['url']})",f"原文日期：{s.get('published_at') or s.get('updated_at') or '未標示'}；查閱：{s['accessed_at']}",f"封存節錄：[raw/{s['id']}.md](../../raw/{s['id']}.md)",'','## LLM 整理的可支持主張']
+        page['updated']='2026-11-15'
+        lines=[f"# {s['id']} {s['title']}",'','Wiki更新日期：2026-11-15',f"原文：[{s['issuer']}]({s['url']})",f"原文日期：{s.get('published_at') or s.get('updated_at') or '未標示'}；查閱：{s['accessed_at']}",f"封存節錄：[raw/{s['id']}.md](../../raw/{s['id']}.md)",'','## LLM 整理的可支持主張']
         lines += [f"\n### {c['id']}\n\n{c['text']}\n\n依據位置：{c['location']}。" for c in s['claims']]
         lines+=['','## 範圍與不能推論的內容']+['- '+x for x in s['does_not_support']]+['','## 知識連結','- [回知識索引](../index.md)']
         p=ROOT/'wiki'/page['path'];p.parent.mkdir(parents=True,exist_ok=True);p.write_text('\n'.join(lines)+'\n',encoding='utf-8')
@@ -38,8 +39,8 @@ def topics():
     for page in drafts:
         assert all(c in existing for c in page['claim_ids']),page['id']
         claims=[c for p in data['pages'] if p['kind']=='source' for c in p['claims'] if c['id'] in page['claim_ids']]
-        page={**page,'kind':'concept','claims':claims}
-        text=[f"# {page['id']} {page['title']}",'',page['summary'],'','## 跨來源知識']
+        page={**page,'kind':'concept','claims':claims,'updated':'2026-11-15'}
+        text=[f"# {page['id']} {page['title']}",'','Wiki更新日期：2026-11-15',page['summary'],'','## 跨來源知識']
         text += [f"\n### {section['title']}\n\n{section['text']}\n\n依據："+'、'.join(section['claims'])+'。' for section in page['sections']]
         text+=['','## 原始來源']+[f"- [{s}](../sources/{s}.md)" for s in page['sources']]+['','## 相關知識']+[f"- [{x}](../{x})" for x in page['related']]+['- [回知識索引](../index.md)']
         p=ROOT/'wiki'/page['path'];p.parent.mkdir(parents=True,exist_ok=True);p.write_text('\n'.join(text)+'\n',encoding='utf-8')
@@ -51,7 +52,7 @@ def lint():
     if sum(p['kind']=='source' for p in data['pages'])<5:errors.append('Fewer than 5 sources ingested.')
     if sum(p['kind']=='concept' for p in data['pages'])<3:errors.append('Fewer than 3 related concept pages.')
     for s in m:
-        if hashlib.sha256((ROOT/s['raw_path']).read_bytes()).hexdigest()!=s['raw_sha256']:errors.append('Raw changed: '+s['id'])
+        if hashlib.sha256((ROOT/s['raw_path']).read_bytes().replace(b'\r\n',b'\n')).hexdigest()!=s.get('raw_lf_sha256',s['raw_sha256']):errors.append('Raw content changed: '+s['id'])
     ids=[p['id'] for p in data['pages']]
     if len(ids)!=len(set(ids)):errors.append('Duplicate page ID')
     for p in (ROOT/'wiki').rglob('*.md'):

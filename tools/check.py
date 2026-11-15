@@ -10,7 +10,7 @@ def run():
     assert len(sources)>=5
     known={s['id']:s for s in sources};claims={c['id']:c for s in sources for c in s['claims']};catalog={p['path']:p for p in pages}
     for s in sources:
-        if hashlib.sha256((ROOT/s['raw_path']).read_bytes()).hexdigest()!=s['raw_sha256']:errors.append('Raw changed '+s['id'])
+        if hashlib.sha256((ROOT/s['raw_path']).read_bytes().replace(b'\r\n',b'\n')).hexdigest()!=s.get('raw_lf_sha256',s['raw_sha256']):errors.append('Raw content changed '+s['id'])
     if len({s['canonical_url'] for s in sources})!=len(sources):errors.append('Duplicate source document URL')
     trace=[];used=set()
     def textvalues(s):
@@ -60,7 +60,7 @@ def run():
     numeric={'港幣2億元':{'claim':'S02-C2','source_wording':'港幣兩億元','value':200000000,'currency':'HKD'},'八個機關':{'claim':'S05-C1','source_wording':'八個機關','value':8,'unit':'機關'},'五個香港銀行帳戶':{'claim':'S02-C2','source_wording':'五個香港銀行帳戶','value':5,'unit':'銀行帳戶'}}
     for label,x in numeric.items():
         if x['source_wording'] not in claims[x['claim']]['text']:errors.append('Numeric evidence mismatch '+label)
-    result={'performed_at':datetime.now(timezone.utc).isoformat(),'passed':not errors,'sources':len(sources),'concept_pages':sum(p['kind']=='concept' for p in pages),'query_answers':len(list((ROOT/'queries').glob('*.json'))),'slides':len(slides),'quiz_count':sum('quiz' in s for s in slides),'slide_citation_coverage':len(trace),'source_coverage':sorted(used),'local_link_checks':targets,'rendered_text_preserved':not any('renderer changed' in e for e in errors),'raw_sha256_verified':True,'numeric_case_evidence':numeric,'semantic_truth_proved_by_script':False,'errors':errors}
+    result={'performed_at':datetime.now(timezone.utc).isoformat(),'passed':not errors,'sources':len(sources),'concept_pages':sum(p['kind']=='concept' for p in pages),'query_answers':len(list((ROOT/'queries').glob('*.json'))),'slides':len(slides),'quiz_count':sum('quiz' in s for s in slides),'slide_citation_coverage':len(trace),'source_coverage':sorted(used),'local_link_checks':targets,'rendered_text_preserved':not any('renderer changed' in e for e in errors),'raw_sha256_verified':True,'raw_hash_mode':'canonical LF content hash; original local byte hashes retained separately','numeric_case_evidence':numeric,'semantic_truth_proved_by_script':False,'errors':errors}
     (ROOT/'evidence/traceability.json').write_text(json.dumps({'slides':trace},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     (ROOT/'evidence/checks.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     assert (ROOT/'evidence/checks.json').is_file()

@@ -1,5 +1,5 @@
 {
-  "performed_at": "2026-11-15T15:36:24.504158+00:00",
+  "performed_at": "2026-11-15T15:46:36.473965+00:00",
   "scope": "Executable checks/rebuild over already LLM-authored Wiki and drafts; does not call an LLM or fake new ingest/review.",
   "commands": [
     {
@@ -8,9 +8,9 @@
         "tools/wiki.py",
         "lint"
       ],
-      "performed_at": "2026-11-15T15:36:24.021066+00:00",
+      "performed_at": "2026-11-15T15:46:35.990858+00:00",
       "exit_code": 0,
-      "stdout": "{\"performed_at\": \"2026-11-15T15:36:24.014066+00:00\", \"source_count\": 8, \"concept_count\": 6, \"raw_immutable\": true, \"errors\": [], \"semantic_truth_proved_by_script\": false}\n",
+      "stdout": "{\"performed_at\": \"2026-11-15T15:46:35.983859+00:00\", \"source_count\": 8, \"concept_count\": 6, \"raw_immutable\": true, \"errors\": [], \"semantic_truth_proved_by_script\": false}\n",
       "stderr": ""
     },
     {
@@ -18,7 +18,7 @@
         "python",
         "tools/render.py"
       ],
-      "performed_at": "2026-11-15T15:36:24.179106+00:00",
+      "performed_at": "2026-11-15T15:46:36.142605+00:00",
       "exit_code": 0,
       "stdout": "Rendered approved text only: C:\\Users\\win11\\Documents\\Codex\\2026-10-10\\b-n\\outputs\\HW10_1110_DEEPFAKE_WIKI\\deepfake-wiki\\deck.html\n",
       "stderr": ""
@@ -28,7 +28,7 @@
         "python",
         "tools/build_portal.py"
       ],
-      "performed_at": "2026-11-15T15:36:24.300842+00:00",
+      "performed_at": "2026-11-15T15:46:36.268237+00:00",
       "exit_code": 0,
       "stdout": "Built offline-capable home, Wiki and workflow pages from existing artifacts.\n",
       "stderr": ""
@@ -38,16 +38,16 @@
         "python",
         "tools/check.py"
       ],
-      "performed_at": "2026-11-15T15:36:24.504158+00:00",
+      "performed_at": "2026-11-15T15:46:36.473965+00:00",
       "exit_code": 0,
-      "stdout": "{\"performed_at\": \"2026-11-15T15:36:24.497135+00:00\", \"passed\": true, \"sources\": 8, \"concept_pages\": 6, \"query_answers\": 6, \"slides\": 14, \"quiz_count\": 2, \"slide_citation_coverage\": 14, \"source_coverage\": [\"S01\", \"S02\", \"S03\", \"S04\", \"S05\", \"S06\", \"S07\", \"S08\"], \"local_link_checks\": 47, \"rendered_text_preserved\": true, \"raw_sha256_verified\": true, \"numeric_case_evidence\": {\"港幣2億元\": {\"claim\": \"S02-C2\", \"source_wording\": \"港幣兩億元\", \"value\": 200000000, \"currency\": \"HKD\"}, \"八個機關\": {\"claim\": \"S05-C1\", \"source_wording\": \"八個機關\", \"value\": 8, \"unit\": \"機關\"}, \"五個香港銀行帳戶\": {\"claim\": \"S02-C2\", \"source_wording\": \"五個香港銀行帳戶\", \"value\": 5, \"unit\": \"銀行帳戶\"}}, \"semantic_truth_proved_by_script\": false, \"errors\": []}\n",
+      "stdout": "{\"performed_at\": \"2026-11-15T15:46:36.466960+00:00\", \"passed\": true, \"sources\": 8, \"concept_pages\": 6, \"query_answers\": 6, \"slides\": 14, \"quiz_count\": 2, \"slide_citation_coverage\": 14, \"source_coverage\": [\"S01\", \"S02\", \"S03\", \"S04\", \"S05\", \"S06\", \"S07\", \"S08\"], \"local_link_checks\": 47, \"rendered_text_preserved\": true, \"raw_sha256_verified\": true, \"raw_hash_mode\": \"canonical LF content hash; original local byte hashes retained separately\", \"numeric_case_evidence\": {\"港幣2億元\": {\"claim\": \"S02-C2\", \"source_wording\": \"港幣兩億元\", \"value\": 200000000, \"currency\": \"HKD\"}, \"八個機關\": {\"claim\": \"S05-C1\", \"source_wording\": \"八個機關\", \"value\": 8, \"unit\": \"機關\"}, \"五個香港銀行帳戶\": {\"claim\": \"S02-C2\", \"source_wording\": \"五個香港銀行帳戶\", \"value\": 5, \"unit\": \"銀行帳戶\"}}, \"semantic_truth_proved_by_script\": false, \"errors\": []}\n",
       "stderr": ""
     }
   ],
   "passed": true,
   "artifacts": {
     "deck.html": "0afd683a90b5135dd41f6c7dee8e1adbe91a28c0080040c91cd6e414700dcbd4",
-    "wiki.html": "b0995621d6d299c9c63e1f6117b5b28c3699909ef8e7721e338c36ab70f6b3ba",
+    "wiki.html": "1c5511dfa0d94c24324c0c2702c46ac5e09209628e88fde2e36d708223eee8e7",
     "workflow.html": "aad573ec70dc003084d037ccd675ce4ad6456c3768343113d80cdede588c72f2",
     "teaching/deck.json": "358a4c49f102cb48061d5e954525351cf61821fdd6ccae0c46e3d5cfe1597016"
   },

@@ -1,0 +1,55 @@
+{
+  "performed_at": "2026-11-15T15:41:25.322519+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "source": "S01",
+      "original_local_bytes_hash_preserved": true,
+      "git_LF_content_hash_matches": true,
+      "original_line_endings": "CRLF"
+    },
+    {
+      "source": "S02",
+      "original_local_bytes_hash_preserved": true,
+      "git_LF_content_hash_matches": true,
+      "original_line_endings": "CRLF"
+    },
+    {
+      "source": "S03",
+      "original_local_bytes_hash_preserved": true,
+      "git_LF_content_hash_matches": true,
+      "original_line_endings": "CRLF"
+    },
+    {
+      "source": "S04",
+      "original_local_bytes_hash_preserved": true,
+      "git_LF_content_hash_matches": true,
+      "original_line_endings": "CRLF"
+    },
+    {
+      "source": "S05",
+      "original_local_bytes_hash_preserved": true,
+      "git_LF_content_hash_matches": true,
+      "original_line_endings": "CRLF"
+    },
+    {
+      "source": "S06",
+      "original_local_bytes_hash_preserved": true,
+      "git_LF_content_hash_matches": true,
+      "original_line_endings": "CRLF"
+    },
+    {
+      "source": "S07",
+      "original_local_bytes_hash_preserved": true,
+      "git_LF_content_hash_matches": true,
+      "original_line_endings": "CRLF"
+    },
+    {
+      "source": "S08",
+      "original_local_bytes_hash_preserved": true,
+      "git_LF_content_hash_matches": true,
+      "original_line_endings": "CRLF"
+    }
+  ],
+  "content_changes": false
+}

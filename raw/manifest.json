@@ -49,7 +49,8 @@
         "bytes": 63959,
         "sha256": "a468af346aa01947f85cd1def4999c333901c59fdf408d8418f2fad9c612375a",
         "cache_path": "S01.html"
-      }
+      },
+      "raw_lf_sha256": "acc2abd75d99b6968775ccf056e6f1d00a0cfb2c1b3f9df2b173c99c57e21081"
     },
     {
       "id": "S02",
@@ -102,7 +103,8 @@
         "bytes": 14869,
         "sha256": "b33af822f3731741054654d5b9b1d54fd3b6c5358ac525ad98c9d05f4f74c874",
         "cache_path": "S02.html"
-      }
+      },
+      "raw_lf_sha256": "2d91c216625046cda963b2aa769e6d88eddf5b3b87dfaf6b1e43a22e6cd18a68"
     },
     {
       "id": "S03",
@@ -152,7 +154,8 @@
         "started_at": "2026-11-15T15:19:50.155791+00:00",
         "status": "fetch_failed",
         "error": "HTTPError: HTTP Error 404: Not Found"
-      }
+      },
+      "raw_lf_sha256": "88595b1ed2f032079485a3056125f8806035962513121c45ad2877974591a3ac"
     },
     {
       "id": "S04",
@@ -209,7 +212,8 @@
         "bytes": 10577,
         "sha256": "9dfebaaceca86ca1a291bf2390c66d34ecc4a7cbbc66eb9eaa9e74ddc636acef",
         "cache_path": "S04.html"
-      }
+      },
+      "raw_lf_sha256": "73789f2db43662839b8d41478ebc7ec10480de712252910001b69ea51bd9edee"
     },
     {
       "id": "S05",
@@ -262,7 +266,8 @@
         "bytes": 72881,
         "sha256": "bef25de36c80cec8acbf1bf2c422ff00657f24fd18cd410144fccd4f3cde4a14",
         "cache_path": "S05.html"
-      }
+      },
+      "raw_lf_sha256": "2c499ce93854209944f0969cac7c797a162825dc3154648788722bd3d4e40d90"
     },
     {
       "id": "S06",
@@ -314,7 +319,8 @@
         "bytes": 124198,
         "sha256": "6dcee74f62322545b4e1f48fd3405138f126c109acc20951c436dbd35f7d8cf6",
         "cache_path": "S06.html"
-      }
+      },
+      "raw_lf_sha256": "2d6e7109002c22dd9b823d8286b60661ec6e7a2c47bd6d84e63127c2924091c6"
     },
     {
       "id": "S07",
@@ -368,7 +374,8 @@
         "bytes": 684717,
         "sha256": "97eb2a55f3921d66c6d3274b62bc9a6b6ac18c036b71715cfc693260e9c4ef99",
         "cache_path": "S07.html"
-      }
+      },
+      "raw_lf_sha256": "1b66f2d6e60079c1e7db08661253307cc41c1416969d68395e6b6d74959866b3"
     },
     {
       "id": "S08",
@@ -427,9 +434,11 @@
         "bytes": 1828673,
         "sha256": "7596dc7e75499df1614cca951944ab16f3a9e4809067c546a8543a6bae199c5d",
         "cache_path": "S08.html"
-      }
+      },
+      "raw_lf_sha256": "12c5ed710431080b399fb524a00f838da735885daf1a34948f5445d89221fb23"
     }
   ],
   "accessed_date": "2026-11-15",
-  "representation": "immutable curated source extracts; official originals were read with web tools; fetch captures are supplementary"
+  "representation": "immutable curated source extracts; official originals were read with web tools; fetch captures are supplementary",
+  "hash_policy": "raw_sha256 preserves the originally captured local byte hash; raw_lf_sha256 is the portable content hash after CRLF to LF normalization. Source text is unchanged."
 }
