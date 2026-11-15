@@ -58,3 +58,27 @@ W06：LLM 依 S01,S04,S05,S07,S08 綜合，保留 6 項主張及限制。
 ## [2026-11-15T15:23:10.345743+00:00] lint
 
 {"performed_at": "2026-11-15T15:23:10.345243+00:00", "source_count": 8, "concept_count": 6, "raw_immutable": true, "errors": [], "semantic_truth_proved_by_script": false}
+
+## [2026-11-15T15:23:59.702743+00:00] query
+
+Q01：深偽 仿聲 基本概念 → concepts/basics.md,concepts/platforms.md,concepts/trust.md,concepts/cases.md。
+
+## [2026-11-15T15:23:59.704246+00:00] query
+
+Q02：香港 臺中 案例 → concepts/cases.md,concepts/trust.md。
+
+## [2026-11-15T15:23:59.705746+00:00] query
+
+Q03：親友 聲音 回撥 → concepts/trust.md,concepts/basics.md,concepts/platforms.md,concepts/verification.md。
+
+## [2026-11-15T15:23:59.708246+00:00] query
+
+Q04：TikTok Instagram LINE 標示 帳號 → concepts/platforms.md,concepts/response.md,concepts/trust.md,concepts/basics.md。
+
+## [2026-11-15T15:23:59.709746+00:00] query
+
+Q05：查證 165 證據 → concepts/verification.md,concepts/response.md,concepts/trust.md,concepts/cases.md。
+
+## [2026-11-15T15:23:59.711246+00:00] query
+
+Q06：勒索 認證碼 復原 → concepts/platforms.md,concepts/response.md,concepts/basics.md,concepts/verification.md。

@@ -1,0 +1,34 @@
+{
+  "id": "Q06",
+  "question": "勒索 認證碼 復原",
+  "answer": "遭影像威脅不表示影像是真的；保留相關證據，不轉傳，向警方求助。帳號復原使用官方Instagram/LINE管道，不保證成功，也沒有實測私人帳號復原。認證碼不交給他人。",
+  "wiki_pages": [
+    "concepts/platforms.md",
+    "concepts/response.md",
+    "concepts/basics.md",
+    "concepts/verification.md"
+  ],
+  "claim_ids": [
+    "S06-C1",
+    "S06-C2",
+    "S06-C3",
+    "S07-C1",
+    "S07-C2",
+    "S07-C3",
+    "S08-C1",
+    "S08-C2",
+    "S08-C3",
+    "S08-C4",
+    "S01-C3",
+    "S04-C3",
+    "S04-C4",
+    "S05-C3",
+    "S01-C1",
+    "S04-C1",
+    "S04-C2",
+    "S01-C2",
+    "S03-C2"
+  ],
+  "boundaries": "Only retrieved Wiki sections; teaching simulation is labeled separately.",
+  "query_sha256": "9e89c500c75747bbe89884430581229de1e1148b55fde1887b4a58ceb3549a4b"
+}

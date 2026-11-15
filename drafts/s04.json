@@ -1,0 +1,42 @@
+{
+  "id": "s04",
+  "type": "flow",
+  "title": "從內容到要求，風險藏在哪一步",
+  "lead": "以下是跨來源整理的風險路線，不是同一案件",
+  "query_ids": [
+    "Q03",
+    "Q04"
+  ],
+  "citations": [
+    {
+      "wiki": "concepts/trust.md",
+      "claims": [
+        "S02-C1",
+        "S02-C3",
+        "S03-C1"
+      ],
+      "label": "聲音與權威"
+    },
+    {
+      "wiki": "concepts/platforms.md",
+      "claims": [
+        "S08-C1"
+      ],
+      "label": "被盜親友帳號"
+    }
+  ],
+  "items": [
+    {
+      "title": "看起來認識",
+      "text": "親友聲音、熟悉頭像，或自稱主管。"
+    },
+    {
+      "title": "要求立即行動",
+      "text": "匯款、保密、投票或提供認證碼。"
+    },
+    {
+      "title": "真正的查證點",
+      "text": "這個人是誰？這個要求有沒有另行確認？"
+    }
+  ]
+}

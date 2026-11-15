@@ -1,0 +1,42 @@
+{
+  "id": "s02",
+  "type": "goals",
+  "title": "這堂課要練會的三件事",
+  "lead": "不必先懂模型，也能做出比較安全的選擇",
+  "query_ids": [
+    "Q01",
+    "Q05"
+  ],
+  "citations": [
+    {
+      "wiki": "concepts/basics.md",
+      "claims": [
+        "S04-C1",
+        "S04-C2"
+      ],
+      "label": "媒體與詐騙"
+    },
+    {
+      "wiki": "concepts/verification.md",
+      "claims": [
+        "S03-C2",
+        "S05-C3"
+      ],
+      "label": "查證與留證"
+    }
+  ],
+  "items": [
+    {
+      "title": "分清楚",
+      "text": "深偽、釣魚與帳號盜用，哪裡不同。"
+    },
+    {
+      "title": "問對問題",
+      "text": "對方想讓我匯款、交密碼，還是交認證碼？"
+    },
+    {
+      "title": "做出行動",
+      "text": "換已知管道核實，必要時留證求助。"
+    }
+  ]
+}

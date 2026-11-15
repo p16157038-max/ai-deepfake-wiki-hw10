@@ -1,0 +1,38 @@
+{
+  "id": "Q03",
+  "question": "親友 聲音 回撥",
+  "answer": "熟悉聲音與急難請款會利用親友信任。先不付款，掛斷後用原本已知的電話回撥或向其他親友確認；不能改用對方剛提供的聯絡方式。",
+  "wiki_pages": [
+    "concepts/trust.md",
+    "concepts/basics.md",
+    "concepts/platforms.md",
+    "concepts/verification.md"
+  ],
+  "claim_ids": [
+    "S02-C1",
+    "S02-C3",
+    "S03-C1",
+    "S03-C2",
+    "S03-C3",
+    "S04-C2",
+    "S04-C4",
+    "S08-C1",
+    "S08-C2",
+    "S01-C1",
+    "S04-C1",
+    "S04-C3",
+    "S06-C1",
+    "S06-C2",
+    "S06-C3",
+    "S07-C1",
+    "S07-C2",
+    "S07-C3",
+    "S08-C3",
+    "S08-C4",
+    "S01-C2",
+    "S01-C3",
+    "S05-C3"
+  ],
+  "boundaries": "Only retrieved Wiki sections; teaching simulation is labeled separately.",
+  "query_sha256": "ba68f863d2f2bd44144d828609bf5db93920922305306c763f6bd0565ed1039f"
+}

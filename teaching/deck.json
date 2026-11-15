@@ -1,0 +1,552 @@
+{
+  "title": "AI 深偽與社群詐騙",
+  "language": "zh-Hant-TW",
+  "status": "source-grounded draft; independent review follows before publication",
+  "slides": [
+    {
+      "id": "s01",
+      "type": "cover",
+      "title": "聲音很像，為什麼還不能匯款",
+      "lead": "AI Deepfake & Social Media Scams｜給在臺灣生活的你",
+      "query_ids": [
+        "Q01",
+        "Q03"
+      ],
+      "citations": [
+        {
+          "wiki": "concepts/basics.md",
+          "claims": [
+            "S01-C1",
+            "S04-C2"
+          ],
+          "label": "深偽基本概念"
+        },
+        {
+          "wiki": "concepts/trust.md",
+          "claims": [
+            "S03-C2"
+          ],
+          "label": "先查證身分"
+        }
+      ],
+      "items": [
+        {
+          "title": "看見與聽見之後",
+          "text": "先驗證身分與要求，再決定下一步。"
+        }
+      ],
+      "note": "本課面向初學者，約12–15分鐘。案例與官方來源查閱日為2026-11-15；使用較早案件說明機制，不冒稱最新案件。"
+    },
+    {
+      "id": "s02",
+      "type": "goals",
+      "title": "這堂課要練會的三件事",
+      "lead": "不必先懂模型，也能做出比較安全的選擇",
+      "query_ids": [
+        "Q01",
+        "Q05"
+      ],
+      "citations": [
+        {
+          "wiki": "concepts/basics.md",
+          "claims": [
+            "S04-C1",
+            "S04-C2"
+          ],
+          "label": "媒體與詐騙"
+        },
+        {
+          "wiki": "concepts/verification.md",
+          "claims": [
+            "S03-C2",
+            "S05-C3"
+          ],
+          "label": "查證與留證"
+        }
+      ],
+      "items": [
+        {
+          "title": "分清楚",
+          "text": "深偽、釣魚與帳號盜用，哪裡不同。"
+        },
+        {
+          "title": "問對問題",
+          "text": "對方想讓我匯款、交密碼，還是交認證碼？"
+        },
+        {
+          "title": "做出行動",
+          "text": "換已知管道核實，必要時留證求助。"
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "type": "concept",
+      "title": "深偽改變媒體，詐騙利用信任",
+      "lead": "一段合成影音，不等於每一種網路騙術",
+      "query_ids": [
+        "Q01"
+      ],
+      "citations": [
+        {
+          "wiki": "concepts/basics.md",
+          "claims": [
+            "S01-C1",
+            "S04-C1",
+            "S04-C2"
+          ],
+          "label": "形式與範圍"
+        }
+      ],
+      "items": [
+        {
+          "title": "聲音",
+          "text": "仿聲可能假冒親友，以急難為由請款。"
+        },
+        {
+          "title": "影像與影片",
+          "text": "換臉、假視訊，可能營造身分或事件的錯誤印象。"
+        },
+        {
+          "title": "文字與帳號",
+          "text": "流暢訊息或假頭像也能騙人；未必是深偽。"
+        }
+      ],
+      "note": "本課依官方列出的形式整理深偽的入門定義。AI合成也能有合法創作用途，不能只因使用AI就判定犯罪。"
+    },
+    {
+      "id": "s04",
+      "type": "flow",
+      "title": "從內容到要求，風險藏在哪一步",
+      "lead": "以下是跨來源整理的風險路線，不是同一案件",
+      "query_ids": [
+        "Q03",
+        "Q04"
+      ],
+      "citations": [
+        {
+          "wiki": "concepts/trust.md",
+          "claims": [
+            "S02-C1",
+            "S02-C3",
+            "S03-C1"
+          ],
+          "label": "聲音與權威"
+        },
+        {
+          "wiki": "concepts/platforms.md",
+          "claims": [
+            "S08-C1"
+          ],
+          "label": "被盜親友帳號"
+        }
+      ],
+      "items": [
+        {
+          "title": "看起來認識",
+          "text": "親友聲音、熟悉頭像，或自稱主管。"
+        },
+        {
+          "title": "要求立即行動",
+          "text": "匯款、保密、投票或提供認證碼。"
+        },
+        {
+          "title": "真正的查證點",
+          "text": "這個人是誰？這個要求有沒有另行確認？"
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "type": "case",
+      "title": "臺灣案例：影像威脅不代表影像是真的",
+      "lead": "臺中市政府於2025-03-15公布警方查核",
+      "query_ids": [
+        "Q02"
+      ],
+      "citations": [
+        {
+          "wiki": "concepts/cases.md",
+          "claims": [
+            "S05-C1",
+            "S05-C2",
+            "S05-C3"
+          ],
+          "label": "臺中官方查核"
+        }
+      ],
+      "items": [
+        {
+          "title": "發生什麼事",
+          "text": "當時八個機關收到附合成性影像的紙本恐嚇信。"
+        },
+        {
+          "title": "官方怎麼確認",
+          "text": "警方稱相片鑑識確認為深偽合成。"
+        },
+        {
+          "title": "帶走的觀念",
+          "text": "保留相關證據、報案，不轉傳散播影像。"
+        }
+      ],
+      "note": "已查證案例。這是機關收到的紙本信，不是Instagram或學生個案；沒有引用付款損失數字。教材不展示原影像。"
+    },
+    {
+      "id": "s06",
+      "type": "case",
+      "title": "香港案例：熟悉的臉仍要另行查證",
+      "lead": "2024年1月底接報｜政府於同年6月26日說明",
+      "query_ids": [
+        "Q02"
+      ],
+      "citations": [
+        {
+          "wiki": "concepts/cases.md",
+          "claims": [
+            "S02-C1",
+            "S02-C2",
+            "S02-C3"
+          ],
+          "label": "香港政府答覆"
+        }
+      ],
+      "items": [
+        {
+          "title": "約港幣2億元",
+          "text": "報案者依指示授權轉款，流向五個香港銀行帳戶。"
+        },
+        {
+          "title": "重要限制",
+          "text": "警方當時相信是預錄視訊；報案者與騙徒沒有互動。"
+        },
+        {
+          "title": "為什麼會信",
+          "text": "假冒財務主管，再透過即時訊息傳匯款指令。"
+        }
+      ],
+      "note": "已查證案例；不是臺灣案件，也不能改寫成即時自由對話的多人AI會議。只陳述2024年官方答覆當時的調查認知。"
+    },
+    {
+      "id": "s07",
+      "type": "quiz",
+      "title": "情境一：聽到室友聲音，你先做什麼",
+      "lead": "教學模擬｜非真實聊天室或受害者紀錄",
+      "query_ids": [
+        "Q03"
+      ],
+      "citations": [
+        {
+          "wiki": "concepts/trust.md",
+          "claims": [
+            "S03-C1",
+            "S03-C2",
+            "S04-C4"
+          ],
+          "label": "已知電話回撥"
+        }
+      ],
+      "chat": [
+        {
+          "sender": "自稱室友",
+          "text": "我換手機了，現在急著付錢。先幫我轉一下，不要打給別人。"
+        }
+      ],
+      "quiz": {
+        "question": "對方聲音很像室友。哪個第一步最合適？",
+        "options": [
+          {
+            "text": "先轉帳，晚點再確認",
+            "correct": false,
+            "feedback": "熟悉聲音不能替付款要求授權；先停止付款。"
+          },
+          {
+            "text": "掛斷，撥原本已知的室友電話",
+            "correct": true,
+            "feedback": "離開對方提供的查證路線；聯絡不到時再向其他親友確認。"
+          },
+          {
+            "text": "請他傳更多語音就相信",
+            "correct": false,
+            "feedback": "更多同一來源的影音不等於獨立驗證。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s08",
+      "type": "comparison",
+      "title": "找破綻有幫助，但不是驗真保證",
+      "lead": "把注意力從「像不像」移到「如何核實」",
+      "query_ids": [
+        "Q03",
+        "Q05"
+      ],
+      "citations": [
+        {
+          "wiki": "concepts/verification.md",
+          "claims": [
+            "S01-C2",
+            "S03-C2",
+            "S04-C4"
+          ],
+          "label": "查證方法與限制"
+        }
+      ],
+      "items": [
+        {
+          "title": "線索",
+          "text": "視聽異常、家庭密語，可增加核對資訊。"
+        },
+        {
+          "title": "限制",
+          "text": "看不出異常，不代表真人；來源未給通用準確率。"
+        },
+        {
+          "title": "較穩妥的下一步",
+          "text": "自行找已知電話或官方管道，再確認身分與要求。"
+        }
+      ],
+      "note": "不示範製作深偽、不推薦把單一偵測器當作付款授權。"
+    },
+    {
+      "id": "s09",
+      "type": "comparison",
+      "title": "TikTok 的 AI 標籤能告訴你什麼",
+      "lead": "依2024-05-09官方公告理解標示的範圍",
+      "query_ids": [
+        "Q04"
+      ],
+      "citations": [
+        {
+          "wiki": "concepts/platforms.md",
+          "claims": [
+            "S06-C1",
+            "S06-C2",
+            "S06-C3"
+          ],
+          "label": "標示與中繼資料"
+        }
+      ],
+      "items": [
+        {
+          "title": "有標籤",
+          "text": "提供AI製作背景，並不保證身分或投資內容為真。"
+        },
+        {
+          "title": "沒有標籤",
+          "text": "不能證明是真人；自動標示受中繼資料與導入限制。"
+        },
+        {
+          "title": "仍要查",
+          "text": "誰發佈？原始脈絡在哪？有沒有要求匯款或交資料？"
+        }
+      ],
+      "note": "不宣稱2026年所有版本或每則內容都被標示；這裡沒有實測平台的標示覆蓋率。"
+    },
+    {
+      "id": "s10",
+      "type": "concept",
+      "title": "Instagram、LINE：熟悉帳號也要查證",
+      "lead": "帳號被盜與深偽是不同問題，卻都可能冒用信任",
+      "query_ids": [
+        "Q04"
+      ],
+      "citations": [
+        {
+          "wiki": "concepts/platforms.md",
+          "claims": [
+            "S07-C1",
+            "S07-C2",
+            "S08-C1",
+            "S08-C2"
+          ],
+          "label": "官方安全說明"
+        }
+      ],
+      "items": [
+        {
+          "title": "LINE投票訊息",
+          "text": "親友帳號可能已被盜；先另外通話或見面確認。"
+        },
+        {
+          "title": "LINE認證碼",
+          "text": "不交給別人，不填進不明網頁。"
+        },
+        {
+          "title": "Instagram帳號問題",
+          "text": "自行開官方instagram.com/hacked，不靠陌生私訊代救。"
+        }
+      ],
+      "note": "LINE來源為2026-09-09，Meta入口公告為2022-12-15。未登入或實測復原，介面與成功與否因情況不同。"
+    },
+    {
+      "id": "s11",
+      "type": "steps",
+      "title": "把查證做成四個動作",
+      "lead": "本課依官方建議整理的口訣：停、離、查、留",
+      "query_ids": [
+        "Q05"
+      ],
+      "citations": [
+        {
+          "wiki": "concepts/verification.md",
+          "claims": [
+            "S01-C3",
+            "S03-C2",
+            "S04-C4",
+            "S05-C3",
+            "S08-C2"
+          ],
+          "label": "查證流程"
+        }
+      ],
+      "items": [
+        {
+          "title": "停",
+          "text": "先不付款、不交個資或認證碼。"
+        },
+        {
+          "title": "離",
+          "text": "離開原對話提供的電話與連結。"
+        },
+        {
+          "title": "查",
+          "text": "自己找已知電話或官方App/網站核對。"
+        },
+        {
+          "title": "留",
+          "text": "保留帳號、時間、對話與交易證據，私下提供官方。"
+        }
+      ],
+      "note": "這是本課整理的教學口訣，不冒稱官方原有品牌，也不保證能阻擋所有詐騙。"
+    },
+    {
+      "id": "s12",
+      "type": "quiz",
+      "title": "情境二：被影像威脅，先保護自己",
+      "lead": "教學模擬｜不展示、不轉傳性影像",
+      "query_ids": [
+        "Q06",
+        "Q05"
+      ],
+      "citations": [
+        {
+          "wiki": "concepts/response.md",
+          "claims": [
+            "S04-C3",
+            "S05-C3"
+          ],
+          "label": "留證與求助"
+        }
+      ],
+      "chat": [
+        {
+          "sender": "陌生帳號",
+          "text": "我有你的不雅圖，不照做就傳給你的朋友。"
+        }
+      ],
+      "quiz": {
+        "question": "你不確定圖片是否被合成。哪個處理方式較合適？",
+        "options": [
+          {
+            "text": "公開轉傳圖片，請大家鑑定",
+            "correct": false,
+            "feedback": "會擴大散播與傷害；保留必要證據，私下提供警方。"
+          },
+          {
+            "text": "先保留證據，停止交付並向警方求助",
+            "correct": true,
+            "feedback": "收到影像不代表內容真實；可向165諮詢，需要報案可找警方。"
+          },
+          {
+            "text": "付款就能保證對方刪除",
+            "correct": false,
+            "feedback": "沒有這種保證；不要把威脅者的承諾當作安全機制。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s13",
+      "type": "steps",
+      "title": "在臺灣，求助要找正式管道",
+      "lead": "先保留證據；不把遭冒用的責任推給受害者",
+      "query_ids": [
+        "Q05",
+        "Q06"
+      ],
+      "citations": [
+        {
+          "wiki": "concepts/response.md",
+          "claims": [
+            "S01-C3",
+            "S05-C3",
+            "S07-C1",
+            "S08-C3"
+          ],
+          "label": "警方與平台支援"
+        }
+      ],
+      "items": [
+        {
+          "title": "可疑詐騙",
+          "text": "165反詐騙專線諮詢；報案可110或向警察機關。"
+        },
+        {
+          "title": "帳號存取問題",
+          "text": "Instagram走官方入口；LINE遭盜不要直接刪App，依官方指引求助。"
+        },
+        {
+          "title": "保留而不擴散",
+          "text": "留下相關證據，避免轉傳傷害性影像；不承諾追回款項。"
+        }
+      ],
+      "note": "這是教育資訊，不替代警方對個案的處理。平台客服僅核對官方連結，沒有實際登入、填表或保證復原。"
+    },
+    {
+      "id": "s14",
+      "type": "closing",
+      "title": "下一次收到訊息，你會先問什麼",
+      "lead": "看見、聽見之後，保留一次獨立查證的空間",
+      "query_ids": [
+        "Q01",
+        "Q05",
+        "Q04"
+      ],
+      "citations": [
+        {
+          "wiki": "concepts/verification.md",
+          "claims": [
+            "S03-C2",
+            "S04-C4",
+            "S05-C3"
+          ],
+          "label": "查證與留證"
+        },
+        {
+          "wiki": "concepts/platforms.md",
+          "claims": [
+            "S06-C3",
+            "S08-C2"
+          ],
+          "label": "平台限制"
+        }
+      ],
+      "items": [
+        {
+          "title": "身分",
+          "text": "我有沒有用原本已知的管道確認本人？"
+        },
+        {
+          "title": "要求",
+          "text": "對方是否催我付款、交密碼或認證碼？"
+        },
+        {
+          "title": "行動",
+          "text": "我能先停下、保留證據，再找誰協助？"
+        }
+      ],
+      "note": "課後可點每頁Wiki出處閱讀8份官方來源、6頁綜合知識。真實案例與兩道模擬題分開標示；本課沒有提供臺灣Gen Z受害率。"
+    }
+  ]
+}

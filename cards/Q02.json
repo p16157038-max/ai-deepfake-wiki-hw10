@@ -1,0 +1,26 @@
+{
+  "id": "Q02",
+  "question": "香港 臺中 案例",
+  "answer": "可用兩件官方具體事件教學：香港2024年1月底接報的預錄視訊案，約港幣兩億元，並非自由互動；臺中2025年公布的紙本合成影像恐嚇信，並非學生私訊事件。兩案的時間、地區與媒介不能改寫。",
+  "wiki_pages": [
+    "concepts/cases.md",
+    "concepts/trust.md"
+  ],
+  "claim_ids": [
+    "S02-C1",
+    "S02-C2",
+    "S02-C3",
+    "S05-C1",
+    "S05-C2",
+    "S05-C3",
+    "S03-C1",
+    "S03-C2",
+    "S03-C3",
+    "S04-C2",
+    "S04-C4",
+    "S08-C1",
+    "S08-C2"
+  ],
+  "boundaries": "Only retrieved Wiki sections; teaching simulation is labeled separately.",
+  "query_sha256": "8fac6a80cc52ba7120baa5ab036f32b6a0b07522818249762709239402139ac1"
+}

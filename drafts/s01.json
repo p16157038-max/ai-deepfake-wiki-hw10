@@ -1,0 +1,34 @@
+{
+  "id": "s01",
+  "type": "cover",
+  "title": "聲音很像，為什麼還不能匯款",
+  "lead": "AI Deepfake & Social Media Scams｜給在臺灣生活的你",
+  "query_ids": [
+    "Q01",
+    "Q03"
+  ],
+  "citations": [
+    {
+      "wiki": "concepts/basics.md",
+      "claims": [
+        "S01-C1",
+        "S04-C2"
+      ],
+      "label": "深偽基本概念"
+    },
+    {
+      "wiki": "concepts/trust.md",
+      "claims": [
+        "S03-C2"
+      ],
+      "label": "先查證身分"
+    }
+  ],
+  "items": [
+    {
+      "title": "看見與聽見之後",
+      "text": "先驗證身分與要求，再決定下一步。"
+    }
+  ],
+  "note": "本課面向初學者，約12–15分鐘。案例與官方來源查閱日為2026-11-15；使用較早案件說明機制，不冒稱最新案件。"
+}

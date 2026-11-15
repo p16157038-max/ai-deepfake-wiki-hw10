@@ -1,0 +1,36 @@
+{
+  "id": "s10",
+  "type": "concept",
+  "title": "Instagram、LINE：熟悉帳號也要查證",
+  "lead": "帳號被盜與深偽是不同問題，卻都可能冒用信任",
+  "query_ids": [
+    "Q04"
+  ],
+  "citations": [
+    {
+      "wiki": "concepts/platforms.md",
+      "claims": [
+        "S07-C1",
+        "S07-C2",
+        "S08-C1",
+        "S08-C2"
+      ],
+      "label": "官方安全說明"
+    }
+  ],
+  "items": [
+    {
+      "title": "LINE投票訊息",
+      "text": "親友帳號可能已被盜；先另外通話或見面確認。"
+    },
+    {
+      "title": "LINE認證碼",
+      "text": "不交給別人，不填進不明網頁。"
+    },
+    {
+      "title": "Instagram帳號問題",
+      "text": "自行開官方instagram.com/hacked，不靠陌生私訊代救。"
+    }
+  ],
+  "note": "LINE來源為2026-09-09，Meta入口公告為2022-12-15。未登入或實測復原，介面與成功與否因情況不同。"
+}

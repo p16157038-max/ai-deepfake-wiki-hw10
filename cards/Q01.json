@@ -1,0 +1,39 @@
+{
+  "id": "Q01",
+  "question": "深偽 仿聲 基本概念",
+  "answer": "深偽會合成或操控人物的聲音、影像與影片；詐騙另可能使用一般假帳號、釣魚或帳號盜用。媒體逼真、文字通順都不足證明身分或付款要求可信。",
+  "wiki_pages": [
+    "concepts/basics.md",
+    "concepts/platforms.md",
+    "concepts/trust.md",
+    "concepts/cases.md"
+  ],
+  "claim_ids": [
+    "S01-C1",
+    "S04-C1",
+    "S04-C2",
+    "S04-C3",
+    "S06-C1",
+    "S06-C2",
+    "S06-C3",
+    "S07-C1",
+    "S07-C2",
+    "S07-C3",
+    "S08-C1",
+    "S08-C2",
+    "S08-C3",
+    "S08-C4",
+    "S02-C1",
+    "S02-C3",
+    "S03-C1",
+    "S03-C2",
+    "S03-C3",
+    "S04-C4",
+    "S02-C2",
+    "S05-C1",
+    "S05-C2",
+    "S05-C3"
+  ],
+  "boundaries": "Only retrieved Wiki sections; teaching simulation is labeled separately.",
+  "query_sha256": "2ebbba763db1b7a804557a79435ff759e5f96bcca03bee2f00c70a8ae2aa92eb"
+}

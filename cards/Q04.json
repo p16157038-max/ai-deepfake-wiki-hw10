@@ -1,0 +1,37 @@
+{
+  "id": "Q04",
+  "question": "TikTok Instagram LINE 標示 帳號",
+  "answer": "TikTok的AI標示受中繼資料與導入範圍限制；無標籤不證明真人。Instagram帳號問題走官方入口，LINE投票連結可能來自被盜親友帳號；平台安全和深偽是不同問題。",
+  "wiki_pages": [
+    "concepts/platforms.md",
+    "concepts/response.md",
+    "concepts/trust.md",
+    "concepts/basics.md"
+  ],
+  "claim_ids": [
+    "S06-C1",
+    "S06-C2",
+    "S06-C3",
+    "S07-C1",
+    "S07-C2",
+    "S07-C3",
+    "S08-C1",
+    "S08-C2",
+    "S08-C3",
+    "S08-C4",
+    "S01-C3",
+    "S04-C3",
+    "S04-C4",
+    "S05-C3",
+    "S02-C1",
+    "S02-C3",
+    "S03-C1",
+    "S03-C2",
+    "S03-C3",
+    "S04-C2",
+    "S01-C1",
+    "S04-C1"
+  ],
+  "boundaries": "Only retrieved Wiki sections; teaching simulation is labeled separately.",
+  "query_sha256": "b9c027ed89dc50218ea1e630a4115c5c867a8d34bbb06b971a58e45e3a7dcce6"
+}
