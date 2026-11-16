@@ -1,0 +1,34 @@
+{
+  "performed_at": "2026-11-16T08:57:45.738894+00:00",
+  "passed": true,
+  "artifacts": {
+    "teaching/deck.json": {
+      "reviewed_byte_sha256": "358a4c49f102cb48061d5e954525351cf61821fdd6ccae0c46e3d5cfe1597016",
+      "canonical_lf_sha256": "d6019c19469af676c168372e8fdfe0f99a445585361577926e699b659386d2fc",
+      "git_byte_sha256": "d6019c19469af676c168372e8fdfe0f99a445585361577926e699b659386d2fc",
+      "normalized_equals_git": true,
+      "normalization": "Only CRLF byte pairs replaced with LF; no other replacement",
+      "local_crlf_pairs": 552
+    },
+    "deck.html": {
+      "reviewed_byte_sha256": "553c5190291fb0d7fbacd8fa1e95f8a452adb491363787884fe788f860a777f3",
+      "canonical_lf_sha256": "553c5190291fb0d7fbacd8fa1e95f8a452adb491363787884fe788f860a777f3",
+      "git_byte_sha256": "553c5190291fb0d7fbacd8fa1e95f8a452adb491363787884fe788f860a777f3",
+      "normalized_equals_git": true,
+      "normalization": "Only CRLF byte pairs replaced with LF; no other replacement",
+      "local_crlf_pairs": 0
+    },
+    "teaching/practice.json": {
+      "reviewed_byte_sha256": "1f984910dfe80aa5ebbcd34dd95fca9cff4f02dd44703d7199d58a922aa2f37d",
+      "canonical_lf_sha256": "1f984910dfe80aa5ebbcd34dd95fca9cff4f02dd44703d7199d58a922aa2f37d",
+      "git_byte_sha256": "1f984910dfe80aa5ebbcd34dd95fca9cff4f02dd44703d7199d58a922aa2f37d",
+      "normalized_equals_git": true,
+      "normalization": "Only CRLF byte pairs replaced with LF; no other replacement",
+      "local_crlf_pairs": 0
+    }
+  },
+  "method": "Binary local files compared with actual git show HEAD objects; original semantic-review hashes preserved.",
+  "head_checked": "324b1463275bc5797005e38ab7ba47ec4f3fa500",
+  "scope": "Portability identity check only, not a new semantic/source review. The new independent final auditor separately confirmed the deck JSON comparison.",
+  "teaching_content_changed": false
+}
