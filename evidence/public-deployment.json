@@ -1,5 +1,5 @@
 {
-  "performed_at": "2026-11-15T15:48:07.945103+00:00",
+  "performed_at": "2026-11-16T02:59:05.274580+00:00",
   "site_url": "https://p16157038-max.github.io/ai-deepfake-wiki-hw10/",
   "repo_url": "https://github.com/p16157038-max/ai-deepfake-wiki-hw10",
   "anonymous": true,
@@ -9,31 +9,37 @@
       "path": "index.html",
       "status": 200,
       "matches_local_after_newline_normalization": true,
-      "normalized_sha256": "c48429803b78e1bb892c756305a31926546bbf5dd36937926dd0b0f881c4f8fa"
+      "normalized_sha256": "54dbe6f8f0558267132cf09256045dffdf8aaf951cd915598003d24626ddc8de"
     },
     {
       "path": "deck.html",
       "status": 200,
       "matches_local_after_newline_normalization": true,
-      "normalized_sha256": "0afd683a90b5135dd41f6c7dee8e1adbe91a28c0080040c91cd6e414700dcbd4"
+      "normalized_sha256": "553c5190291fb0d7fbacd8fa1e95f8a452adb491363787884fe788f860a777f3"
     },
     {
       "path": "wiki.html",
       "status": 200,
       "matches_local_after_newline_normalization": true,
-      "normalized_sha256": "1c5511dfa0d94c24324c0c2702c46ac5e09209628e88fde2e36d708223eee8e7"
+      "normalized_sha256": "a458ae57e74bbc95131e12696a325318e606381114312ae8693e67b8a74f82f1"
     },
     {
       "path": "workflow.html",
       "status": 200,
       "matches_local_after_newline_normalization": true,
-      "normalized_sha256": "aad573ec70dc003084d037ccd675ce4ad6456c3768343113d80cdede588c72f2"
+      "normalized_sha256": "b3ac90aa408ae99efad7301bcf8d444487a655e4dd7e5a1e01a3c28203a3dfb6"
+    },
+    {
+      "path": "evidence.html",
+      "status": 200,
+      "matches_local_after_newline_normalization": true,
+      "normalized_sha256": "72bdfeb15344a34f251ed292e0b6503933db11a76c28c001ffcd0f047921731a"
     },
     {
       "path": "AGENTS.md",
       "status": 200,
       "matches_local_after_newline_normalization": true,
-      "normalized_sha256": "f061985364ab708e3a6dd4b0e18e847bdbf12fb5c58c9a2f850e990320e34ecb"
+      "normalized_sha256": "ab14ac3a43c530464cb73fa48bb2c6661a51c721089f6a34238eb77c624469a7"
     },
     {
       "path": "raw/manifest.json",
@@ -51,7 +57,7 @@
       "path": "wiki/log.md",
       "status": 200,
       "matches_local_after_newline_normalization": true,
-      "normalized_sha256": "ccd01ecac2222f2a6c671ed38eefe241ff3c3c3f9192967ef0ada93a9ebf6cd3"
+      "normalized_sha256": "5ddbc3e91b4efbda7f1b3d3e83d7c92f342dcd95363d0779f7ef8f9e8b70c616"
     },
     {
       "path": "wiki/catalog.json",
@@ -60,5 +66,5 @@
       "normalized_sha256": "269e3b2120dcb9c470fc2bde18a70ad918cf667789361c4cb8c4e18802de46f6"
     }
   ],
-  "note": "All nine anonymously fetched targets match current local content after standard CRLF/LF normalization. Static artifacts need no login, API key, or persistent runtime."
+  "note": "All fetched targets match the current local content after standard CRLF/LF normalization. Static artifacts need no login, API key, or persistent runtime."
 }
