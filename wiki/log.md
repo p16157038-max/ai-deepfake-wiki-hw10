@@ -102,3 +102,7 @@ Q06：勒索 認證碼 復原 → concepts/platforms.md,concepts/response.md,con
 ## [2026-11-16T02:52:53.272011+00:00] lint
 
 {"performed_at": "2026-11-16T02:52:53.271089+00:00", "source_count": 8, "concept_count": 6, "raw_immutable": true, "errors": [], "semantic_truth_proved_by_script": false}
+
+## [2026-11-16T08:05:14.111475+00:00] practice-extension-five-cases
+
+依使用者回饋重用 Q03–Q06、對應 Wiki 與證據卡，生成五個模擬練習、十五項選擇理由及二十個處理步驟。沒有新增來源篇數或重寫 raw；新增教材另做獨立語意審查與本機／公開瀏覽器各12項檢查。紀錄與引用見 evidence/practice-*.json。十四頁主課保持原稿。

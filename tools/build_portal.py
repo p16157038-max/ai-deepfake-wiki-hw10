@@ -174,7 +174,7 @@ def build_evidence(catalog, sources, deck):
         cases += f'<tr><td>{esc(title)}</td><td>{esc(detail)}</td><td><span class="test-status {cls}">{status}</span></td></tr>'
     summary = browser['summary']
     semantic = '沒有重大未解問題' if review.get('blocking_issues') == 0 else '仍有待處理問題'
-    proofs = ''.join([screenshot_panel(1,'來源與 Wiki 對照','17_來源知識對照.png','15_Wiki與來源對照.png','實際 Wiki 畫面，含來源、日期與主張對照','證明能從知識頁看見來源與限制；不單靠來源數字。'),screenshot_panel(2,'單頁內容的證據鏈','18_單頁證據追溯.png','06_教學投影片.png','保存的第六頁畫面；完整追溯請操作上方選單','用頁碼、知識頁與主張逐項核對；上方選單讀取實際資料。'),screenshot_panel(3,'情境題作答與解說','19_互動題作答.png','s07_情境題作答結果.png','實際情境題作答後顯示解說','證明有回饋的教學練習；答案對錯另經語意審查。'),screenshot_panel(4,'執行結果與日期','20_執行結果總覽.png',None,'執行紀錄摘要與日期','把程式、語意、操作三種檢查分開，保留原檔。')])
+    proofs = ''.join([screenshot_panel(1,'來源與 Wiki 對照','17_來源知識對照.png','15_Wiki與來源對照.png','實際 Wiki 畫面，含來源、日期與主張對照','證明能從知識頁看見來源與限制；不單靠來源數字。'),screenshot_panel(2,'單頁內容的證據鏈','18_單頁證據追溯.png','06_教學投影片.png','實際單頁追溯畫面；完整對照請操作上方選單','用頁碼、知識頁與主張逐項核對；上方選單讀取實際資料。'),screenshot_panel(3,'情境作答後的處理步驟','22_LINE投票情境練習.png','19_互動題作答.png','LINE情境作答後的四步處理與重點原則','不只判對錯，也顯示下一步怎麼做；內容另經獨立審查。'),screenshot_panel(4,'執行結果與日期','20_執行結果總覽.png',None,'執行紀錄摘要與日期','把程式、語意、操作三種檢查分開，保留原檔。')])
     practice_record = ROOT / 'evidence/practice-browser-public.json'
     practice_count = len(load('teaching/practice.json')['cases']) if (ROOT / 'teaching/practice.json').exists() else 0
     practice_status = '尚待本次瀏覽器驗收'
