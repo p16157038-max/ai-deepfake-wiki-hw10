@@ -1,5 +1,5 @@
 {
-  "performed_at": "2026-11-16T03:01:58.498Z",
+  "performed_at": "2026-11-16T08:07:23.513Z",
   "anonymous": true,
   "scope": "Final published evidence snapshot after embedding current successful records and four real proof images; full unchanged teaching interactions already covered by24-casepublicsuite.",
   "passed": true,
@@ -19,7 +19,7 @@
     {
       "loaded": true,
       "width": 1366,
-      "height": 768
+      "height": 900
     },
     {
       "loaded": true,
