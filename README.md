@@ -19,7 +19,7 @@ python tools/check.py
 
 實作順序和每階段證據在 `evidence/`、Git 提交、`wiki/log.md`；來源清單位於 `raw/manifest.json`，來源擷取不可修改。完整官方網頁快取留在作者工作區，公開 raw 為有出處、日期、短摘與限制的封存節錄，不冒充全文。查詢產生的段落紀錄在 `queries/`；投影片用的證據卡在 `cards/`。
 
-需求摘要尚待本人確認，見 `planning/discussion.md`。使用者在缺席期間明確允許 AI 依暫定方案繼續，但沒有把 AI 自擬方案寫成已獲本人核准。先完成可審閱版本，回來確認後才消除這項待辦。
+教學需求、來源標準與設計決策保存於 `planning/discussion.md` 及後續修訂紀錄。Git 提交可核對規劃、來源整理、Wiki、查詢／證據卡及 HTML 的實作順序。
 
 ## 重跑瀏覽器檢查（僅開發者）
 
