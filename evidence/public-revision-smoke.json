@@ -1,0 +1,32 @@
+{
+  "performed_at": "2026-11-16T03:01:58.498Z",
+  "anonymous": true,
+  "scope": "Final published evidence snapshot after embedding current successful records and four real proof images; full unchanged teaching interactions already covered by24-casepublicsuite.",
+  "passed": true,
+  "selected_slide": "s07",
+  "displayed_browser_results": "24/24",
+  "proof_images": [
+    {
+      "loaded": true,
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "loaded": true,
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "loaded": true,
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "loaded": true,
+      "width": 1366,
+      "height": 768
+    }
+  ],
+  "mobile_width": 390,
+  "no_horizontal_overflow": true
+}

@@ -1,0 +1,19 @@
+{
+  "performed_at": "2026-11-16T03:03:49.222866+00:00",
+  "passed": true,
+  "renderer": "Canonical render_docx attempt failed because LibreOffice soffice.exe was absent; exported read-only staging documents with a separate hidden Word instance, then rasterized PDFs.",
+  "pages": {
+    "tc": 5,
+    "vi": 5
+  },
+  "visual_review": {
+    "tc": "Primary AI actually viewed all5pagePNGs",
+    "vi": "Separate reviewer actually viewed all5pagePNGs"
+  },
+  "observed": "No clipping, overlap, table or caption separation; three main pages and two appendices with four selected screenshots in each reading version. Fine screenshot text is supplementary to clickable public evidence.",
+  "artifact_sha256": {
+    "成大_P16157038_系統碩一_陳世豐_HW10_AI深偽與社群詐騙報告.docx": "8d8d90ce2486956ccb576da7282ab0f2694b8d865c8f01b0041d98ea4f45b54f",
+    "HW10_Ban_tieng_Viet_de_doc.docx": "57547aec1317543c8762759d21242b9e41f09fd74d5f0e357b57f1c977b0a10a"
+  },
+  "not_proved": "No claim of student personal review or final LMS submission."
+}
