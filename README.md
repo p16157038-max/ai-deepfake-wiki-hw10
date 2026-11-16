@@ -2,7 +2,9 @@
 
 第十週作業1110；成大 P16157038 系統碩一 陳世豐。
 
-先開 `index.html`，選「開始上課」「閱讀 Wiki」或「看工作流程」。`deck.html` 是十四頁教學簡報，直接用瀏覽器雙擊可讀；方向鍵換頁，情境題可選答案看解說。免登入、免金鑰，靜態成果不需伺服器維持連線。
+先開 `index.html`，選「開始上課」「知識 Wiki」「證據對照」或「製作流程」。`deck.html` 是十四頁教學簡報，直接用瀏覽器雙擊可讀；方向鍵換頁，情境題可選答案看解說。免登入、免金鑰，靜態成果不需伺服器維持連線。
+
+若要驗收，先開 `evidence.html`：六項繳交要求各有成果入口，逐頁對照器可選 s01–s14，查看該頁引用的主張、官方來源、Wiki、查詢與證據卡。日期和檢查數字來自實際紀錄；原始 JSON 仍提供下載。這是把既有證據整理成可讀介面，不以示意圖代替執行紀錄。
 
 此 LLM Wiki 是 Codex 研究代理逐篇讀官方資料、編寫來源及綜合知識、保留連結與日誌的成果；不是把普通搜尋功能假稱為聊天模型。網頁搜尋只做本機關鍵字篩選。新增知識時需 coding agent 依 `AGENTS.md` 讀來源並寫入；重跑以下腳本只重現資料與輸出，不會自行呼叫 LLM。
 
@@ -19,6 +21,6 @@ python tools/check.py
 
 ## 重跑瀏覽器檢查（僅開發者）
 
-既有成果直接開啟不需要安裝任何套件。若要重新執行瀏覽器測試，另外安裝 Node.js、Playwright 與 Chrome，再跑 `node tools/browser_check.cjs`；預設測本機HTML，`HW10_TEST_URL` 可指定已發布的 deck.html。請用隔離的 headless profile，不使用個人登入資料。實際本機與公開網站紀錄分別保存在 `evidence/browser-local.json` 與 `evidence/browser-checks.json`。
+既有成果直接開啟不需要安裝任何套件。若要重新執行瀏覽器測試，另外安裝 Node.js、Playwright 與 Chrome，再跑 `node tools/browser_redesign.cjs`；預設測本機HTML，`HW10_TEST_URL` 可指定已發布的 deck.html。請用隔離的 headless profile，不使用個人登入資料。新介面本機與公開網站紀錄分別保存在 `evidence/browser-local-redesign.json` 與 `evidence/browser-checks-redesign.json`，原二十項紀錄另行保留，不改寫成新版本已驗收。
 
 .gitattributes 固定文字檔 LF，讓 Windows checkout 不會改變已封存 raw 的 SHA256。

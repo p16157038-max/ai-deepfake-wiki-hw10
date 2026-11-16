@@ -1,0 +1,44 @@
+{
+  "performed_at": "2026-11-16T02:47:06.513878+00:00",
+  "purpose": "Verify the UI/clarity revision did not rewrite the approved teaching content or immutable source excerpts.",
+  "passed": true,
+  "checks": [
+    {
+      "artifact": "teaching/deck.json",
+      "matches_before": true
+    },
+    {
+      "artifact": "raw/S01.md",
+      "matches_before": true
+    },
+    {
+      "artifact": "raw/S02.md",
+      "matches_before": true
+    },
+    {
+      "artifact": "raw/S03.md",
+      "matches_before": true
+    },
+    {
+      "artifact": "raw/S04.md",
+      "matches_before": true
+    },
+    {
+      "artifact": "raw/S05.md",
+      "matches_before": true
+    },
+    {
+      "artifact": "raw/S06.md",
+      "matches_before": true
+    },
+    {
+      "artifact": "raw/S07.md",
+      "matches_before": true
+    },
+    {
+      "artifact": "raw/S08.md",
+      "matches_before": true
+    }
+  ],
+  "not_proved": "Does not independently prove semantics, live source currency, or browser usability."
+}
