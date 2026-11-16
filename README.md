@@ -8,6 +8,8 @@
 
 此 LLM Wiki 是 Codex 研究代理逐篇讀官方資料、編寫來源及綜合知識、保留連結與日誌的成果；不是把普通搜尋功能假稱為聊天模型。網頁搜尋只做本機關鍵字篩選。新增知識時需 coding agent 依 `AGENTS.md` 讀來源並寫入；重跑以下腳本只重現資料與輸出，不會自行呼叫 LLM。
 
+`practice.html` 是使用者要求增加的五個情境練習：原本仿聲與影像威脅兩題，加上 LINE 投票／認證碼、TikTok 無標籤、Instagram 帳號存取三題。每題選答後說明各選項理由、完整處理步驟與來源。用 `python tools/build_practice.py` 依 `teaching/practice.json` 重建；不會接收真實音訊或自動判定個案真假。十四頁主課保持原稿，練習區是延伸教材。
+
 ```text
 python tools/wiki.py lint
 python tools/wiki.py query Q01 "深偽 仿聲 基本概念"

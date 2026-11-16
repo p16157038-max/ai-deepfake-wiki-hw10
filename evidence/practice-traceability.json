@@ -1,0 +1,945 @@
+{
+  "schema_version": "1.0",
+  "artifact": "teaching/practice.json",
+  "artifact_sha256": "1f984910dfe80aa5ebbcd34dd95fca9cff4f02dd44703d7199d58a922aa2f37d",
+  "recorded_at_utc": "2026-11-16T03:55:43.3036375Z",
+  "taiwan_date": "2026-11-16",
+  "method": "Content agent read the existing Wiki, manifest, query answers/retrieved sections, evidence cards, and original s07/s12 before authoring. No source ingestion or query was retrofilled for this practice page. Traceability is checked per Wiki-page/claim pair within an existing query retrieved section and matching evidence card.",
+  "schema": {
+    "top": [
+      "title",
+      "description",
+      "language",
+      "simulation_label",
+      "scope_note",
+      "source_note",
+      "lesson_goal",
+      "cases"
+    ],
+    "case": [
+      "id",
+      "title",
+      "category",
+      "lesson_goal",
+      "context",
+      "question",
+      "options",
+      "lesson",
+      "takeaway",
+      "citations",
+      "query_ids",
+      "card_paths"
+    ],
+    "context": "string; contains the simulated setting and quoted message",
+    "option": [
+      "text",
+      "correct",
+      "feedback"
+    ],
+    "lesson": "four objects with title and text, presented after choice",
+    "citation": [
+      "wiki",
+      "claims",
+      "label"
+    ],
+    "adapted_from_slide": "optional; P01=s07 and P02=s12"
+  },
+  "authored_files": [
+    "teaching/practice.json",
+    "evidence/practice-traceability.json"
+  ],
+  "boundaries": [
+    "All five scenarios and dialogues are clearly teaching simulations; P03-P05 are new hypothetical scenarios, not newly verified incidents.",
+    "Choices assess a reasonable next action in the stated scenario; they do not diagnose real media or prove whether a real person is genuine.",
+    "The practice text requires no uploaded audio, images, credentials, or personal information.",
+    "No statistical claims, detection accuracy, measured learning effect, current universal platform coverage, guaranteed recovery, or guaranteed deletion are asserted.",
+    "The existing 14-slide deck, Wiki, raw sources, archived queries, and cards were used as inputs and were not authored or retroactively changed by this content task.",
+    "The four-step lesson is a teaching organization of existing recommendations. Reporting/help is conditional where appropriate; lack of an AI label alone is not treated as a reportable case.",
+    "Wrong-choice reasons and safe alternatives are contained in every option feedback. Transferable lessons are in each takeaway."
+  ],
+  "source_snapshot": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "8d34ef276914445f757b4ff0b3f77d12fda8795fc4e7cb33642f870505bc7beb"
+    },
+    {
+      "path": "README.md",
+      "sha256": "9045ca217fea3dc7a23f83c18e8fda6177b5996fd6b551d56976ebb35930311c"
+    },
+    {
+      "path": "planning/discussion.md",
+      "sha256": "b2a138a4c1745c01564f6fa5514116111cf0037d8d2d1890ace36ec2acdb274a"
+    },
+    {
+      "path": "planning/revision-20261116.md",
+      "sha256": "7e3441c9a4c2bc58306a21ea301fa2f24b877cd3e1b71e59da6561fc9b2486c3"
+    },
+    {
+      "path": "teaching/deck.json",
+      "sha256": "358a4c49f102cb48061d5e954525351cf61821fdd6ccae0c46e3d5cfe1597016"
+    },
+    {
+      "path": "wiki/concepts/trust.md",
+      "sha256": "77f0db71ce7d7b29bc7ec5da7e72140c5672686b6e044d5b732683a191b35481"
+    },
+    {
+      "path": "wiki/concepts/platforms.md",
+      "sha256": "6d5c16f226b8d3d6499f70129f7357fe69e37bd58557c1b32357f4a0befa3b71"
+    },
+    {
+      "path": "wiki/concepts/verification.md",
+      "sha256": "da8e1668bd4a75ec17adb2941b6cdf0b9c6965b1211ffcfc754ddcfe9cdbcf78"
+    },
+    {
+      "path": "wiki/concepts/response.md",
+      "sha256": "0a0f553ae6d087950240611d4867b1eea58fd2f56f49578a4b5aa486eb516820"
+    },
+    {
+      "path": "wiki/concepts/basics.md",
+      "sha256": "b777bed159eb5b607899f8c3f24d0f9547d8835d5e37df3f145ba4dc7626139a"
+    },
+    {
+      "path": "raw/manifest.json",
+      "sha256": "58210c82756f76e7865dc040d1e658fc6361615a83cbdf2a85f70b5efb373f64"
+    },
+    {
+      "path": "queries/Q03.json",
+      "sha256": "ba68f863d2f2bd44144d828609bf5db93920922305306c763f6bd0565ed1039f"
+    },
+    {
+      "path": "queries/Q04.json",
+      "sha256": "b9c027ed89dc50218ea1e630a4115c5c867a8d34bbb06b971a58e45e3a7dcce6"
+    },
+    {
+      "path": "queries/Q05.json",
+      "sha256": "32a29e51ed8688d4c3aef6ac83958fe81deb946c16e28609dff131f91136c91d"
+    },
+    {
+      "path": "queries/Q06.json",
+      "sha256": "9e89c500c75747bbe89884430581229de1e1148b55fde1887b4a58ceb3549a4b"
+    },
+    {
+      "path": "cards/Q03.json",
+      "sha256": "8deea4462442dd80eed39d0d4dc7d6c5600ab93c345a70911cfbde69ee046cf4"
+    },
+    {
+      "path": "cards/Q04.json",
+      "sha256": "8d4aee7b4027c72c32131ce58bcfcf6be64dd08d26bf70dd179342807fae2b5b"
+    },
+    {
+      "path": "cards/Q05.json",
+      "sha256": "ad0537fcb3c80a84d3e88bf8af28bf10d65297e6cb286dc7946948b82d1de798"
+    },
+    {
+      "path": "cards/Q06.json",
+      "sha256": "b264c5a32770ac96751b06aa56fcc3b5add6e3a4fc85c3874ac347698a06efa2"
+    }
+  ],
+  "cases": [
+    {
+      "id": "P01",
+      "title": "室友的聲音，要你立刻轉帳",
+      "correct_option_text": "掛斷，撥原本已知的室友電話",
+      "query_paths": [
+        "queries/Q03.json",
+        "queries/Q05.json"
+      ],
+      "card_paths": [
+        "cards/Q03.json",
+        "cards/Q05.json"
+      ],
+      "source_map": [
+        {
+          "wiki_path": "wiki/concepts/trust.md",
+          "label": "熟悉聲音與已知電話回撥",
+          "claims": [
+            {
+              "claim_id": "S03-C1",
+              "source_id": "S03",
+              "source_wiki_path": "wiki/sources/S03.md",
+              "source_url": "https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes",
+              "source_published_at": "2023-03-20",
+              "source_updated_at": null,
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "正文：short audio clip／voice-cloning program",
+              "supporting_query_ids": [
+                "Q03",
+                "Q05"
+              ],
+              "supporting_card_paths": [
+                "cards/Q03.json",
+                "cards/Q05.json"
+              ]
+            },
+            {
+              "claim_id": "S03-C2",
+              "source_id": "S03",
+              "source_wiki_path": "wiki/sources/S03.md",
+              "source_url": "https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes",
+              "source_published_at": "2023-03-20",
+              "source_updated_at": null,
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "正文：Don’t trust the voice",
+              "supporting_query_ids": [
+                "Q03",
+                "Q05"
+              ],
+              "supporting_card_paths": [
+                "cards/Q03.json",
+                "cards/Q05.json"
+              ]
+            },
+            {
+              "claim_id": "S04-C4",
+              "source_id": "S04",
+              "source_wiki_path": "wiki/sources/S04.md",
+              "source_url": "https://www.ic3.gov/PSA/2024/PSA241203",
+              "source_published_at": "2024-12-03",
+              "source_updated_at": null,
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "Tips to protect yourself",
+              "supporting_query_ids": [
+                "Q03",
+                "Q05"
+              ],
+              "supporting_card_paths": [
+                "cards/Q03.json",
+                "cards/Q05.json"
+              ]
+            }
+          ]
+        },
+        {
+          "wiki_path": "wiki/concepts/verification.md",
+          "label": "先停、另查與必要留證",
+          "claims": [
+            {
+              "claim_id": "S01-C3",
+              "source_id": "S01",
+              "source_wiki_path": "wiki/sources/S01.md",
+              "source_url": "https://md-fraud.police.gov.taipei/News_Content.aspx?n=BD99F0864A7983ED&s=1A33FBCA5115E6C9",
+              "source_published_at": null,
+              "source_updated_at": "2024-04-08",
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "正文：2不3要",
+              "supporting_query_ids": [
+                "Q03",
+                "Q05"
+              ],
+              "supporting_card_paths": [
+                "cards/Q03.json",
+                "cards/Q05.json"
+              ]
+            },
+            {
+              "claim_id": "S03-C2",
+              "source_id": "S03",
+              "source_wiki_path": "wiki/sources/S03.md",
+              "source_url": "https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes",
+              "source_published_at": "2023-03-20",
+              "source_updated_at": null,
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "正文：Don’t trust the voice",
+              "supporting_query_ids": [
+                "Q03",
+                "Q05"
+              ],
+              "supporting_card_paths": [
+                "cards/Q03.json",
+                "cards/Q05.json"
+              ]
+            },
+            {
+              "claim_id": "S04-C4",
+              "source_id": "S04",
+              "source_wiki_path": "wiki/sources/S04.md",
+              "source_url": "https://www.ic3.gov/PSA/2024/PSA241203",
+              "source_published_at": "2024-12-03",
+              "source_updated_at": null,
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "Tips to protect yourself",
+              "supporting_query_ids": [
+                "Q03",
+                "Q05"
+              ],
+              "supporting_card_paths": [
+                "cards/Q03.json",
+                "cards/Q05.json"
+              ]
+            },
+            {
+              "claim_id": "S05-C3",
+              "source_id": "S05",
+              "source_wiki_path": "wiki/sources/S05.md",
+              "source_url": "https://www.taichung.gov.tw/8868/8872/1269419/2931416",
+              "source_published_at": "2025-03-15",
+              "source_updated_at": null,
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "查核4、結論",
+              "supporting_query_ids": [
+                "Q03",
+                "Q05"
+              ],
+              "supporting_card_paths": [
+                "cards/Q03.json",
+                "cards/Q05.json"
+              ]
+            }
+          ]
+        },
+        {
+          "wiki_path": "wiki/concepts/response.md",
+          "label": "臺灣 165 諮詢",
+          "claims": [
+            {
+              "claim_id": "S01-C3",
+              "source_id": "S01",
+              "source_wiki_path": "wiki/sources/S01.md",
+              "source_url": "https://md-fraud.police.gov.taipei/News_Content.aspx?n=BD99F0864A7983ED&s=1A33FBCA5115E6C9",
+              "source_published_at": null,
+              "source_updated_at": "2024-04-08",
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "正文：2不3要",
+              "supporting_query_ids": [
+                "Q05"
+              ],
+              "supporting_card_paths": [
+                "cards/Q05.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "editorial_review": {
+        "limitation": "沒有接收或播放真實音訊，沒有判定情境中的來電一定是 AI；情節為模擬。",
+        "transfer": "把媒體相似度與付款授權分開，先確認本人和要求。",
+        "why_wrong": [
+          "先付款把查證延後，熟悉聲音不足以授權付款。",
+          "更多同一來源語音仍不是獨立驗證。"
+        ],
+        "answer_basis": "S03-C2 支持已知電話回撥與聯絡不到時向親友確認；S03-C1、S04-C4 支持不只憑聲音與另找已知管道。",
+        "origin": "改編既有 s07 教學模擬；正解仍為掛斷後撥原本已知的室友電話。"
+      }
+    },
+    {
+      "id": "P02",
+      "title": "陌生帳號用影像威脅你",
+      "correct_option_text": "保留證據、停止交付，向警方求助",
+      "query_paths": [
+        "queries/Q06.json",
+        "queries/Q05.json"
+      ],
+      "card_paths": [
+        "cards/Q06.json",
+        "cards/Q05.json"
+      ],
+      "source_map": [
+        {
+          "wiki_path": "wiki/concepts/response.md",
+          "label": "停止交付、留證與臺灣求助",
+          "claims": [
+            {
+              "claim_id": "S01-C3",
+              "source_id": "S01",
+              "source_wiki_path": "wiki/sources/S01.md",
+              "source_url": "https://md-fraud.police.gov.taipei/News_Content.aspx?n=BD99F0864A7983ED&s=1A33FBCA5115E6C9",
+              "source_published_at": null,
+              "source_updated_at": "2024-04-08",
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "正文：2不3要",
+              "supporting_query_ids": [
+                "Q06",
+                "Q05"
+              ],
+              "supporting_card_paths": [
+                "cards/Q06.json",
+                "cards/Q05.json"
+              ]
+            },
+            {
+              "claim_id": "S04-C3",
+              "source_id": "S04",
+              "source_wiki_path": "wiki/sources/S04.md",
+              "source_url": "https://www.ic3.gov/PSA/2024/PSA241203",
+              "source_published_at": "2024-12-03",
+              "source_updated_at": null,
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "AI-Generated Images：sextortion",
+              "supporting_query_ids": [
+                "Q06",
+                "Q05"
+              ],
+              "supporting_card_paths": [
+                "cards/Q06.json",
+                "cards/Q05.json"
+              ]
+            },
+            {
+              "claim_id": "S05-C3",
+              "source_id": "S05",
+              "source_wiki_path": "wiki/sources/S05.md",
+              "source_url": "https://www.taichung.gov.tw/8868/8872/1269419/2931416",
+              "source_published_at": "2025-03-15",
+              "source_updated_at": null,
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "查核4、結論",
+              "supporting_query_ids": [
+                "Q06",
+                "Q05"
+              ],
+              "supporting_card_paths": [
+                "cards/Q06.json",
+                "cards/Q05.json"
+              ]
+            }
+          ]
+        },
+        {
+          "wiki_path": "wiki/concepts/verification.md",
+          "label": "留存必要證據",
+          "claims": [
+            {
+              "claim_id": "S01-C3",
+              "source_id": "S01",
+              "source_wiki_path": "wiki/sources/S01.md",
+              "source_url": "https://md-fraud.police.gov.taipei/News_Content.aspx?n=BD99F0864A7983ED&s=1A33FBCA5115E6C9",
+              "source_published_at": null,
+              "source_updated_at": "2024-04-08",
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "正文：2不3要",
+              "supporting_query_ids": [
+                "Q06",
+                "Q05"
+              ],
+              "supporting_card_paths": [
+                "cards/Q06.json",
+                "cards/Q05.json"
+              ]
+            },
+            {
+              "claim_id": "S05-C3",
+              "source_id": "S05",
+              "source_wiki_path": "wiki/sources/S05.md",
+              "source_url": "https://www.taichung.gov.tw/8868/8872/1269419/2931416",
+              "source_published_at": "2025-03-15",
+              "source_updated_at": null,
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "查核4、結論",
+              "supporting_query_ids": [
+                "Q06",
+                "Q05"
+              ],
+              "supporting_card_paths": [
+                "cards/Q06.json",
+                "cards/Q05.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "editorial_review": {
+        "limitation": "不展示影像，不宣稱使用者影像必為合成；不把臺中機關紙本案件改寫成這段私訊或學生案件。",
+        "transfer": "影像真假還未確認，也能先保護自己；不責備被威脅者。",
+        "why_wrong": [
+          "公開轉傳會擴散影像，保留必要證據並私下提供警方較合適。",
+          "威脅者承諾不能保證刪除，付款不是安全保證。"
+        ],
+        "answer_basis": "S04-C3 支持偽造性影像勒索風險；S05-C3、Wiki response 支持不轉傳、留證、警方與 165 求助，並明寫不能保證付款後刪除。",
+        "origin": "改編既有 s12 教學模擬；正解仍為停止交付、保留證據、向警方求助。"
+      }
+    },
+    {
+      "id": "P03",
+      "title": "LINE 好友請你投票，還要認證碼",
+      "correct_option_text": "先不填認證碼，另外通話或見面問好友",
+      "query_paths": [
+        "queries/Q04.json",
+        "queries/Q06.json"
+      ],
+      "card_paths": [
+        "cards/Q04.json",
+        "cards/Q06.json"
+      ],
+      "source_map": [
+        {
+          "wiki_path": "wiki/concepts/platforms.md",
+          "label": "LINE 投票訊息與認證碼提醒",
+          "claims": [
+            {
+              "claim_id": "S08-C1",
+              "source_id": "S08",
+              "source_wiki_path": "wiki/sources/S08.md",
+              "source_url": "https://www.linecorp.com/tw/pr/news/2026/0909/",
+              "source_published_at": "2026-09-09",
+              "source_updated_at": null,
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "開頭常見手法",
+              "supporting_query_ids": [
+                "Q04",
+                "Q06"
+              ],
+              "supporting_card_paths": [
+                "cards/Q04.json",
+                "cards/Q06.json"
+              ]
+            },
+            {
+              "claim_id": "S08-C2",
+              "source_id": "S08",
+              "source_wiki_path": "wiki/sources/S08.md",
+              "source_url": "https://www.linecorp.com/tw/pr/news/2026/0909/",
+              "source_published_at": "2026-09-09",
+              "source_updated_at": null,
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "停、查、碼不給；認證碼就是帳號鑰匙",
+              "supporting_query_ids": [
+                "Q04",
+                "Q06"
+              ],
+              "supporting_card_paths": [
+                "cards/Q04.json",
+                "cards/Q06.json"
+              ]
+            }
+          ]
+        },
+        {
+          "wiki_path": "wiki/concepts/response.md",
+          "label": "LINE 帳號遭盜時的官方支援",
+          "claims": [
+            {
+              "claim_id": "S08-C3",
+              "source_id": "S08",
+              "source_wiki_path": "wiki/sources/S08.md",
+              "source_url": "https://www.linecorp.com/tw/pr/news/2026/0909/",
+              "source_published_at": "2026-09-09",
+              "source_updated_at": null,
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "三項安全設定第3項",
+              "supporting_query_ids": [
+                "Q04",
+                "Q06"
+              ],
+              "supporting_card_paths": [
+                "cards/Q04.json",
+                "cards/Q06.json"
+              ]
+            }
+          ]
+        },
+        {
+          "wiki_path": "wiki/concepts/verification.md",
+          "label": "暫停、另查與相關證據",
+          "claims": [
+            {
+              "claim_id": "S05-C3",
+              "source_id": "S05",
+              "source_wiki_path": "wiki/sources/S05.md",
+              "source_url": "https://www.taichung.gov.tw/8868/8872/1269419/2931416",
+              "source_published_at": "2025-03-15",
+              "source_updated_at": null,
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "查核4、結論",
+              "supporting_query_ids": [
+                "Q06"
+              ],
+              "supporting_card_paths": [
+                "cards/Q06.json"
+              ]
+            },
+            {
+              "claim_id": "S08-C2",
+              "source_id": "S08",
+              "source_wiki_path": "wiki/sources/S08.md",
+              "source_url": "https://www.linecorp.com/tw/pr/news/2026/0909/",
+              "source_published_at": "2026-09-09",
+              "source_updated_at": null,
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "停、查、碼不給；認證碼就是帳號鑰匙",
+              "supporting_query_ids": [
+                "Q06"
+              ],
+              "supporting_card_paths": [
+                "cards/Q06.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "editorial_review": {
+        "limitation": "不提供真實投票網址，不判定特定好友帳號已被盜，不保證客服可復原。",
+        "transfer": "辨別釣魚與帳號盜用，不把所有社群騙術都叫深偽；認證碼不交。",
+        "why_wrong": [
+          "熟悉頭像與舊對話不足以確認目前操作者。",
+          "在同一聊天室問本人，仍可能由冒用者回覆，不是獨立查證。"
+        ],
+        "answer_basis": "S08-C1、S08-C2 支持熟悉帳號可能被冒用、另用通話或見面確認、LINE 認證碼不給人或填入不明頁；S08-C3 支持遭盜時不要直接刪除 App 與免登入客服表單。",
+        "origin": "新增虛構情境；依既有 Wiki 中 LINE 投票與認證碼提醒編寫，非新增已查證案件。"
+      }
+    },
+    {
+      "id": "P04",
+      "title": "TikTok 沒有 AI 標籤，就能信嗎",
+      "correct_option_text": "還不能確認是真人或說法為真，先查來源",
+      "query_paths": [
+        "queries/Q04.json",
+        "queries/Q05.json"
+      ],
+      "card_paths": [
+        "cards/Q04.json",
+        "cards/Q05.json"
+      ],
+      "source_map": [
+        {
+          "wiki_path": "wiki/concepts/platforms.md",
+          "label": "TikTok 2024 公告的標示範圍與限制",
+          "claims": [
+            {
+              "claim_id": "S06-C1",
+              "source_id": "S06",
+              "source_wiki_path": "wiki/sources/S06.md",
+              "source_url": "https://newsroom.tiktok.com/partnering-with-our-industry-to-advance-ai-transparency-and-literacy?lang=en",
+              "source_published_at": "2024-05-09",
+              "source_updated_at": null,
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "開頭與Partnering with our industry to label AIGC",
+              "supporting_query_ids": [
+                "Q04"
+              ],
+              "supporting_card_paths": [
+                "cards/Q04.json"
+              ]
+            },
+            {
+              "claim_id": "S06-C2",
+              "source_id": "S06",
+              "source_wiki_path": "wiki/sources/S06.md",
+              "source_url": "https://newsroom.tiktok.com/partnering-with-our-industry-to-advance-ai-transparency-and-literacy?lang=en",
+              "source_published_at": "2024-05-09",
+              "source_updated_at": null,
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "Investing in transparency as AI evolves",
+              "supporting_query_ids": [
+                "Q04"
+              ],
+              "supporting_card_paths": [
+                "cards/Q04.json"
+              ]
+            },
+            {
+              "claim_id": "S06-C3",
+              "source_id": "S06",
+              "source_wiki_path": "wiki/sources/S06.md",
+              "source_url": "https://newsroom.tiktok.com/partnering-with-our-industry-to-advance-ai-transparency-and-literacy?lang=en",
+              "source_published_at": "2024-05-09",
+              "source_updated_at": null,
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "Driving industry adoption",
+              "supporting_query_ids": [
+                "Q04"
+              ],
+              "supporting_card_paths": [
+                "cards/Q04.json"
+              ]
+            }
+          ]
+        },
+        {
+          "wiki_path": "wiki/concepts/verification.md",
+          "label": "先停、獨立核對與必要留證",
+          "claims": [
+            {
+              "claim_id": "S01-C3",
+              "source_id": "S01",
+              "source_wiki_path": "wiki/sources/S01.md",
+              "source_url": "https://md-fraud.police.gov.taipei/News_Content.aspx?n=BD99F0864A7983ED&s=1A33FBCA5115E6C9",
+              "source_published_at": null,
+              "source_updated_at": "2024-04-08",
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "正文：2不3要",
+              "supporting_query_ids": [
+                "Q05"
+              ],
+              "supporting_card_paths": [
+                "cards/Q05.json"
+              ]
+            },
+            {
+              "claim_id": "S04-C4",
+              "source_id": "S04",
+              "source_wiki_path": "wiki/sources/S04.md",
+              "source_url": "https://www.ic3.gov/PSA/2024/PSA241203",
+              "source_published_at": "2024-12-03",
+              "source_updated_at": null,
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "Tips to protect yourself",
+              "supporting_query_ids": [
+                "Q05"
+              ],
+              "supporting_card_paths": [
+                "cards/Q05.json"
+              ]
+            },
+            {
+              "claim_id": "S05-C3",
+              "source_id": "S05",
+              "source_wiki_path": "wiki/sources/S05.md",
+              "source_url": "https://www.taichung.gov.tw/8868/8872/1269419/2931416",
+              "source_published_at": "2025-03-15",
+              "source_updated_at": null,
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "查核4、結論",
+              "supporting_query_ids": [
+                "Q05"
+              ],
+              "supporting_card_paths": [
+                "cards/Q05.json"
+              ]
+            }
+          ]
+        },
+        {
+          "wiki_path": "wiki/concepts/response.md",
+          "label": "有可疑要求時的 165 諮詢",
+          "claims": [
+            {
+              "claim_id": "S01-C3",
+              "source_id": "S01",
+              "source_wiki_path": "wiki/sources/S01.md",
+              "source_url": "https://md-fraud.police.gov.taipei/News_Content.aspx?n=BD99F0864A7983ED&s=1A33FBCA5115E6C9",
+              "source_published_at": null,
+              "source_updated_at": "2024-04-08",
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "正文：2不3要",
+              "supporting_query_ids": [
+                "Q04",
+                "Q05"
+              ],
+              "supporting_card_paths": [
+                "cards/Q04.json",
+                "cards/Q05.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "editorial_review": {
+        "limitation": "僅以 2024 公告解釋標示原理與限制；沒有測試 2026 標示覆蓋、沒有投資績效或平台政策承諾。查發布者與脈絡是把獨立查證原則用在本題的教學整理。沒有標籤本身不觸發報案。",
+        "transfer": "有無 AI 標籤和身分／內容真假是不同判斷。",
+        "why_wrong": [
+          "無標籤不能推成平台已驗證真人或內容。",
+          "無標籤也不能反向斷定一定是 AI、惡意或詐騙。"
+        ],
+        "answer_basis": "S06-C1 至 S06-C3 及 Wiki platforms 的明確保留條件支持標籤不保證身分或說法、無標籤也不證明真人；verification 支持先停與另找來源核對。",
+        "origin": "新增虛構情境；以既有 TikTok 標示 Wiki 練習推論界線，非真實投資案件。"
+      }
+    },
+    {
+      "id": "P05",
+      "title": "IG 登不進去，陌生人說能代救",
+      "correct_option_text": "不付費、不交密碼，自行開官方復原入口",
+      "query_paths": [
+        "queries/Q04.json",
+        "queries/Q06.json"
+      ],
+      "card_paths": [
+        "cards/Q04.json",
+        "cards/Q06.json"
+      ],
+      "source_map": [
+        {
+          "wiki_path": "wiki/concepts/platforms.md",
+          "label": "Meta 2022 官方帳號支援公告與限制",
+          "claims": [
+            {
+              "claim_id": "S07-C1",
+              "source_id": "S07",
+              "source_wiki_path": "wiki/sources/S07.md",
+              "source_url": "https://about.fb.com/news/2022/12/designing-account-security-across-our-apps/",
+              "source_published_at": "2022-12-15",
+              "source_updated_at": null,
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "Instagram Account Access Support",
+              "supporting_query_ids": [
+                "Q04",
+                "Q06"
+              ],
+              "supporting_card_paths": [
+                "cards/Q04.json",
+                "cards/Q06.json"
+              ]
+            },
+            {
+              "claim_id": "S07-C2",
+              "source_id": "S07",
+              "source_wiki_path": "wiki/sources/S07.md",
+              "source_url": "https://about.fb.com/news/2022/12/designing-account-security-across-our-apps/",
+              "source_published_at": "2022-12-15",
+              "source_updated_at": null,
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "Taking a Closer Look at Contact Points",
+              "supporting_query_ids": [
+                "Q04",
+                "Q06"
+              ],
+              "supporting_card_paths": [
+                "cards/Q04.json",
+                "cards/Q06.json"
+              ]
+            },
+            {
+              "claim_id": "S07-C3",
+              "source_id": "S07",
+              "source_wiki_path": "wiki/sources/S07.md",
+              "source_url": "https://about.fb.com/news/2022/12/designing-account-security-across-our-apps/",
+              "source_published_at": "2022-12-15",
+              "source_updated_at": null,
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "Applying Adversarial Design to Account Security",
+              "supporting_query_ids": [
+                "Q04",
+                "Q06"
+              ],
+              "supporting_card_paths": [
+                "cards/Q04.json",
+                "cards/Q06.json"
+              ]
+            }
+          ]
+        },
+        {
+          "wiki_path": "wiki/concepts/response.md",
+          "label": "官方復原入口與必要諮詢",
+          "claims": [
+            {
+              "claim_id": "S07-C1",
+              "source_id": "S07",
+              "source_wiki_path": "wiki/sources/S07.md",
+              "source_url": "https://about.fb.com/news/2022/12/designing-account-security-across-our-apps/",
+              "source_published_at": "2022-12-15",
+              "source_updated_at": null,
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "Instagram Account Access Support",
+              "supporting_query_ids": [
+                "Q04",
+                "Q06"
+              ],
+              "supporting_card_paths": [
+                "cards/Q04.json",
+                "cards/Q06.json"
+              ]
+            },
+            {
+              "claim_id": "S01-C3",
+              "source_id": "S01",
+              "source_wiki_path": "wiki/sources/S01.md",
+              "source_url": "https://md-fraud.police.gov.taipei/News_Content.aspx?n=BD99F0864A7983ED&s=1A33FBCA5115E6C9",
+              "source_published_at": null,
+              "source_updated_at": "2024-04-08",
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "正文：2不3要",
+              "supporting_query_ids": [
+                "Q04",
+                "Q06"
+              ],
+              "supporting_card_paths": [
+                "cards/Q04.json",
+                "cards/Q06.json"
+              ]
+            }
+          ]
+        },
+        {
+          "wiki_path": "wiki/concepts/verification.md",
+          "label": "離開對方路線、停止交付與留證",
+          "claims": [
+            {
+              "claim_id": "S01-C3",
+              "source_id": "S01",
+              "source_wiki_path": "wiki/sources/S01.md",
+              "source_url": "https://md-fraud.police.gov.taipei/News_Content.aspx?n=BD99F0864A7983ED&s=1A33FBCA5115E6C9",
+              "source_published_at": null,
+              "source_updated_at": "2024-04-08",
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "正文：2不3要",
+              "supporting_query_ids": [
+                "Q06"
+              ],
+              "supporting_card_paths": [
+                "cards/Q06.json"
+              ]
+            },
+            {
+              "claim_id": "S04-C4",
+              "source_id": "S04",
+              "source_wiki_path": "wiki/sources/S04.md",
+              "source_url": "https://www.ic3.gov/PSA/2024/PSA241203",
+              "source_published_at": "2024-12-03",
+              "source_updated_at": null,
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "Tips to protect yourself",
+              "supporting_query_ids": [
+                "Q06"
+              ],
+              "supporting_card_paths": [
+                "cards/Q06.json"
+              ]
+            },
+            {
+              "claim_id": "S05-C3",
+              "source_id": "S05",
+              "source_wiki_path": "wiki/sources/S05.md",
+              "source_url": "https://www.taichung.gov.tw/8868/8872/1269419/2931416",
+              "source_published_at": "2025-03-15",
+              "source_updated_at": null,
+              "source_accessed_at": "2026-11-15",
+              "source_evidence_location": "查核4、結論",
+              "supporting_query_ids": [
+                "Q06"
+              ],
+              "supporting_card_paths": [
+                "cards/Q06.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "editorial_review": {
+        "limitation": "依 2022 公告介紹入口；未登入、未送出個資、未實測復原，不承諾流程一致、成功、時限或款項追回。",
+        "transfer": "自己找官方入口；帳號存取問題不等於已證實帳號盜用或深偽。",
+        "why_wrong": [
+          "陌生人自稱專員不足以證明身分，不應交密碼讓其操作。",
+          "由同一陌生人提供客服連結，未離開對方控制的查證路線。"
+        ],
+        "answer_basis": "S07-C1、Wiki platforms/response 支持自行開 instagram.com/hacked；S04-C4 支持不向僅網路認識者交敏感資料或付款；Wiki response 與 S07-C3 保留復原結果限制。",
+        "origin": "新增虛構情境；依既有 Wiki 的 Instagram 官方入口與通用查證原則編寫，非真實帳號救援紀錄。"
+      }
+    }
+  ],
+  "structural_verification": {
+    "performed_at_utc": "2026-11-16T03:55:43.3094569Z",
+    "result": "pass",
+    "issues": [],
+    "checks": [
+      "Exactly five cases.",
+      "Exactly three options and exactly one correct option per case.",
+      "All options have feedback; every case has context, question, learning goal and transferable takeaway.",
+      "Exactly four lesson steps per case.",
+      "All citation Wiki paths and card paths exist.",
+      "Every cited claim ID exists in the manifest and in its cited current Wiki page.",
+      "Every Wiki-page/claim pair is present in at least one of the case existing query retrieved sections, and in that query matching evidence card.",
+      "Original reference deck has 14 slides; the s07 and s12 reference correct choices retain their expected text."
+    ],
+    "limits": "These are structural, reference and string checks. They do not automatically prove semantic correctness, teach effectiveness, detect deepfakes, or validate browser behavior. Independent semantic and interface review are separate work."
+  },
+  "semantic_self_review": {
+    "status": "content-author self-review completed; independent review is separate",
+    "notes": [
+      "Original s07 and s12 correct-action meanings are preserved; their incorrect alternatives are explained with safe alternatives.",
+      "LINE is described as phishing/account-takeover risk, not proof of deepfake.",
+      "TikTok absence of a label proves neither authenticity nor fraud; the 2024 announcement is date-bounded.",
+      "Instagram support begins with the dated official entry; no recovery result or present interface is promised.",
+      "No new Wiki claim or raw-source edit was made to justify the newly written scenarios."
+    ]
+  }
+}

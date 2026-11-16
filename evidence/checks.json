@@ -1,5 +1,5 @@
 {
-  "performed_at": "2026-11-16T02:59:44.060908+00:00",
+  "performed_at": "2026-11-16T08:00:07.728014+00:00",
   "passed": true,
   "sources": 8,
   "concept_pages": 6,
@@ -17,7 +17,7 @@
     "S07",
     "S08"
   ],
-  "local_link_checks": 148,
+  "local_link_checks": 186,
   "rendered_text_preserved": true,
   "raw_sha256_verified": true,
   "raw_hash_mode": "canonical LF content hash; original local byte hashes retained separately",

@@ -1,0 +1,28 @@
+{
+  "performed_at": "2026-11-16T07:55:59.959485+00:00",
+  "method": "Actually reopened existing official originals with web reader; no new ingest or raw rewrite.",
+  "sources": [
+    {
+      "id": "S03",
+      "url": "https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes",
+      "body_reopened": true
+    },
+    {
+      "id": "S06",
+      "url": "https://newsroom.tiktok.com/partnering-with-our-industry-to-advance-ai-transparency-and-literacy?lang=en",
+      "body_reopened": true
+    },
+    {
+      "id": "S07",
+      "url": "https://about.fb.com/news/2022/12/designing-account-security-across-our-apps/",
+      "body_reopened": true
+    },
+    {
+      "id": "S08",
+      "url": "https://www.linecorp.com/tw/pr/news/2026/0909/",
+      "body_reopened": true
+    }
+  ],
+  "scope": "FTC known-number callback; LINE voting and verification codes; Meta official account access entry; TikTok label metadata and gradual rollout. Article bodies only, not comments/footer; no platform login or recovery test.",
+  "raw_rewritten": false
+}

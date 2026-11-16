@@ -1,0 +1,132 @@
+{
+  "performed_at": "2026-11-16T07:59:14.854Z",
+  "base": "file:///C:/Users/win11/Documents/Codex/2026-10-10/b-n/outputs/HW10_1110_DEEPFAKE_WIKI/deepfake-wiki/practice.html",
+  "scope": "Five educational simulations,15choices,20steptexts,feedback/reset/progress/directcase/keyboard/390px/home; isolated headlessbrowser; does not measure learner transfer or real scam prevention.",
+  "cases": [
+    {
+      "id": "P01_load_five_simulations",
+      "status": "passed",
+      "observed": {
+        "cases": 5,
+        "width": 1366,
+        "scrollWidth": 1366
+      }
+    },
+    {
+      "id": "P02_P01_all_options_and_lesson",
+      "status": "passed",
+      "observed": {
+        "options": 3,
+        "correct_count": 1,
+        "all_feedback_exact": true,
+        "lesson_steps": 4,
+        "takeaway": true,
+        "source_links": true
+      }
+    },
+    {
+      "id": "P02_P02_all_options_and_lesson",
+      "status": "passed",
+      "observed": {
+        "options": 3,
+        "correct_count": 1,
+        "all_feedback_exact": true,
+        "lesson_steps": 4,
+        "takeaway": true,
+        "source_links": true
+      }
+    },
+    {
+      "id": "P02_P03_all_options_and_lesson",
+      "status": "passed",
+      "observed": {
+        "options": 3,
+        "correct_count": 1,
+        "all_feedback_exact": true,
+        "lesson_steps": 4,
+        "takeaway": true,
+        "source_links": true
+      }
+    },
+    {
+      "id": "P02_P04_all_options_and_lesson",
+      "status": "passed",
+      "observed": {
+        "options": 3,
+        "correct_count": 1,
+        "all_feedback_exact": true,
+        "lesson_steps": 4,
+        "takeaway": true,
+        "source_links": true
+      }
+    },
+    {
+      "id": "P02_P05_all_options_and_lesson",
+      "status": "passed",
+      "observed": {
+        "options": 3,
+        "correct_count": 1,
+        "all_feedback_exact": true,
+        "lesson_steps": 4,
+        "takeaway": true,
+        "source_links": true
+      }
+    },
+    {
+      "id": "P03_reset_and_attempt_count",
+      "status": "passed",
+      "observed": {
+        "reset": true,
+        "repeated_answer_not_extra_case": true,
+        "attempted_cases": 5,
+        "not_learning_effectiveness": true
+      }
+    },
+    {
+      "id": "P04_deep_link_and_keyboard",
+      "status": "passed",
+      "observed": {
+        "direct_case_link": true,
+        "keyboard_answer": true
+      }
+    },
+    {
+      "id": "P05_case_switch_clears_answer",
+      "status": "passed",
+      "observed": {
+        "new_case_has_no_previous_feedback": true
+      }
+    },
+    {
+      "id": "P06_mobile_all5",
+      "status": "passed",
+      "observed": {
+        "viewport": 390,
+        "physical_phone": false,
+        "cases": 5,
+        "all_lessons_accessible": true
+      }
+    },
+    {
+      "id": "P07_home_practice_entry",
+      "status": "passed",
+      "observed": {
+        "home_entry_works": true
+      }
+    },
+    {
+      "id": "P08_all_choice_reasons_expand",
+      "status": "passed",
+      "observed": {
+        "three_reasons_readable": true,
+        "collapsible": true
+      }
+    }
+  ],
+  "javascript_errors": [],
+  "summary": {
+    "total": 12,
+    "passed": 12,
+    "failed": 0
+  }
+}
