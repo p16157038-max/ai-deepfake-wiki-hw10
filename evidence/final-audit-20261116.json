@@ -1,0 +1,62 @@
+{
+  "performed_at": "2026-11-16T09:20:56.749219+00:00",
+  "passed": true,
+  "scope": "Final report, interface and reproducibility checks; no new source or semantic teaching claims.",
+  "required_submission_items_present": 6,
+  "formal_report_editorial_review": "Fresh independent reviewer read newTC/VIreportsource; no material issue.",
+  "public_browser": {
+    "total": 24,
+    "passed": 24,
+    "failed": 0
+  },
+  "public_practice": {
+    "total": 12,
+    "passed": 12,
+    "failed": 0
+  },
+  "isolated_Git_LF_rebuild": {
+    "passed": true,
+    "commands": [
+      {
+        "command": [
+          "python",
+          "tools/wiki.py",
+          "lint"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python",
+          "tools/render.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python",
+          "tools/build_practice.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python",
+          "tools/build_portal.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python",
+          "tools/check.py"
+        ],
+        "exit_code": 0
+      }
+    ]
+  },
+  "report_input_validator_on_Git_copy": true,
+  "review_portability": "evidence/artifact-portability.json",
+  "teaching_data_unchanged": true,
+  "LMS_submission_performed": false
+}

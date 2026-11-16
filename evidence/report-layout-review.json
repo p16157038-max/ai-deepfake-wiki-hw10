@@ -1,19 +1,16 @@
 {
-  "performed_at": "2026-11-16T08:05:14.229386+00:00",
+  "performed_at": "2026-11-16T09:20:56.748719+00:00",
   "passed": true,
-  "renderer": "The packaged renderer was previously diagnosed as unavailable because LibreOffice soffice.exe was absent; exported updated read-only staging documents with a separate hidden Word instance, then rasterized PDFs.",
+  "report_kind": "Formal instructor-facing project report and faithful Vietnamese translation",
+  "renderer": "Separate hidden Word instance, read-only staging DOCX to PDF, then page PNGs; packaged LibreOffice renderer unavailable.",
   "pages": {
     "tc": 5,
     "vi": 5
   },
-  "visual_review": {
-    "tc": "Primary AI actually viewed all5currentpagePNGs",
-    "vi": "Primary AI actually viewed all5currentpagePNGs after the five-case update"
-  },
-  "observed": "No clipping, overlap, table or caption separation; three main pages and two appendices with four selected screenshots in each reading version. Includes the five-case practice URL and12/12publictests, with the LINE action-steps screenshot. Fine screenshot text is supplementary to clickable public evidence.",
+  "visual_review": "Primary agent actually viewed all10currentHW10pages; HW9 authoring agent separately viewed all10currentHW9pages.",
   "artifact_sha256": {
-    "成大_P16157038_系統碩一_陳世豐_HW10_AI深偽與社群詐騙報告.docx": "8b768695a1457810d10bb7dcf3bb79bc68cddb1974117d5779693a71a7f9fff0",
-    "HW10_Ban_tieng_Viet_de_doc.docx": "febb2894e0653166c11c6e29e3d5399c5de57a9e2ff278b17504a3bedd7e8146"
+    "成大_P16157038_系統碩一_陳世豐_HW10_AI深偽與社群詐騙報告.docx": "a99fbc945be10241e3d9830f7d00d06e70eb1c7e14bba7a2e77485aa0d8415d7",
+    "HW10_Ban_tieng_Viet_de_doc.docx": "9a12144e8a7a62702ce44eb6a3a974e18cc4fc298e046b3bda01ebb2a976491c"
   },
-  "not_proved": "No claim of student personal review or final LMS submission."
+  "observed": "Clear formal sections, factual results, sources, reflection, AI scope and four captioned screenshots; no internal handoff or submission coaching in report body. No clipping or overlapping."
 }

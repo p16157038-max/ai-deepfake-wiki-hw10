@@ -1,5 +1,5 @@
 {
-  "performed_at": "2026-11-16T08:07:27.353727+00:00",
+  "performed_at": "2026-11-16T09:16:37.680685+00:00",
   "site_url": "https://p16157038-max.github.io/ai-deepfake-wiki-hw10/",
   "repo_url": "https://github.com/p16157038-max/ai-deepfake-wiki-hw10",
   "anonymous": true,
@@ -33,7 +33,7 @@
       "path": "workflow.html",
       "status": 200,
       "matches_local_after_newline_normalization": true,
-      "normalized_sha256": "e9698c469ace39627203494682268978c9a475a03fb7e8d2b21e1ea183cfe34c"
+      "normalized_sha256": "6f8c27d941d96fee715bcd7a3fe764abe3da135f04e1bf197915b83f0089b626"
     },
     {
       "path": "evidence.html",
@@ -45,7 +45,7 @@
       "path": "AGENTS.md",
       "status": 200,
       "matches_local_after_newline_normalization": true,
-      "normalized_sha256": "8d34ef276914445f757b4ff0b3f77d12fda8795fc4e7cb33642f870505bc7beb"
+      "normalized_sha256": "92f543c70bc2f98032bd7639863887c97b717ec0e04dc0d30d6ac396845be528"
     },
     {
       "path": "raw/manifest.json",
@@ -72,5 +72,5 @@
       "normalized_sha256": "269e3b2120dcb9c470fc2bde18a70ad918cf667789361c4cb8c4e18802de46f6"
     }
   ],
-  "note": "All 11 anonymously fetched targets match current local content after standard CRLF/LF normalization. Static artifacts need no login, API key, or persistent runtime."
+  "note": "All fetched targets match the current local content after standard CRLF/LF normalization. Static artifacts need no login, API key, or persistent runtime."
 }
