@@ -39,8 +39,8 @@ def topics():
     for page in drafts:
         assert all(c in existing for c in page['claim_ids']),page['id']
         claims=[c for p in data['pages'] if p['kind']=='source' for c in p['claims'] if c['id'] in page['claim_ids']]
-        page={**page,'kind':'concept','claims':claims,'updated':'2026-11-15'}
-        text=[f"# {page['id']} {page['title']}",'','Wiki更新日期：2026-11-15',page['summary'],'','## 跨來源知識']
+        page={**page,'kind':'concept','claims':claims,'updated':page.get('updated','2026-11-15')}
+        text=[f"# {page['id']} {page['title']}",'',f"Wiki更新日期：{page['updated']}",page['summary'],'','## 跨來源知識']
         text += [f"\n### {section['title']}\n\n{section['text']}\n\n依據："+'、'.join(section['claims'])+'。' for section in page['sections']]
         text+=['','## 原始來源']+[f"- [{s}](../sources/{s}.md)" for s in page['sources']]+['','## 相關知識']+[f"- [{x}](../{x})" for x in page['related']]+['- [回知識索引](../index.md)']
         p=ROOT/'wiki'/page['path'];p.parent.mkdir(parents=True,exist_ok=True);p.write_text('\n'.join(text)+'\n',encoding='utf-8')

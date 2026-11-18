@@ -4,11 +4,11 @@
 
 ## 概念與跨來源綜合
 
-- [深偽與社群詐騙的基本概念](concepts/basics.md) — 分清合成媒體、冒名與釣魚；逼真不等於可信。
+- [深偽與社群詐騙的基本概念](concepts/basics.md) — 用媒體製作、誘取資料、帳號控制三個角度分清深偽、釣魚與帳號盜用。
 - [熟悉聲音與急迫要求的信任陷阱](concepts/trust.md) — 辨識催促、保密與付款要求，改用已知管道驗身分。
 - [香港與臺中兩個官方查核案例](concepts/cases.md) — 保留案發時間、地區、媒介與調查限制，不改寫成學生社群個案。
-- [TikTok 標籤與 Instagram LINE 帳號風險](concepts/platforms.md) — 平台標示、帳號安全與深偽是三個不同問題。
-- [可操作的獨立查證流程](concepts/verification.md) — 先停止不可逆行動，再離開原對話用已知管道核對，留存證據。
+- [TikTok 標籤與 Instagram LINE 帳號風險](concepts/platforms.md) — 平台標示、帳號安全與深偽是三個不同問題；身分與說法都要另外核對。
+- [可操作的獨立查證流程](concepts/verification.md) — 先停止交付，再選先前已知的管道核對；確認本人也不代表可以交 LINE 認證碼。
 - [遇到冒用或勒索時的求助與復原](concepts/response.md) — 不責備受害者；保留證據，使用臺灣警察與平台正式管道。
 
 ## 逐篇來源

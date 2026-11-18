@@ -106,3 +106,51 @@ Q06：勒索 認證碼 復原 → concepts/platforms.md,concepts/response.md,con
 ## [2026-11-16T08:05:14.111475+00:00] practice-extension-five-cases
 
 依使用者回饋重用 Q03–Q06、對應 Wiki 與證據卡，生成五個模擬練習、十五項選擇理由及二十個處理步驟。沒有新增來源篇數或重寫 raw；新增教材另做獨立語意審查與本機／公開瀏覽器各12項檢查。紀錄與引用見 evidence/practice-*.json。十四頁主課保持原稿。
+
+## [2026-11-18T07:22:20.635900+00:00] synthesis
+
+W01：LLM 依 S01,S04,S08 綜合，保留 6 項主張及限制。
+
+## [2026-11-18T07:22:20.636401+00:00] synthesis
+
+W02：LLM 依 S02,S03,S04,S08 綜合，保留 9 項主張及限制。
+
+## [2026-11-18T07:22:20.636900+00:00] synthesis
+
+W03：LLM 依 S02,S05 綜合，保留 6 項主張及限制。
+
+## [2026-11-18T07:22:20.637405+00:00] synthesis
+
+W04：LLM 依 S04,S06,S07,S08 綜合，保留 11 項主張及限制。
+
+## [2026-11-18T07:22:20.637901+00:00] synthesis
+
+W05：LLM 依 S01,S03,S04,S05,S08 綜合，保留 7 項主張及限制。
+
+## [2026-11-18T07:22:20.638402+00:00] synthesis
+
+W06：LLM 依 S01,S04,S05,S07,S08 綜合，保留 6 項主張及限制。
+
+## [2026-11-18T07:22:21.136822+00:00] query
+
+Q01：深偽 仿聲 基本概念 → concepts/basics.md,concepts/platforms.md,concepts/trust.md,concepts/cases.md。
+
+## [2026-11-18T07:22:21.138322+00:00] query
+
+Q02：香港 臺中 案例 → concepts/cases.md,concepts/trust.md。
+
+## [2026-11-18T07:22:21.139822+00:00] query
+
+Q03：親友 聲音 回撥 → concepts/trust.md,concepts/basics.md,concepts/verification.md,concepts/platforms.md。
+
+## [2026-11-18T07:22:21.141328+00:00] query
+
+Q04：TikTok Instagram LINE 標示 帳號 → concepts/platforms.md,concepts/basics.md,concepts/response.md,concepts/verification.md。
+
+## [2026-11-18T07:22:21.142331+00:00] query
+
+Q05：查證 165 證據 → concepts/verification.md,concepts/response.md,concepts/trust.md,concepts/cases.md。
+
+## [2026-11-18T07:22:21.144335+00:00] query
+
+Q06：勒索 認證碼 復原 → concepts/verification.md,concepts/platforms.md,concepts/response.md,concepts/basics.md。
