@@ -1,39 +1,83 @@
 {
   "id": "Q01",
   "question": "深偽 仿聲 基本概念",
-  "answer": "深偽會合成或操控人物的聲音、影像與影片；詐騙另可能使用一般假帳號、釣魚或帳號盜用。媒體逼真、文字通順都不足證明身分或付款要求可信。",
+  "answer": "本課用三個操作性角度區分：深偽看媒體如何製成，例如AI換臉、仿聲與假視訊；釣魚看如何用可信外觀的訊息或網頁誘人交出認證資料；帳號盜用看誰在未經授權使用既有帳號。LINE的親友帳號被盜→投票邀請→騙取認證碼→另一個帳號被盜，會連結後兩者，沒有證明使用深偽。三者可以重疊；流暢AI文字或假頭像也不能一律叫深偽。LINE認證碼不交給別人或填入不明網頁。",
   "wiki_pages": [
-    "concepts/basics.md",
-    "concepts/platforms.md",
-    "concepts/trust.md",
-    "concepts/cases.md"
+    "concepts/basics.md"
   ],
   "claim_ids": [
     "S01-C1",
+    "S04-C2",
+    "S08-C1",
+    "S08-C2",
+    "S04-C1"
+  ],
+  "retrieved_claim_ids": [
+    "S01-C1",
     "S04-C1",
     "S04-C2",
-    "S04-C3",
+    "S08-C1",
+    "S08-C2",
+    "S08-C3",
+    "S04-C4",
     "S06-C1",
     "S06-C2",
     "S06-C3",
     "S07-C1",
     "S07-C2",
     "S07-C3",
-    "S08-C1",
-    "S08-C2",
-    "S08-C3",
     "S08-C4",
     "S02-C1",
     "S02-C3",
     "S03-C1",
     "S03-C2",
     "S03-C3",
-    "S04-C4",
     "S02-C2",
     "S05-C1",
     "S05-C2",
     "S05-C3"
   ],
-  "boundaries": "Only retrieved Wiki sections; teaching simulation is labeled separately.",
-  "query_sha256": "2ebbba763db1b7a804557a79435ff759e5f96bcca03bee2f00c70a8ae2aa92eb"
+  "retrieved_wiki_pages": [
+    "concepts/basics.md",
+    "concepts/platforms.md",
+    "concepts/trust.md",
+    "concepts/cases.md"
+  ],
+  "support": [
+    {
+      "wiki": "concepts/basics.md",
+      "section": "深偽：媒體如何製成",
+      "claims": [
+        "S01-C1",
+        "S04-C2"
+      ]
+    },
+    {
+      "wiki": "concepts/basics.md",
+      "section": "釣魚：如何誘你交出資料",
+      "claims": [
+        "S08-C1",
+        "S08-C2"
+      ]
+    },
+    {
+      "wiki": "concepts/basics.md",
+      "section": "帳號盜用：誰在控制既有帳號",
+      "claims": [
+        "S08-C1"
+      ]
+    },
+    {
+      "wiki": "concepts/basics.md",
+      "section": "三個角度可以重疊",
+      "claims": [
+        "S04-C1",
+        "S04-C2",
+        "S08-C1"
+      ]
+    }
+  ],
+  "boundaries": "Only actual retrieved Wiki sections; used claims are distinct from retrieval hits. Simulations and teaching inferences are labeled; no measured learning efficacy.",
+  "query_sha256": "ad6d55f27c9d01a258919a268eb2f6faf976e1b74fde04b371d39dabcdba7171",
+  "authored_at": "2026-11-18T07:24:22.690349+00:00"
 }

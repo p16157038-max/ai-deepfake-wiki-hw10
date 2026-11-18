@@ -1,14 +1,22 @@
 {
   "id": "Q04",
   "question": "TikTok Instagram LINE 標示 帳號",
-  "answer": "TikTok的AI標示受中繼資料與導入範圍限制；無標籤不證明真人。Instagram帳號問題走官方入口，LINE投票連結可能來自被盜親友帳號；平台安全和深偽是不同問題。",
+  "answer": "TikTok的2024-05-09公告列出自有AI特效與創作者標示，並開始依C2PA中繼資料自動標示部分外來AI內容；導入漸進且有資料限制，所以無標籤不證明真人，有標籤也不保證身分或說法。若影片自稱某機構講師，不用其私訊連結，自行找機構官方網站或已知電話，分別核對人與說法；無獨立依據就維持未確認。LINE投票訊息可能來自被盜帳號，須另外核實且不交認證碼。Instagram存取問題自行走instagram.com/hacked；Meta公告說復原涉及多種信號與驗證，不保證立即成功。",
   "wiki_pages": [
-    "concepts/platforms.md",
-    "concepts/response.md",
-    "concepts/trust.md",
-    "concepts/basics.md"
+    "concepts/platforms.md"
   ],
   "claim_ids": [
+    "S06-C1",
+    "S06-C2",
+    "S06-C3",
+    "S04-C4",
+    "S08-C1",
+    "S08-C2",
+    "S07-C1",
+    "S07-C3"
+  ],
+  "retrieved_claim_ids": [
+    "S04-C4",
     "S06-C1",
     "S06-C2",
     "S06-C3",
@@ -19,19 +27,52 @@
     "S08-C2",
     "S08-C3",
     "S08-C4",
+    "S01-C1",
+    "S04-C1",
+    "S04-C2",
     "S01-C3",
     "S04-C3",
-    "S04-C4",
     "S05-C3",
-    "S02-C1",
-    "S02-C3",
-    "S03-C1",
-    "S03-C2",
-    "S03-C3",
-    "S04-C2",
-    "S01-C1",
-    "S04-C1"
+    "S01-C2",
+    "S03-C2"
   ],
-  "boundaries": "Only retrieved Wiki sections; teaching simulation is labeled separately.",
-  "query_sha256": "b9c027ed89dc50218ea1e630a4115c5c867a8d34bbb06b971a58e45e3a7dcce6"
+  "retrieved_wiki_pages": [
+    "concepts/platforms.md",
+    "concepts/basics.md",
+    "concepts/response.md",
+    "concepts/verification.md"
+  ],
+  "support": [
+    {
+      "wiki": "concepts/platforms.md",
+      "section": "TikTok 的 AI 標示",
+      "claims": [
+        "S06-C1",
+        "S06-C2",
+        "S06-C3"
+      ]
+    },
+    {
+      "wiki": "concepts/platforms.md",
+      "section": "把查來源做成具體動作",
+      "claims": [
+        "S04-C4",
+        "S06-C1",
+        "S06-C3"
+      ]
+    },
+    {
+      "wiki": "concepts/platforms.md",
+      "section": "熟悉聊天室仍可能被冒用",
+      "claims": [
+        "S08-C1",
+        "S08-C2",
+        "S07-C1",
+        "S07-C3"
+      ]
+    }
+  ],
+  "boundaries": "Only actual retrieved Wiki sections; used claims are distinct from retrieval hits. Simulations and teaching inferences are labeled; no measured learning efficacy.",
+  "query_sha256": "840531cca8b5d71b97ea055b382f83260339ac1cee95f7b55c64f591438dc76c",
+  "authored_at": "2026-11-18T07:24:22.690349+00:00"
 }

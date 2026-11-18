@@ -1,12 +1,19 @@
 {
   "id": "Q02",
   "question": "香港 臺中 案例",
-  "answer": "可用兩件官方具體事件教學：香港2024年1月底接報的預錄視訊案，約港幣兩億元，並非自由互動；臺中2025年公布的紙本合成影像恐嚇信，並非學生私訊事件。兩案的時間、地區與媒介不能改寫。",
+  "answer": "兩件官方具體事件必須保留時間、地區與媒介。香港警方於2024年1月底接報：英國總部財務主管遭假冒，員工經釣魚電郵參加視訊後，授權轉款至五個香港帳戶，損失約港幣兩億元。2024-06-26官方答覆說，警方當時相信是預錄視訊、實際沒有互動，後續匯款指示經即時訊息傳送。臺中2025-03-15公布八個機關收到紙本合成性影像恐嚇信，警方稱鑑識確認深偽；應留證報案、不轉傳。後者沒有已付款損失數字，不能改寫為學生社群個案。",
   "wiki_pages": [
-    "concepts/cases.md",
-    "concepts/trust.md"
+    "concepts/cases.md"
   ],
   "claim_ids": [
+    "S02-C1",
+    "S02-C2",
+    "S02-C3",
+    "S05-C1",
+    "S05-C2",
+    "S05-C3"
+  ],
+  "retrieved_claim_ids": [
     "S02-C1",
     "S02-C2",
     "S02-C3",
@@ -21,6 +28,31 @@
     "S08-C1",
     "S08-C2"
   ],
-  "boundaries": "Only retrieved Wiki sections; teaching simulation is labeled separately.",
-  "query_sha256": "8fac6a80cc52ba7120baa5ab036f32b6a0b07522818249762709239402139ac1"
+  "retrieved_wiki_pages": [
+    "concepts/cases.md",
+    "concepts/trust.md"
+  ],
+  "support": [
+    {
+      "wiki": "concepts/cases.md",
+      "section": "香港預錄視訊案",
+      "claims": [
+        "S02-C1",
+        "S02-C2",
+        "S02-C3"
+      ]
+    },
+    {
+      "wiki": "concepts/cases.md",
+      "section": "臺中合成影像恐嚇信",
+      "claims": [
+        "S05-C1",
+        "S05-C2",
+        "S05-C3"
+      ]
+    }
+  ],
+  "boundaries": "Only actual retrieved Wiki sections; used claims are distinct from retrieval hits. Simulations and teaching inferences are labeled; no measured learning efficacy.",
+  "query_sha256": "f24d36e8cc276a273de567efdb9cf91141dc33f76428f44453626de79081636d",
+  "authored_at": "2026-11-18T07:24:22.690349+00:00"
 }

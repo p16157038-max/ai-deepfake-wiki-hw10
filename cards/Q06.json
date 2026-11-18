@@ -1,34 +1,85 @@
 {
   "id": "Q06",
   "question": "勒索 認證碼 復原",
-  "answer": "遭影像威脅不表示影像是真的；保留相關證據，不轉傳，向警方求助。帳號復原使用官方Instagram/LINE管道，不保證成功，也沒有實測私人帳號復原。認證碼不交給他人。",
+  "answer": "合成性影像可能被用於勒索；收到威脅不表示影像真實，不必等自己驗真才求助。停止付款或交敏感資料，保留帳號、時間、對話及相關交易證據，私下提供警方，避免轉傳影像；可165諮詢，需要報案可110或向警察機關。不向陌生代救者付款或交敏感資料；Instagram自行開instagram.com/hacked，復原涉及驗證，不保證取回。LINE遭盜不要直接刪App，無法登入時依官方免登入客服表單求助；即使認識對方也不交LINE認證碼。",
   "wiki_pages": [
-    "concepts/platforms.md",
     "concepts/response.md",
-    "concepts/basics.md",
+    "concepts/platforms.md",
     "concepts/verification.md"
   ],
   "claim_ids": [
+    "S01-C3",
+    "S04-C3",
+    "S05-C3",
+    "S07-C1",
+    "S07-C3",
+    "S08-C2",
+    "S08-C3",
+    "S04-C4"
+  ],
+  "retrieved_claim_ids": [
+    "S01-C2",
+    "S01-C3",
+    "S03-C2",
+    "S04-C4",
+    "S05-C3",
+    "S08-C1",
+    "S08-C2",
     "S06-C1",
     "S06-C2",
     "S06-C3",
     "S07-C1",
     "S07-C2",
     "S07-C3",
-    "S08-C1",
-    "S08-C2",
     "S08-C3",
     "S08-C4",
-    "S01-C3",
     "S04-C3",
-    "S04-C4",
-    "S05-C3",
     "S01-C1",
     "S04-C1",
-    "S04-C2",
-    "S01-C2",
-    "S03-C2"
+    "S04-C2"
   ],
-  "boundaries": "Only retrieved Wiki sections; teaching simulation is labeled separately.",
-  "query_sha256": "9e89c500c75747bbe89884430581229de1e1148b55fde1887b4a58ceb3549a4b"
+  "retrieved_wiki_pages": [
+    "concepts/verification.md",
+    "concepts/platforms.md",
+    "concepts/response.md",
+    "concepts/basics.md"
+  ],
+  "support": [
+    {
+      "wiki": "concepts/response.md",
+      "section": "在臺灣找誰協助",
+      "claims": [
+        "S01-C3",
+        "S04-C3",
+        "S05-C3"
+      ]
+    },
+    {
+      "wiki": "concepts/platforms.md",
+      "section": "熟悉聊天室仍可能被冒用",
+      "claims": [
+        "S07-C1",
+        "S07-C3",
+        "S08-C2"
+      ]
+    },
+    {
+      "wiki": "concepts/response.md",
+      "section": "使用官方帳號支援",
+      "claims": [
+        "S07-C1",
+        "S08-C3"
+      ]
+    },
+    {
+      "wiki": "concepts/verification.md",
+      "section": "停 離 查 留",
+      "claims": [
+        "S04-C4"
+      ]
+    }
+  ],
+  "boundaries": "Only actual retrieved Wiki sections; used claims are distinct from retrieval hits. Simulations and teaching inferences are labeled; no measured learning efficacy.",
+  "query_sha256": "3f27f95b8ce12f434246c26246bb8d4e98f4c338fb1a078ea8dcefb0687ce0b9",
+  "authored_at": "2026-11-18T07:24:22.690349+00:00"
 }

@@ -1,6 +1,6 @@
 {
   "id": "Q05",
-  "performed_at": "2026-11-15T15:23:59.709246+00:00",
+  "performed_at": "2026-11-18T07:22:21.142331+00:00",
   "question": "查證 165 證據",
   "method": "index-first lexical retrieval of LLM-written Wiki; LLM synthesizes answers from retrieved pages afterward",
   "pages": [
@@ -15,6 +15,7 @@
     "S03-C2",
     "S04-C4",
     "S05-C3",
+    "S08-C1",
     "S08-C2",
     "S04-C3",
     "S07-C1",
@@ -24,7 +25,6 @@
     "S03-C1",
     "S03-C3",
     "S04-C2",
-    "S08-C1",
     "S02-C2",
     "S05-C1",
     "S05-C2"
@@ -32,7 +32,7 @@
   "retrieved_sections": [
     {
       "page": "concepts/verification.md",
-      "summary": "先停止不可逆行動，再離開原對話用已知管道核對，留存證據。",
+      "summary": "先停止交付，再選先前已知的管道核對；確認本人也不代表可以交 LINE 認證碼。",
       "sections": [
         {
           "title": "停 離 查 留",
@@ -42,6 +42,17 @@
             "S03-C2",
             "S04-C4",
             "S05-C3",
+            "S08-C2"
+          ]
+        },
+        {
+          "title": "示範：好友要你投票並交認證碼",
+          "text": "以下為依官方建議整理的教學模擬，不是真實對話或辦案紀錄。停：先不點投票連結、不填 LINE 認證碼。離：從手機通訊錄找先前已保存的朋友電話，不撥原訊息新提供的號碼，也不只在原聊天室問『是你嗎』。查：另打電話核對『你剛傳過投票邀請嗎？』及邀請內容；聯絡不到就維持不交碼，必要時向其他親友核對。即使確認是本人，LINE 認證碼仍不交給別人、不填入不明網頁，因為核對身分不等於授權交碼。留：若仍有異常，保留帳號、時間、對話與相關交易證據；有疑慮可自行撥 165 諮詢。這是選擇獨立管道的示範，不保證能阻擋所有冒用。",
+          "claims": [
+            "S01-C3",
+            "S03-C2",
+            "S05-C3",
+            "S08-C1",
             "S08-C2"
           ]
         },
@@ -130,7 +141,39 @@
       ]
     }
   ],
-  "answer": "本課以停、離、查、留整理官方建議：停止付款/個資交付，離開原對話的查證路線，自行用已知電話或官方網站核實，保留證據。臺灣可疑詐騙可165諮詢，需要報案可110或警察機關。",
-  "answer_authored_by": "Codex coding LLM after reading the retrieved Wiki sections",
-  "answer_written_at": "2026-11-15T15:26:54.192788+00:00"
+  "answer": "停、離、查、留是本課依官方建議整理的口訣。停：不付款、不交個資或認證碼。離：不用原對話提供的電話、連結核實。查：自行找已知電話或官方管道，核對身分及要求。留：保留帳號、時間、對話及交易證據，私下交官方。以LINE投票索碼的模擬為例，先不點不填，再從先前通訊錄找朋友電話，問是否傳過該邀請；聯絡不到就維持不交碼並向其他親友核對。即使確認本人，LINE認證碼仍不交人、不填不明頁。有疑慮可自行撥165諮詢。",
+  "used_claim_ids": [
+    "S01-C3",
+    "S03-C2",
+    "S04-C4",
+    "S05-C3",
+    "S08-C2",
+    "S08-C1"
+  ],
+  "answer_support": [
+    {
+      "wiki": "concepts/verification.md",
+      "section": "停 離 查 留",
+      "claims": [
+        "S01-C3",
+        "S03-C2",
+        "S04-C4",
+        "S05-C3",
+        "S08-C2"
+      ]
+    },
+    {
+      "wiki": "concepts/verification.md",
+      "section": "示範：好友要你投票並交認證碼",
+      "claims": [
+        "S01-C3",
+        "S03-C2",
+        "S05-C3",
+        "S08-C1",
+        "S08-C2"
+      ]
+    }
+  ],
+  "answer_authored_by": "Codex coding LLM after reading the actual 2026-11-18 retrieved Wiki sections",
+  "answer_written_at": "2026-11-18T07:24:22.690349+00:00"
 }

@@ -11,11 +11,10 @@
       "wiki": "concepts/platforms.md",
       "claims": [
         "S07-C1",
-        "S07-C2",
         "S08-C1",
         "S08-C2"
       ],
-      "label": "官方安全說明"
+      "label": "官方入口與LINE索碼提醒"
     }
   ],
   "items": [

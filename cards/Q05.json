@@ -1,19 +1,25 @@
 {
   "id": "Q05",
   "question": "查證 165 證據",
-  "answer": "本課以停、離、查、留整理官方建議：停止付款/個資交付，離開原對話的查證路線，自行用已知電話或官方網站核實，保留證據。臺灣可疑詐騙可165諮詢，需要報案可110或警察機關。",
+  "answer": "停、離、查、留是本課依官方建議整理的口訣。停：不付款、不交個資或認證碼。離：不用原對話提供的電話、連結核實。查：自行找已知電話或官方管道，核對身分及要求。留：保留帳號、時間、對話及交易證據，私下交官方。以LINE投票索碼的模擬為例，先不點不填，再從先前通訊錄找朋友電話，問是否傳過該邀請；聯絡不到就維持不交碼並向其他親友核對。即使確認本人，LINE認證碼仍不交人、不填不明頁。有疑慮可自行撥165諮詢。",
   "wiki_pages": [
-    "concepts/verification.md",
-    "concepts/response.md",
-    "concepts/trust.md",
-    "concepts/cases.md"
+    "concepts/verification.md"
   ],
   "claim_ids": [
+    "S01-C3",
+    "S03-C2",
+    "S04-C4",
+    "S05-C3",
+    "S08-C2",
+    "S08-C1"
+  ],
+  "retrieved_claim_ids": [
     "S01-C2",
     "S01-C3",
     "S03-C2",
     "S04-C4",
     "S05-C3",
+    "S08-C1",
     "S08-C2",
     "S04-C3",
     "S07-C1",
@@ -23,11 +29,41 @@
     "S03-C1",
     "S03-C3",
     "S04-C2",
-    "S08-C1",
     "S02-C2",
     "S05-C1",
     "S05-C2"
   ],
-  "boundaries": "Only retrieved Wiki sections; teaching simulation is labeled separately.",
-  "query_sha256": "32a29e51ed8688d4c3aef6ac83958fe81deb946c16e28609dff131f91136c91d"
+  "retrieved_wiki_pages": [
+    "concepts/verification.md",
+    "concepts/response.md",
+    "concepts/trust.md",
+    "concepts/cases.md"
+  ],
+  "support": [
+    {
+      "wiki": "concepts/verification.md",
+      "section": "停 離 查 留",
+      "claims": [
+        "S01-C3",
+        "S03-C2",
+        "S04-C4",
+        "S05-C3",
+        "S08-C2"
+      ]
+    },
+    {
+      "wiki": "concepts/verification.md",
+      "section": "示範：好友要你投票並交認證碼",
+      "claims": [
+        "S01-C3",
+        "S03-C2",
+        "S05-C3",
+        "S08-C1",
+        "S08-C2"
+      ]
+    }
+  ],
+  "boundaries": "Only actual retrieved Wiki sections; used claims are distinct from retrieval hits. Simulations and teaching inferences are labeled; no measured learning efficacy.",
+  "query_sha256": "55ab656d203a0f387ed91a5f9e7c5c36a3595bd4f63f575361289d6ffbefc774",
+  "authored_at": "2026-11-18T07:24:22.690349+00:00"
 }
