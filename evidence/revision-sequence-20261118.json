@@ -1,0 +1,15 @@
+{
+  "performed_at": "2026-11-18T07:53:49.189776+00:00",
+  "version": "1.3",
+  "confirmation": "planning/confirmation-20261118.json",
+  "plan_commit": "b9a66eb",
+  "Wiki_before_teaching_commit": "fa5f4da",
+  "refreshed_query_and_teaching_commit": "2b3e11c",
+  "independent_review": "evidence/independent-review.json",
+  "practice_review": "evidence/practice-semantic-review.json",
+  "actual_failure": "evidence/upgrade-build-round1.json",
+  "corrected_execution": "evidence/workflow-run.json",
+  "public_core": "evidence/browser-checks-redesign.json",
+  "public_practice": "evidence/practice-browser-public.json",
+  "chronology_statement": "CurrentrevisionconfirmedbeforeWikiupdate; queries/cardsreadupdatedWiki; trialHTMLreviewedindependently; rebuiltthenpubliclyaccepted. No retroactiveapproval ofinitialversion."
+}

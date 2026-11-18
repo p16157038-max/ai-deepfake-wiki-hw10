@@ -1,0 +1,20 @@
+{
+  "performed_at": "2026-11-18T07:53:49.173266+00:00",
+  "version": "1.3",
+  "passed": true,
+  "pages": {
+    "tc": 5,
+    "vi": 5
+  },
+  "embedded_screenshots_each": 4,
+  "renderer": "PackagedrendererdiagnosedmissingLibreOffice; separatehiddenWordreadonlyexporttoPDF, thenpagePNGs.",
+  "actual_visual_review": {
+    "tc": "Primaryagent viewedall5currentpages",
+    "vi": "Independentreportreader viewedall5pages, thenrecheckedpages1and4aftertranslationclarification"
+  },
+  "artifact_sha256": {
+    "成大_P16157038_系統碩一_陳世豐_HW10_AI深偽與社群詐騙報告.docx": "dd235e8f59b3f6638091abdaf5b06d82ca4837dcabf136d9aa99be854732b9d9",
+    "HW10_Ban_tieng_Viet_de_doc.docx": "e768b5ef6aa6869bb632295888f53354f313debd08d9e19f481b02f9edf4806a"
+  },
+  "observed": "No clipping,overlap,orphanheadingsorhandoffcoaching. Fourcaptionedproofimages retained. TCandVImeaningandnumbersaligned."
+}
