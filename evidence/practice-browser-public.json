@@ -1,5 +1,9 @@
 {
-  "performed_at": "2026-11-16T08:01:12.726Z",
+  "artifact_sha256": {
+    "teaching/practice.json": "61baa94e4404fee17443a7b35f8404f8b3cda16f5032b5f5fc0dd8da93456c0d",
+    "practice.html": "15fd1a672590a15a7ab3ec0e92bce52c00988d11c3e6ce433fe7feab086940b1"
+  },
+  "performed_at": "2026-11-18T07:47:28.975Z",
   "base": "https://p16157038-max.github.io/ai-deepfake-wiki-hw10/practice.html",
   "scope": "Five educational simulations,15choices,20steptexts,feedback/reset/progress/directcase/keyboard/390px/home; isolated headlessbrowser; does not measure learner transfer or real scam prevention.",
   "cases": [
@@ -121,12 +125,29 @@
         "three_reasons_readable": true,
         "collapsible": true
       }
+    },
+    {
+      "id": "P09_reasoning_before_reference_and_reset",
+      "status": "passed",
+      "observed": {
+        "cases": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05"
+        ],
+        "own_answer_before_reference": true,
+        "three_criteria_each": true,
+        "reset_clears_text_and_reference": true,
+        "not_automatic_grading": true
+      }
     }
   ],
   "javascript_errors": [],
   "summary": {
-    "total": 12,
-    "passed": 12,
+    "total": 13,
+    "passed": 13,
     "failed": 0
   }
 }

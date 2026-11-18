@@ -1,5 +1,5 @@
 {
-  "performed_at": "2026-11-18T07:39:00.039493+00:00",
+  "performed_at": "2026-11-18T07:48:28.952630+00:00",
   "scope": "Executable checks/rebuild over saved LLM-authored Wiki, drafts and practice; no new LLM ingest or semantic review.",
   "commands": [
     {
@@ -8,9 +8,9 @@
         "tools/wiki.py",
         "lint"
       ],
-      "performed_at": "2026-11-18T07:38:59.069534+00:00",
+      "performed_at": "2026-11-18T07:48:27.944807+00:00",
       "exit_code": 0,
-      "stdout": "{\"performed_at\": \"2026-11-18T07:38:59.063034+00:00\", \"source_count\": 8, \"concept_count\": 6, \"raw_immutable\": true, \"errors\": [], \"semantic_truth_proved_by_script\": false}\n",
+      "stdout": "{\"performed_at\": \"2026-11-18T07:48:27.937299+00:00\", \"source_count\": 8, \"concept_count\": 6, \"raw_immutable\": true, \"errors\": [], \"semantic_truth_proved_by_script\": false}\n",
       "stderr": ""
     },
     {
@@ -18,7 +18,7 @@
         "python",
         "tools/render.py"
       ],
-      "performed_at": "2026-11-18T07:38:59.232475+00:00",
+      "performed_at": "2026-11-18T07:48:28.120061+00:00",
       "exit_code": 0,
       "stdout": "Rendered approved text only: C:\\Users\\win11\\Documents\\Codex\\2026-10-10\\b-n\\outputs\\HW10_1110_DEEPFAKE_WIKI\\deepfake-wiki\\deck.html\n",
       "stderr": ""
@@ -28,7 +28,7 @@
         "python",
         "tools/build_practice.py"
       ],
-      "performed_at": "2026-11-18T07:38:59.368634+00:00",
+      "performed_at": "2026-11-18T07:48:28.244737+00:00",
       "exit_code": 0,
       "stdout": "Built practice.html: 5 authored teaching simulations, inline CSS/JS, manifest-resolved citations; no tests or approval claimed.\n",
       "stderr": ""
@@ -39,7 +39,7 @@
         "tools/check.py",
         "--trace-only"
       ],
-      "performed_at": "2026-11-18T07:38:59.518334+00:00",
+      "performed_at": "2026-11-18T07:48:28.407389+00:00",
       "exit_code": 0,
       "stdout": "{\"trace_prepared\": true, \"slides\": 14, \"errors\": []}\n",
       "stderr": ""
@@ -49,7 +49,7 @@
         "python",
         "tools/build_portal.py"
       ],
-      "performed_at": "2026-11-18T07:38:59.704135+00:00",
+      "performed_at": "2026-11-18T07:48:28.612008+00:00",
       "exit_code": 0,
       "stdout": "Built offline home, Wiki, workflow and exact evidence views from saved artifacts; no new test or approval claimed.\n",
       "stderr": ""
@@ -59,9 +59,9 @@
         "python",
         "tools/check.py"
       ],
-      "performed_at": "2026-11-18T07:39:00.038993+00:00",
+      "performed_at": "2026-11-18T07:48:28.952630+00:00",
       "exit_code": 0,
-      "stdout": "{\"performed_at\": \"2026-11-18T07:39:00.031987+00:00\", \"passed\": true, \"sources\": 8, \"concept_pages\": 6, \"query_answers\": 6, \"slides\": 14, \"quiz_count\": 2, \"slide_citation_coverage\": 14, \"source_coverage\": [\"S01\", \"S02\", \"S03\", \"S04\", \"S05\", \"S06\", \"S07\", \"S08\"], \"local_link_checks\": 197, \"rendered_text_preserved\": true, \"raw_sha256_verified\": true, \"raw_hash_mode\": \"canonical LF content hash; original local byte hashes retained separately\", \"numeric_case_evidence\": {\"港幣2億元\": {\"claim\": \"S02-C2\", \"source_wording\": \"港幣兩億元\", \"value\": 200000000, \"currency\": \"HKD\"}, \"八個機關\": {\"claim\": \"S05-C1\", \"source_wording\": \"八個機關\", \"value\": 8, \"unit\": \"機關\"}, \"五個香港銀行帳戶\": {\"claim\": \"S02-C2\", \"source_wording\": \"五個香港銀行帳戶\", \"value\": 5, \"unit\": \"銀行帳戶\"}}, \"semantic_truth_proved_by_script\": false, \"errors\": [], \"evidence_card_precision\": [{\"query\": \"Q01\", \"retrieved_claims\": 23, \"used_claims\": 5, \"query_sha256_matches\": true}, {\"query\": \"Q02\", \"retrieved_claims\": 13, \"used_claims\": 6, \"query_sha256_matches\": true}, {\"query\": \"Q03\", \"retrieved_claims\": 22, \"used_claims\": 5, \"query_sha256_matches\": true}, {\"query\": \"Q04\", \"retrieved_claims\": 19, \"used_claims\": 8, \"query_sha256_matches\": true}, {\"query\": \"Q05\", \"retrieved_claims\": 18, \"used_claims\": 6, \"query_sha256_matches\": true}, {\"query\": \"Q06\", \"retrieved_claims\": 19, \"used_claims\": 8, \"query_sha256_matches\": true}]}\n",
+      "stdout": "{\"performed_at\": \"2026-11-18T07:48:28.945097+00:00\", \"passed\": true, \"sources\": 8, \"concept_pages\": 6, \"query_answers\": 6, \"slides\": 14, \"quiz_count\": 2, \"slide_citation_coverage\": 14, \"source_coverage\": [\"S01\", \"S02\", \"S03\", \"S04\", \"S05\", \"S06\", \"S07\", \"S08\"], \"local_link_checks\": 197, \"rendered_text_preserved\": true, \"raw_sha256_verified\": true, \"raw_hash_mode\": \"canonical LF content hash; original local byte hashes retained separately\", \"numeric_case_evidence\": {\"港幣2億元\": {\"claim\": \"S02-C2\", \"source_wording\": \"港幣兩億元\", \"value\": 200000000, \"currency\": \"HKD\"}, \"八個機關\": {\"claim\": \"S05-C1\", \"source_wording\": \"八個機關\", \"value\": 8, \"unit\": \"機關\"}, \"五個香港銀行帳戶\": {\"claim\": \"S02-C2\", \"source_wording\": \"五個香港銀行帳戶\", \"value\": 5, \"unit\": \"銀行帳戶\"}}, \"semantic_truth_proved_by_script\": false, \"errors\": [], \"evidence_card_precision\": [{\"query\": \"Q01\", \"retrieved_claims\": 23, \"used_claims\": 5, \"query_sha256_matches\": true}, {\"query\": \"Q02\", \"retrieved_claims\": 13, \"used_claims\": 6, \"query_sha256_matches\": true}, {\"query\": \"Q03\", \"retrieved_claims\": 22, \"used_claims\": 5, \"query_sha256_matches\": true}, {\"query\": \"Q04\", \"retrieved_claims\": 19, \"used_claims\": 8, \"query_sha256_matches\": true}, {\"query\": \"Q05\", \"retrieved_claims\": 18, \"used_claims\": 6, \"query_sha256_matches\": true}, {\"query\": \"Q06\", \"retrieved_claims\": 19, \"used_claims\": 8, \"query_sha256_matches\": true}]}\n",
       "stderr": ""
     }
   ],
@@ -70,7 +70,7 @@
     "deck.html": "16bd30df9fcf6ec9ed2ccb87d988b914e460762f1723c8e1ebbe9ecd5bb0e194",
     "wiki.html": "1d8f0b4aa07a595f1b286de185f76106f6ccd118436fa0a16b8f77994fd2b2d6",
     "workflow.html": "833522a46c4f19594e749e06c0810580665b05942f6606180f045f7cfb99f4da",
-    "evidence.html": "5baed517143ebff2fe78d0377688dbe13a5273ca3b9df38ab8ba73e879c1e2d0",
+    "evidence.html": "707463b5f6b117908c765389ba0d67e89f1621e6d741c02fffaf393df119a616",
     "teaching/deck.json": "db75ce8971bc90cfa204c29daa4ee8bb0a96ceb4cba82904478cd9f3b302a9f8",
     "practice.html": "15fd1a672590a15a7ab3ec0e92bce52c00988d11c3e6ce433fe7feab086940b1",
     "teaching/practice.json": "61baa94e4404fee17443a7b35f8404f8b3cda16f5032b5f5fc0dd8da93456c0d"
@@ -79,7 +79,7 @@
     "deck.html": "16bd30df9fcf6ec9ed2ccb87d988b914e460762f1723c8e1ebbe9ecd5bb0e194",
     "wiki.html": "1d8f0b4aa07a595f1b286de185f76106f6ccd118436fa0a16b8f77994fd2b2d6",
     "workflow.html": "833522a46c4f19594e749e06c0810580665b05942f6606180f045f7cfb99f4da",
-    "evidence.html": "5baed517143ebff2fe78d0377688dbe13a5273ca3b9df38ab8ba73e879c1e2d0",
+    "evidence.html": "707463b5f6b117908c765389ba0d67e89f1621e6d741c02fffaf393df119a616",
     "teaching/deck.json": "db75ce8971bc90cfa204c29daa4ee8bb0a96ceb4cba82904478cd9f3b302a9f8",
     "practice.html": "15fd1a672590a15a7ab3ec0e92bce52c00988d11c3e6ce433fe7feab086940b1",
     "teaching/practice.json": "61baa94e4404fee17443a7b35f8404f8b3cda16f5032b5f5fc0dd8da93456c0d"

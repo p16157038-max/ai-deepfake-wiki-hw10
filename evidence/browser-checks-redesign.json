@@ -1,6 +1,10 @@
 {
-  "performed_at": "2026-11-16T08:01:14.641Z",
-  "revision": "2026-11-16 clarity and UI revision",
+  "artifact_sha256": {
+    "teaching/deck.json": "db75ce8971bc90cfa204c29daa4ee8bb0a96ceb4cba82904478cd9f3b302a9f8",
+    "deck.html": "16bd30df9fcf6ec9ed2ccb87d988b914e460762f1723c8e1ebbe9ecd5bb0e194"
+  },
+  "performed_at": "2026-11-18T07:47:30.511Z",
+  "revision": "2026-11-18 confirmed teaching revision 1.3",
   "base": "https://p16157038-max.github.io/ai-deepfake-wiki-hw10/deck.html",
   "environment": {
     "browser": "150.0.7871.187",
@@ -223,7 +227,7 @@
         "width": 1366,
         "height": 768,
         "scrollWidth": 1366,
-        "scrollHeight": 1945
+        "scrollHeight": 2009
       }
     },
     {

@@ -48,7 +48,7 @@ TikTok只依2024公告解釋標示範圍，未把缺標籤當驗真；IG復原�
 - teaching/deck.json：`db75ce8971bc90cfa204c29daa4ee8bb0a96ceb4cba82904478cd9f3b302a9f8`
 - deck.html：`16bd30df9fcf6ec9ed2ccb87d988b914e460762f1723c8e1ebbe9ecd5bb0e194`
 - teaching/practice.json：`61baa94e4404fee17443a7b35f8404f8b3cda16f5032b5f5fc0dd8da93456c0d`
-- practice.html：`ab01fc1f4cbc3fccc465cbab8b6cf175a1d9a920f1837e730db7bbf642d38519`
+- practice.html：`15fd1a672590a15a7ab3ec0e92bce52c00988d11c3e6ce433fe7feab086940b1`
 
 完整範圍、逐頁紀錄及原始／統一LF雜湊見同名JSON；上述四個成果目前位元組雜湊與統一LF後相同。
 
