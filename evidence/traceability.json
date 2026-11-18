@@ -42,20 +42,24 @@
         "concepts/verification.md"
       ],
       "claim_ids": [
+        "S01-C1",
         "S03-C2",
-        "S04-C1",
         "S04-C2",
-        "S05-C3"
+        "S05-C3",
+        "S08-C1",
+        "S08-C2"
       ],
       "sources": [
+        "S01",
         "S03",
         "S04",
-        "S05"
+        "S05",
+        "S08"
       ]
     },
     {
       "slide": "s03",
-      "title": "深偽改變媒體，詐騙利用信任",
+      "title": "深偽、釣魚、帳號盜用，各看哪一層",
       "queries": [
         "Q01"
       ],
@@ -68,37 +72,36 @@
       "claim_ids": [
         "S01-C1",
         "S04-C1",
-        "S04-C2"
+        "S04-C2",
+        "S08-C1",
+        "S08-C2"
       ],
       "sources": [
         "S01",
-        "S04"
+        "S04",
+        "S08"
       ]
     },
     {
       "slide": "s04",
-      "title": "從內容到要求，風險藏在哪一步",
+      "title": "一條LINE風險鏈，接上兩個概念",
       "queries": [
-        "Q03",
+        "Q01",
         "Q04"
       ],
       "cards": [
-        "cards/Q03.json",
+        "cards/Q01.json",
         "cards/Q04.json"
       ],
       "wiki_pages": [
-        "concepts/trust.md",
-        "concepts/platforms.md"
+        "concepts/basics.md"
       ],
       "claim_ids": [
-        "S02-C1",
-        "S02-C3",
-        "S03-C1",
+        "S04-C2",
         "S08-C1"
       ],
       "sources": [
-        "S02",
-        "S03",
+        "S04",
         "S08"
       ]
     },
@@ -154,11 +157,13 @@
         "cards/Q03.json"
       ],
       "wiki_pages": [
-        "concepts/trust.md"
+        "concepts/trust.md",
+        "concepts/basics.md"
       ],
       "claim_ids": [
         "S03-C1",
         "S03-C2",
+        "S04-C2",
         "S04-C4"
       ],
       "sources": [
@@ -204,11 +209,13 @@
         "concepts/platforms.md"
       ],
       "claim_ids": [
+        "S04-C4",
         "S06-C1",
         "S06-C2",
         "S06-C3"
       ],
       "sources": [
+        "S04",
         "S06"
       ]
     },
@@ -226,7 +233,6 @@
       ],
       "claim_ids": [
         "S07-C1",
-        "S07-C2",
         "S08-C1",
         "S08-C2"
       ],
@@ -237,7 +243,7 @@
     },
     {
       "slide": "s11",
-      "title": "把查證做成四個動作",
+      "title": "LINE索碼時，怎麼停、離、查、留",
       "queries": [
         "Q05"
       ],
@@ -250,14 +256,13 @@
       "claim_ids": [
         "S01-C3",
         "S03-C2",
-        "S04-C4",
         "S05-C3",
+        "S08-C1",
         "S08-C2"
       ],
       "sources": [
         "S01",
         "S03",
-        "S04",
         "S05",
         "S08"
       ]
@@ -277,10 +282,12 @@
         "concepts/response.md"
       ],
       "claim_ids": [
+        "S01-C3",
         "S04-C3",
         "S05-C3"
       ],
       "sources": [
+        "S01",
         "S04",
         "S05"
       ]
@@ -314,33 +321,28 @@
     },
     {
       "slide": "s14",
-      "title": "下一次收到訊息，你會先問什麼",
+      "title": "自己說一次：是哪一層、怎麼查",
       "queries": [
         "Q01",
-        "Q05",
-        "Q04"
+        "Q05"
       ],
       "cards": [
         "cards/Q01.json",
-        "cards/Q05.json",
-        "cards/Q04.json"
+        "cards/Q05.json"
       ],
       "wiki_pages": [
-        "concepts/verification.md",
-        "concepts/platforms.md"
+        "concepts/basics.md",
+        "concepts/verification.md"
       ],
       "claim_ids": [
         "S03-C2",
-        "S04-C4",
-        "S05-C3",
-        "S06-C3",
+        "S04-C2",
+        "S08-C1",
         "S08-C2"
       ],
       "sources": [
         "S03",
         "S04",
-        "S05",
-        "S06",
         "S08"
       ]
     }

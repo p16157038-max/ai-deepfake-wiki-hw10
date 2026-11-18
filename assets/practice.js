@@ -43,6 +43,9 @@
     feedback.hidden = true;
     feedback.removeAttribute("data-result");
     panel.querySelector("#practice-lesson").hidden = true;
+    const reason = panel.querySelector("#practice-reason");
+    if (reason) reason.value = "";
+    panel.querySelectorAll(".reason-reference").forEach((details) => { details.open = false; });
     if (focus) panel.querySelector(".practice-option")?.focus({ preventScroll: true });
   }
 

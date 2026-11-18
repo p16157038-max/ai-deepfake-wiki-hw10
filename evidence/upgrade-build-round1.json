@@ -1,0 +1,83 @@
+{
+  "performed_at": "2026-11-18T07:30:42.335618+00:00",
+  "scope": "Executable checks/rebuild over saved LLM-authored Wiki, drafts and practice; no new LLM ingest or semantic review.",
+  "commands": [
+    {
+      "command": [
+        "python",
+        "tools/wiki.py",
+        "lint"
+      ],
+      "performed_at": "2026-11-18T07:30:41.689817+00:00",
+      "exit_code": 0,
+      "stdout": "{\"performed_at\": \"2026-11-18T07:30:41.682815+00:00\", \"source_count\": 8, \"concept_count\": 6, \"raw_immutable\": true, \"errors\": [], \"semantic_truth_proved_by_script\": false}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "tools/render.py"
+      ],
+      "performed_at": "2026-11-18T07:30:41.938590+00:00",
+      "exit_code": 0,
+      "stdout": "Rendered approved text only: C:\\Users\\win11\\Documents\\Codex\\2026-10-10\\b-n\\outputs\\HW10_1110_DEEPFAKE_WIKI\\deepfake-wiki\\deck.html\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "tools/build_practice.py"
+      ],
+      "performed_at": "2026-11-18T07:30:42.078272+00:00",
+      "exit_code": 0,
+      "stdout": "Built practice.html: 5 authored teaching simulations, inline CSS/JS, manifest-resolved citations; no tests or approval claimed.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "tools/build_portal.py"
+      ],
+      "performed_at": "2026-11-18T07:30:42.335118+00:00",
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\win11\\Documents\\Codex\\2026-10-10\\b-n\\outputs\\HW10_1110_DEEPFAKE_WIKI\\deepfake-wiki\\tools\\build_portal.py\", line 220, in <module>\n    build()\n  File \"C:\\Users\\win11\\Documents\\Codex\\2026-10-10\\b-n\\outputs\\HW10_1110_DEEPFAKE_WIKI\\deepfake-wiki\\tools\\build_portal.py\", line 215, in build\n    build_evidence(catalog,sources,deck)\n  File \"C:\\Users\\win11\\Documents\\Codex\\2026-10-10\\b-n\\outputs\\HW10_1110_DEEPFAKE_WIKI\\deepfake-wiki\\tools\\build_portal.py\", line 157, in build_evidence\n    trace = trace_payload(catalog, list(sources.values()), deck, load('evidence/traceability.json'))\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\win11\\Documents\\Codex\\2026-10-10\\b-n\\outputs\\HW10_1110_DEEPFAKE_WIKI\\deepfake-wiki\\tools\\build_portal.py\", line 133, in trace_payload\n    raise ValueError('Trace title differs from actual slide: ' + row['slide'])\nValueError: Trace title differs from actual slide: s03\n"
+    }
+  ],
+  "passed": false,
+  "artifacts": {
+    "deck.html": "e4b0660871a6b3c84093dfd1e83916d514a9eb9f76d0da6174d789b9bdc7cebd",
+    "wiki.html": "409de707158f47fc201ab667584b06bcf7ea816ffa7710a157de06c5d9919ef5",
+    "workflow.html": "51ef43bc405106a59e59b74892d5f39e90cec8a14d32823bf32fba3799fb58be",
+    "evidence.html": "c9e138f8336ea6da45c8d938fe93ea022e4f03b18c0715ca1269c4668f635ff1",
+    "teaching/deck.json": "3d726645689b8dd578faf07d55b29295d994eabb389845813fae295c0654416e",
+    "practice.html": "5bf38b5a65c3c9c9a224f4d60a88cf316063c6efff6e2cfa090da479d964e93b",
+    "teaching/practice.json": "7f01612d45051eda970b81a7585ef5401f29324311e72f49d6b21406e308a4dc"
+  },
+  "artifact_lf_sha256": {
+    "deck.html": "e4b0660871a6b3c84093dfd1e83916d514a9eb9f76d0da6174d789b9bdc7cebd",
+    "wiki.html": "c73a38e9660e9468f412abf0b90c81d554b5577009104efa7f134a96ec39bf9f",
+    "workflow.html": "833522a46c4f19594e749e06c0810580665b05942f6606180f045f7cfb99f4da",
+    "evidence.html": "dfdc4874065d6b649b2be02da25e585684064ed9f6f4595109a2fb4799b3c28a",
+    "teaching/deck.json": "db75ce8971bc90cfa204c29daa4ee8bb0a96ceb4cba82904478cd9f3b302a9f8",
+    "practice.html": "ab01fc1f4cbc3fccc465cbab8b6cf175a1d9a920f1837e730db7bbf642d38519",
+    "teaching/practice.json": "61baa94e4404fee17443a7b35f8404f8b3cda16f5032b5f5fc0dd8da93456c0d"
+  },
+  "local_repair_history": {
+    "first_check": "evidence/checks-round1.json",
+    "corrected_check": "evidence/checks-round2.json",
+    "cause": "self-report dependency checked before generation",
+    "unrelated_slides_rewritten": false
+  },
+  "limits": {
+    "local_max_rounds": 2,
+    "overall_max_rounds": 3
+  },
+  "human_requirements_confirmation": {
+    "status": "confirmed_before_this_revision",
+    "version": "1.3",
+    "confirmed_at": "2026-11-18T07:12:47.542901+00:00",
+    "record": "planning/confirmation-20261118.json",
+    "historical_boundary": "Only this revision is confirmed; initial provisional work is not retroactively approved."
+  }
+}

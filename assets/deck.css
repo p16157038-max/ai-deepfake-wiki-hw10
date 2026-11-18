@@ -223,7 +223,7 @@ ol.items { margin: 0; padding: 0; list-style: none; }
 .action-layout .item { position: relative; padding-top: 17px; border-top: 2px solid var(--line); }
 .action-layout .item:not(:last-child)::after { content: "→"; position: absolute; top: 38px; right: -28px; color: var(--coral); font-size: 25px; }
 .action-layout .item-icon { display: none; }
-.action-layout .item-title { margin: 0 0 18px; color: var(--blue); font-size: 77px; line-height: 1.05; font-weight: 850; letter-spacing: -.05em; }
+.action-layout .item-title { margin: 0 0 18px; color: var(--blue); font-size: 26px; line-height: 1.5; font-weight: 850; letter-spacing: -.025em; }
 .action-layout .item-text { font-size: 18px; line-height: 1.7; }
 .support-layout .items { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 30px; }
 .support-layout .item { display: flex; flex-direction: column; gap: 20px; padding-right: 15px; }
@@ -239,7 +239,7 @@ ol.items { margin: 0; padding: 0; list-style: none; }
 .closing-copy .items { gap: 18px; }
 .closing-copy .item { display: grid; grid-template-columns: 32px minmax(0, 1fr); gap: 14px; align-items: center; }
 .closing-copy .item-icon { width: 31px; height: 31px; }
-.closing-copy .item-copy { display: grid; grid-template-columns: 55px minmax(0, 1fr); gap: 13px; align-items: baseline; }
+.closing-copy .item-copy { display: grid; grid-template-columns: 80px minmax(0, 1fr); gap: 13px; align-items: baseline; }
 .closing-copy .item-title { margin: 0; color: var(--blue); font-size: 21px; }
 .closing-copy .item-text { font-size: 19px; line-height: 1.65; color: var(--ink); }
 .closing-layout .scene-svg { max-height: 271px; }
@@ -297,7 +297,7 @@ ol.items { margin: 0; padding: 0; list-style: none; }
   .media-layout .item { gap: 15px; }
   .platform-preview { min-height: 80px; margin-bottom: 10px; }
   .platform-preview svg { max-height: 90px; }
-  .action-layout .item-title { margin-bottom: 14px; font-size: 66px; }
+  .action-layout .item-title { margin-bottom: 14px; font-size: 25px; }
   .source-footer { padding-top: 8px; font-size: 10px; }
 }
 
@@ -408,8 +408,8 @@ ol.items { margin: 0; padding: 0; list-style: none; }
   .platform-layout .item-text { font-size: 17px; line-height: 1.75; }
   .action-layout .items { grid-template-columns: 1fr; gap: 25px; }
   .action-layout .item { padding-top: 0; padding-left: 0; border-top: 0; }
-  .action-layout .item-copy { display: grid; grid-template-columns: 50px minmax(0, 1fr); gap: 17px; align-items: center; }
-  .action-layout .item-title { margin: 0; font-size: 47px; }
+  .action-layout .item-copy { display: block; }
+  .action-layout .item-title { margin: 0 0 8px; font-size: 22px; }
   .action-layout .item-text { font-size: 17px; line-height: 1.75; }
   .action-layout .item:not(:last-child)::after { content: "↓"; top: auto; left: 14px; right: auto; bottom: -28px; font-size: 23px; }
   .support-layout .items { grid-template-columns: 1fr; gap: 24px; }
@@ -491,7 +491,7 @@ ol.items { margin: 0; padding: 0; list-style: none; }
   .quiz-reset { display: none; }
   .platform-preview { min-height: 23mm; }
   .platform-preview svg { max-height: 28mm; }
-  .action-layout .item-title { font-size: 48pt; }
+  .action-layout .item-title { font-size: 18pt; }
   .support-layout .item-icon { width: 19mm; height: 19mm; padding: 4mm; }
   .source-footer { font-size: 7pt; padding-top: 2mm; }
   .teacher-notes, .teacher-notes summary, .visual-caption { font-size: 7pt; }

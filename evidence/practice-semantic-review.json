@@ -1,268 +1,80 @@
 {
-  "schema_version": "1.0",
-  "artifact": "teaching/practice.json",
-  "artifact_sha256": "1f984910dfe80aa5ebbcd34dd95fca9cff4f02dd44703d7199d58a922aa2f37d",
-  "reviewed_at_utc": "2026-11-16T03:57:59.749Z",
-  "taiwan_date": "2026-11-16",
-  "reviewer": "Independent practice-review agent /root/hw10_practice_review",
-  "fresh_context": true,
-  "independence": "This reviewer did not author or edit the practice content. All five cases were read afresh against the cited Wiki/raw claims and existing query/card records; author self-review was not treated as proof.",
-  "scope": "New five-case practice content and its traceability only; no re-review or modification of the existing 14-slide deck or old review records.",
+  "version": "1.3",
   "passed": true,
+  "verdict": "PASS — P01–P05 and all explanation prompts, references and checkpoints reviewed",
+  "fresh_context": true,
+  "performed_at": "2026-11-18T07:37:47.122077+00:00",
+  "performed_at_utc": "2026-11-18T07:37:47.122077+00:00",
   "blocking_issues": 0,
   "issues": [],
-  "coverage": {
-    "cases": 5,
-    "contexts": 5,
-    "questions": 5,
-    "options": 15,
-    "option_feedback": 15,
-    "lesson_steps": 20,
-    "takeaways": 5,
-    "citation_groups": 14,
-    "wiki_page_claim_pairs": 33,
-    "unique_claims": 15,
-    "directly_cited_wiki_pages": 4,
-    "source_wiki_pages": 7,
-    "raw_source_extracts": 7,
-    "queries": 4,
-    "evidence_cards": 4
-  },
-  "method": "Independent semantic reading plus separately executed local reference/hash checks. Read AGENTS, required planning files, README, all practice text, four cited concept pages, seven relevant raw/source pages, Q03-Q06 retrieved sections/answers and cards, then the completed practice traceability record.",
-  "findings": [
-    {
-      "id": "PR01",
-      "passed": true,
-      "topic": "選項與教學完整性",
-      "detail": "逐一閱讀五個情境、問題、15 個選項及各自理由、20 個步驟與五項轉用原則。各題恰有一個最合適選項；錯項理由均提供安全替代行動。"
-    },
-    {
-      "id": "PR02",
-      "passed": true,
-      "topic": "實作性與適用條件",
-      "detail": "已知電話回撥、另通話或見面、不填認證碼、自行找官方入口、必要時保留帳號／時間／對話／交易紀錄均有具體動作；求助依實際威脅或可疑要求而定，無標籤本身不觸發報案。"
-    },
-    {
-      "id": "PR03",
-      "passed": true,
-      "topic": "概念與不確定性",
-      "detail": "聲音／影像逼真未被當作身分授權；LINE 釣魚、IG 帳號存取問題均與深偽分開。TikTok 無標籤不能證明真實，也不能證明詐騙；未宣稱偵測準確率、學習功效、全覆蓋標示、保證刪除或保證復原。"
-    },
-    {
-      "id": "PR04",
-      "passed": true,
-      "topic": "來源忠實度",
-      "detail": "教材為明標的教學模擬；沒有把官方示警或臺中紙本機關事件改寫成已發生的學生社群案件。TikTok 2024 與 Meta 2022 公告日期、功能和復原限制保留；通用查證原則的情境化表述是合理教學整理。"
-    },
-    {
-      "id": "PR05",
-      "passed": true,
-      "topic": "引用可追溯性",
-      "detail": "14 組引用、33 個 Wiki 頁／主張配對及 15 個唯一主張均存在於目前引用 Wiki、來源頁與 raw 摘錄；trace 的來源 URL／日期與 manifest 相符。各配對均能回到該題既有 query retrieved section 和 matching card；四張卡的 query SHA256、答案、頁與主張陣列均相符。"
-    }
-  ],
-  "case_reviews": [
+  "artifact": "teaching/practice.json",
+  "artifact_sha256": "61baa94e4404fee17443a7b35f8404f8b3cda16f5032b5f5fc0dd8da93456c0d",
+  "artifact_lf_sha256": "61baa94e4404fee17443a7b35f8404f8b3cda16f5032b5f5fc0dd8da93456c0d",
+  "rendered_artifact_sha256": "15fd1a672590a15a7ab3ec0e92bce52c00988d11c3e6ce433fe7feab086940b1",
+  "cases_reviewed": 5,
+  "cases": [
     {
       "id": "P01",
       "passed": true,
-      "correct_option_number": 2,
-      "reason": "先掛斷、撥原本已知電話，並在聯絡不到時保持不付款再問親友。兩個錯項分別解釋先付風險與同一來源語音不獨立。未斷言來電一定是 AI。",
-      "basis": [
-        "S03-C1",
-        "S03-C2",
-        "S04-C4",
-        "S01-C3",
-        "S05-C3"
-      ]
+      "best_option": "B",
+      "rationale": "新給號碼及同來源視訊皆不獨立；先前已知電話核對本人與這筆付款，聯絡不到仍不付款。",
+      "explain_review": "prompt要求電話來源、核對事項及沒接通時決策；reference與三checkpoint逐項覆蓋。"
     },
     {
       "id": "P02",
       "passed": true,
-      "correct_option_number": 2,
-      "reason": "停止交付、留證並向警方求助適合已出現影像威脅的情境；不等待自行驗真、不轉傳、不責備當事人，亦不保證付款後刪除。110／165 保留需要報案或諮詢的條件。",
-      "basis": [
-        "S04-C3",
-        "S05-C3",
-        "S01-C3"
-      ]
+      "best_option": "B",
+      "rationale": "真假未明仍能停止交付、留必要證據並私下求助；索原檔才求助與刪除對話皆有具體缺陷。",
+      "explain_review": "prompt要求求助前提、證據與避免動作；reference及判準包含不責怪、留帳號時間對話、不散播與不先刪證據。"
     },
     {
       "id": "P03",
       "passed": true,
-      "correct_option_number": 3,
-      "reason": "不點投票連結、不交 LINE 認證碼，另通話或見面；明確解釋舊聊天室與同一聊天室回覆的限制。帳號盜用／釣魚和深偽分開，無法登入時再走官方表單。",
-      "basis": [
-        "S08-C1",
-        "S08-C2",
-        "S08-C3",
-        "S05-C3"
-      ]
+      "best_option": "C",
+      "rationale": "原聊天室回覆不獨立；另打電話後填碼仍不安全。核實邀請與不交LINE認證碼同時成立。",
+      "explain_review": "分別要求釣魚線索、既有帳號被冒用風險、先前已知管道與本人確認仍不交碼；未把風險當已證實深偽。"
     },
     {
       "id": "P04",
       "passed": true,
-      "correct_option_number": 1,
-      "reason": "有無標籤都不能直接證明人物身分或說法真假；沒有標籤也不能反推必為 AI、刻意隱瞞或詐騙。先查來源與要求，只有具體可疑要求才建議留證、165 諮詢。",
-      "basis": [
-        "S06-C1",
-        "S06-C2",
-        "S06-C3",
-        "S01-C3",
-        "S04-C4",
-        "S05-C3"
-      ]
+      "best_option": "A",
+      "rationale": "自行取得機構官方入口、分查人物與說法最完整；同帳號一致性與發布者私訊網址皆未獨立。",
+      "explain_review": "prompt、reference與三判準共同涵蓋入口來源、人物與說法雙查及缺標籤不能得出真假結論。"
     },
     {
       "id": "P05",
       "passed": true,
-      "correct_option_number": 3,
-      "reason": "先不交付密碼或款項，自行開 instagram.com/hacked；不依陌生人給的客服連結。明說無法登入原因尚未確定、不是深偽證據，並保留 2022 公告、未實測復原與不保證成功的界線。",
-      "basis": [
-        "S07-C1",
-        "S07-C2",
-        "S07-C3",
-        "S01-C3",
-        "S04-C4",
-        "S05-C3"
-      ]
+      "best_option": "C",
+      "rationale": "另個可用社群帳號求助後收到私訊的脈絡合理；不付款交密碼、自行輸入instagram.com/hacked。",
+      "explain_review": "要求保留登入原因未明、寫官方入口、說明截圖或郵件仍同來源；未保證官方復原。"
     }
   ],
-  "verification": {
-    "exactly_one_correct_per_case": true,
-    "all_options_have_reasoned_feedback": true,
-    "all_lesson_steps_concrete_and_supported": true,
-    "all_cited_wiki_paths_exist": true,
-    "all_claim_ids_present_in_cited_wiki_source_and_raw": true,
-    "all_page_claim_pairs_present_in_associated_query_sections_and_cards": true,
-    "query_retrieved_text_matches_current_wiki": true,
-    "all_four_card_query_hashes_and_content_match": true,
-    "traceability_artifact_hash_matches": true,
-    "traceability_source_urls_and_dates_match_manifest": true,
-    "local_reference_issues": []
+  "criteria": [
+    "One uniquely best action or plan under the stated context",
+    "Plausible but incomplete verification distractors with specific explanations",
+    "Source support for advice; cases labeled simulation",
+    "Identity verification and LINE code non-disclosure treated separately",
+    "Complete explain.prompt/reference/checkpoints alignment",
+    "No victim blame or public sharing of sexual imagery",
+    "No automatic deepfake detection, AI grading or efficacy promise"
+  ],
+  "summary": "All five cases support the stated lesson goal, have a uniquely best offered answer, and give transfer-oriented explanations. P05 explains how a locked-out user could receive a rescue offer through another available account. Correct option patterns are B/B/C/A/C; answer position is not evidence of semantic validity.",
+  "residual_minor_limitations": [
+    "這是對目前教材、證據與封存官方主張的獨立內容審查；不取代原案件鑑識，也不是2026年平台所有版本或帳號復原流程的實測。",
+    "五題均有理由輸入與自查判準，但沒有學習者前後測、延後測或真實受騙風險降低的證據；不能保證遷移效果。",
+    "部分錯誤選項仍會刻意暴露明顯風險，適合初學者；不足以證明面對複雜真實情境也能正確決策。"
+  ],
+  "review_integrity": "All five current cases were read, including context, all options and feedback, four lesson steps, citations, takeaway and the new explanation fields. Traceability checks were not substituted for semantic reading.",
+  "publication_revision": {
+    "performed_at": "2026-11-18T07:39:25.995922+00:00",
+    "change": "Removed subjective numeric grade estimate from public evidence; semantic verdict, role, scope, limitations and closed findings preserved. No lesson changes."
   },
-  "limits": [
-    "This is a content review, not a browser, layout, accessibility, public deployment, or official account-recovery test.",
-    "This reviewer read the archived official-source extracts and source metadata; it did not independently reopen official web pages. Any separate same-day reopening is outside this reviewer record.",
-    "The historical announcements support the stated principles and dated official entry, not a claim that every current interface, region or account behaves identically.",
-    "No real media, private account, credential, sensitive image, learner outcome, detection accuracy, deletion result or recovery result was tested.",
-    "The existing 14-slide deck and old independent-review records were outside this review scope."
-  ],
-  "input_sha256": [
-    {
-      "path": "teaching/practice.json",
-      "sha256": "1f984910dfe80aa5ebbcd34dd95fca9cff4f02dd44703d7199d58a922aa2f37d"
-    },
-    {
-      "path": "evidence/practice-traceability.json",
-      "sha256": "fea7bf029f010608bc05a7d3494b714fa409680f7ca74d14b77e337d70d7dbac"
-    },
-    {
-      "path": "raw/manifest.json",
-      "sha256": "58210c82756f76e7865dc040d1e658fc6361615a83cbdf2a85f70b5efb373f64"
-    },
-    {
-      "path": "wiki/concepts/trust.md",
-      "sha256": "77f0db71ce7d7b29bc7ec5da7e72140c5672686b6e044d5b732683a191b35481"
-    },
-    {
-      "path": "wiki/concepts/verification.md",
-      "sha256": "da8e1668bd4a75ec17adb2941b6cdf0b9c6965b1211ffcfc754ddcfe9cdbcf78"
-    },
-    {
-      "path": "wiki/concepts/response.md",
-      "sha256": "0a0f553ae6d087950240611d4867b1eea58fd2f56f49578a4b5aa486eb516820"
-    },
-    {
-      "path": "wiki/concepts/platforms.md",
-      "sha256": "6d5c16f226b8d3d6499f70129f7357fe69e37bd58557c1b32357f4a0befa3b71"
-    },
-    {
-      "path": "wiki/sources/S03.md",
-      "sha256": "15beaf91101d748ccfffa127c1cab8dc66a4bec3af275010eb74320266a3dd87"
-    },
-    {
-      "path": "wiki/sources/S04.md",
-      "sha256": "740951c74e83a0d053869be3fef30d17f6c14d8066153b130ebd5312059a11bb"
-    },
-    {
-      "path": "wiki/sources/S01.md",
-      "sha256": "1a70e39d3b808d5dd79fcfd7f1cd22a9299ed0d7629d31d276244292334ffdca"
-    },
-    {
-      "path": "wiki/sources/S05.md",
-      "sha256": "63db8c9747b8c6a3e5d3ad520e1190ebf60bced2e3308bb22160709d28baf884"
-    },
-    {
-      "path": "wiki/sources/S08.md",
-      "sha256": "aa252493691d7feca58ae0be31105a1425110cbd91c7134b670b8833ca4b55fa"
-    },
-    {
-      "path": "wiki/sources/S06.md",
-      "sha256": "8d0782f863137db0786b182fc5766412f874b8f5796ef808c6b5aa31197c9702"
-    },
-    {
-      "path": "wiki/sources/S07.md",
-      "sha256": "20a009566eae892f3b01bc15bfdbf3200b66a20e1f68787c79fe5b14c7c787b0"
-    },
-    {
-      "path": "raw/S03.md",
-      "sha256": "926d557d7a29a7fe45576022b5e7e2ac49283b0a8280cf0874dc3bba088bf5a8"
-    },
-    {
-      "path": "raw/S04.md",
-      "sha256": "05b2700fe8faf43e5be6f59f36017c18c534d75db12de55d48286244a028a89d"
-    },
-    {
-      "path": "raw/S01.md",
-      "sha256": "3baa5b73902bcd5e847baba815e9afef132e328ed8696ad70d719ee89d009216"
-    },
-    {
-      "path": "raw/S05.md",
-      "sha256": "dc9c3ba57b4b3a24dd469216169fc4e2d106454bfb71e47a790b6147aac427a4"
-    },
-    {
-      "path": "raw/S08.md",
-      "sha256": "918d28ff823c39242f9c7974343450fea0e2718172f24214b5f3e8252716db12"
-    },
-    {
-      "path": "raw/S06.md",
-      "sha256": "e6474431079b1732fcaa4b3d09bb4acdf8cf621798233af8a46da68143e0b5b9"
-    },
-    {
-      "path": "raw/S07.md",
-      "sha256": "99c3112263705b1572d074d3a0e2b1aa7b01a73758020e2a7bd37eef020c2f87"
-    },
-    {
-      "path": "queries/Q03.json",
-      "sha256": "ba68f863d2f2bd44144d828609bf5db93920922305306c763f6bd0565ed1039f"
-    },
-    {
-      "path": "queries/Q05.json",
-      "sha256": "32a29e51ed8688d4c3aef6ac83958fe81deb946c16e28609dff131f91136c91d"
-    },
-    {
-      "path": "queries/Q06.json",
-      "sha256": "9e89c500c75747bbe89884430581229de1e1148b55fde1887b4a58ceb3549a4b"
-    },
-    {
-      "path": "queries/Q04.json",
-      "sha256": "b9c027ed89dc50218ea1e630a4115c5c867a8d34bbb06b971a58e45e3a7dcce6"
-    },
-    {
-      "path": "cards/Q03.json",
-      "sha256": "8deea4462442dd80eed39d0d4dc7d6c5600ab93c345a70911cfbde69ee046cf4"
-    },
-    {
-      "path": "cards/Q05.json",
-      "sha256": "ad0537fcb3c80a84d3e88bf8af28bf10d65297e6cb286dc7946948b82d1de798"
-    },
-    {
-      "path": "cards/Q06.json",
-      "sha256": "b264c5a32770ac96751b06aa56fcc3b5add6e3a4fc85c3874ac347698a06efa2"
-    },
-    {
-      "path": "cards/Q04.json",
-      "sha256": "8d4aee7b4027c72c32131ce58bcfcf6be64dd08d26bf70dd179342807fae2b5b"
-    }
-  ]
+  "post_review_renderer_copy_adjustment": {
+    "performed_at": "2026-11-18T07:45:37.542732+00:00",
+    "checked_by": "Primary implementation agent, byte-for-byte derivative check after independent content review",
+    "scope": "Three navigation/helper labels only; reversing precisely those3substitutions reproduces independently reviewed HTML bytes. Case payload, source claims, options, feedback, reasoning prompts and criteria are unchanged. No second full semantic review is claimed.",
+    "reviewed_original_rendered_sha256": "ab01fc1f4cbc3fccc465cbab8b6cf175a1d9a920f1837e730db7bbf642d38519",
+    "current_rendered_sha256": "15fd1a672590a15a7ab3ec0e92bce52c00988d11c3e6ce433fe7feab086940b1",
+    "reverse_exact_match": true
+  }
 }

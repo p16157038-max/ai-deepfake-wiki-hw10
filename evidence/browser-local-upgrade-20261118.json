@@ -1,0 +1,292 @@
+{
+  "performed_at": "2026-11-18T07:33:05.184Z",
+  "revision": "2026-11-16 clarity and UI revision",
+  "base": "file:///C:/Users/win11/Documents/Codex/2026-10-10/b-n/outputs/HW10_1110_DEEPFAKE_WIKI/deepfake-wiki/deck.html",
+  "environment": {
+    "browser": "150.0.7871.187",
+    "desktop": {
+      "width": 1366,
+      "height": 768
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "is_physical_phone": false
+    },
+    "isolated_profile": true
+  },
+  "cases": [
+    {
+      "id": "R01_navigation",
+      "status": "passed",
+      "observed": {
+        "slides": 14,
+        "keyboard_and_buttons": true
+      }
+    },
+    {
+      "id": "R02_s01_desktop",
+      "status": "passed",
+      "observed": {
+        "width": 1366,
+        "height": 768,
+        "scrollWidth": 1366,
+        "scrollHeight": 768,
+        "citations_visible": true
+      }
+    },
+    {
+      "id": "R02_s02_desktop",
+      "status": "passed",
+      "observed": {
+        "width": 1366,
+        "height": 768,
+        "scrollWidth": 1366,
+        "scrollHeight": 768,
+        "citations_visible": true
+      }
+    },
+    {
+      "id": "R02_s03_desktop",
+      "status": "passed",
+      "observed": {
+        "width": 1366,
+        "height": 768,
+        "scrollWidth": 1366,
+        "scrollHeight": 768,
+        "citations_visible": true
+      }
+    },
+    {
+      "id": "R02_s04_desktop",
+      "status": "passed",
+      "observed": {
+        "width": 1366,
+        "height": 768,
+        "scrollWidth": 1366,
+        "scrollHeight": 768,
+        "citations_visible": true
+      }
+    },
+    {
+      "id": "R02_s05_desktop",
+      "status": "passed",
+      "observed": {
+        "width": 1366,
+        "height": 768,
+        "scrollWidth": 1366,
+        "scrollHeight": 768,
+        "citations_visible": true
+      }
+    },
+    {
+      "id": "R02_s06_desktop",
+      "status": "passed",
+      "observed": {
+        "width": 1366,
+        "height": 768,
+        "scrollWidth": 1366,
+        "scrollHeight": 768,
+        "citations_visible": true
+      }
+    },
+    {
+      "id": "R02_s07_desktop",
+      "status": "passed",
+      "observed": {
+        "width": 1366,
+        "height": 768,
+        "scrollWidth": 1366,
+        "scrollHeight": 768,
+        "citations_visible": true
+      }
+    },
+    {
+      "id": "R02_s08_desktop",
+      "status": "passed",
+      "observed": {
+        "width": 1366,
+        "height": 768,
+        "scrollWidth": 1366,
+        "scrollHeight": 768,
+        "citations_visible": true
+      }
+    },
+    {
+      "id": "R02_s09_desktop",
+      "status": "passed",
+      "observed": {
+        "width": 1366,
+        "height": 768,
+        "scrollWidth": 1366,
+        "scrollHeight": 768,
+        "citations_visible": true
+      }
+    },
+    {
+      "id": "R02_s10_desktop",
+      "status": "passed",
+      "observed": {
+        "width": 1366,
+        "height": 768,
+        "scrollWidth": 1366,
+        "scrollHeight": 768,
+        "citations_visible": true
+      }
+    },
+    {
+      "id": "R02_s11_desktop",
+      "status": "passed",
+      "observed": {
+        "width": 1366,
+        "height": 768,
+        "scrollWidth": 1366,
+        "scrollHeight": 768,
+        "citations_visible": true
+      }
+    },
+    {
+      "id": "R02_s12_desktop",
+      "status": "passed",
+      "observed": {
+        "width": 1366,
+        "height": 768,
+        "scrollWidth": 1366,
+        "scrollHeight": 768,
+        "citations_visible": true
+      }
+    },
+    {
+      "id": "R02_s13_desktop",
+      "status": "passed",
+      "observed": {
+        "width": 1366,
+        "height": 768,
+        "scrollWidth": 1366,
+        "scrollHeight": 768,
+        "citations_visible": true
+      }
+    },
+    {
+      "id": "R02_s14_desktop",
+      "status": "passed",
+      "observed": {
+        "width": 1366,
+        "height": 768,
+        "scrollWidth": 1366,
+        "scrollHeight": 768,
+        "citations_visible": true
+      }
+    },
+    {
+      "id": "R03_s07_quiz",
+      "status": "passed",
+      "observed": {
+        "wrong": true,
+        "correct": true,
+        "explanation": true,
+        "reset": true
+      }
+    },
+    {
+      "id": "R03_s12_quiz",
+      "status": "passed",
+      "observed": {
+        "wrong": true,
+        "correct": true,
+        "explanation": true,
+        "reset": true
+      }
+    },
+    {
+      "id": "R04_Wiki_source_search",
+      "status": "passed",
+      "observed": {
+        "real_claims_readable": true,
+        "origin_link": true,
+        "search": true,
+        "no_results": true
+      }
+    },
+    {
+      "id": "R05_print",
+      "status": "passed",
+      "observed": {
+        "print_visible_slides": 14
+      }
+    },
+    {
+      "id": "R06_home_navigation",
+      "status": "passed",
+      "observed": {
+        "four_destinations": true,
+        "width": 1366,
+        "height": 768,
+        "scrollWidth": 1366,
+        "scrollHeight": 2009
+      }
+    },
+    {
+      "id": "R07_evidence_all14_traces",
+      "status": "passed",
+      "observed": {
+        "traces_tested": [
+          "s01",
+          "s02",
+          "s03",
+          "s04",
+          "s05",
+          "s06",
+          "s07",
+          "s08",
+          "s09",
+          "s10",
+          "s11",
+          "s12",
+          "s13",
+          "s14"
+        ],
+        "source_wiki_query_card_slide": true
+      }
+    },
+    {
+      "id": "R08_workflow_nodes_and_returns",
+      "status": "passed",
+      "observed": {
+        "nodes": 10,
+        "local_returns": true,
+        "expandable_details": 10
+      }
+    },
+    {
+      "id": "R09_evidence_results_readable",
+      "status": "passed",
+      "observed": {
+        "structural_log": true,
+        "browser_log": true,
+        "readable_explanation": true
+      }
+    },
+    {
+      "id": "R10_mobile_four_surfaces",
+      "status": "passed",
+      "observed": {
+        "viewport": 390,
+        "is_physical_phone": false,
+        "checked": [
+          "deck.html#s12",
+          "wiki.html",
+          "workflow.html",
+          "evidence.html"
+        ],
+        "no_horizontal_overflow": true
+      }
+    }
+  ],
+  "javascript_errors": [],
+  "summary": {
+    "total": 24,
+    "passed": 24,
+    "failed": 0
+  }
+}

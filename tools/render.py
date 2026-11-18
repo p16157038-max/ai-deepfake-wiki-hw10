@@ -197,7 +197,7 @@ def visual_module(kind, extra=""):
 
 
 ITEM_ICONS = {
-    "s02": ["face", "question", "check"], "s03": ["voice", "video", "chat"],
+    "s02": ["face", "question", "check"], "s03": ["voice", "chat", "lock"],
     "s04": ["identity", "alert", "search"], "s05": ["document", "search", "archive"],
     "s06": ["archive", "video", "chat"], "s08": ["search", "question", "phone"],
     "s09": ["label", "face", "search"], "s10": ["chat", "lock", "identity"],

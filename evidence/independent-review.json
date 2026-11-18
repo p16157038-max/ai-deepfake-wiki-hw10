@@ -1,76 +1,32 @@
 {
-  "performed_at": "2026-11-16T02:52:55.539Z",
-  "role": "fresh-context independent semantic fidelity and static visual reviewer of the 2026-11-16 redesign; not an author",
+  "version": "1.3",
+  "verdict": "PASS — current teaching content has no unresolved blocking issue after one metadata correction",
+  "passed": true,
   "fresh_context": true,
-  "reviewed_artifact": "Current teaching/deck.json and redesigned deck.html; local source-claim chain; 14 supplied desktop renders preceding only the final evidence-link insertion",
-  "artifact_sha256": {
-    "teaching/deck.json": "358a4c49f102cb48061d5e954525351cf61821fdd6ccae0c46e3d5cfe1597016",
-    "deck.html": "553c5190291fb0d7fbacd8fa1e95f8a452adb491363787884fe788f860a777f3",
-    "raw/manifest.json": "58210c82756f76e7865dc040d1e658fc6361615a83cbdf2a85f70b5efb373f64"
-  },
-  "scope": {
-    "reviewed": [
-      "All 14 current slides: titles, leads, items, notes, citations and simulated chat text",
-      "All 6 quiz options, correct-answer flags and feedback in JSON and current HTML",
-      "All 6 cited Wiki concept pages; wiki/sources/S01.md through S08.md; raw/S01.md through S08.md; raw/manifest.json",
-      "Exact teaching JSON identity against baseline and prior recorded hash; 8 exact raw byte hashes against baseline and manifest; canonical LF hashes",
-      "All 45 native inline SVGs in HTML/renderer context, including labels, captions and possible evidence implications",
-      "All 14 supplied 1366px desktop PNGs s01.png through s14.png; s07 and s12 show answered B states",
-      "Final 14 new 本頁證據 anchors checked statically; removing only those elements reproduces the exact HTML hash already reviewed"
-    ],
-    "not_performed": [
-      "No official original URLs reopened or downloaded in this current review; dated 2026-11-15 original verification reused",
-      "No new saved-full-capture hash audit",
-      "No browser/native-app control, click/keyboard/reset or other runtime test",
-      "No current mobile, responsive-size sweep, print, public deployment or accessibility runtime proof",
-      "No screenshots of final footers after the 14 本頁證據 links were inserted",
-      "No audit of ingest chronology, complete workflow execution, recovery success or source changes after 2026-11-15"
-    ],
-    "edits": "Only dated historical-review archives and current evidence/independent-review.json/md written in the deliverable. No teaching, UI, Wiki, raw or screenshot content modified."
-  },
-  "verdict": "PASS_WITH_NONBLOCKING_PROVENANCE_LIMITATION",
-  "verdict_explanation": "本次重新逐頁核對文字、六個選項／回饋、來源主張鏈與新版概念圖，未發現重大事實錯誤、引用錯置、錯誤正解、偽造案件證據或新增誤導主張。教學JSON及八份raw節錄與基準逐位元相同；八份官方原文核實沿用2026-11-15獨立審查，不冒稱本日重開。FTC快取與日期再驗證限制保留。此結論限本版本語意與所閱靜態畫面，不代替新版操作、手機、列印或公開部署驗收。",
+  "reviewer": "Independent review subagent; did not author or edit the teaching content, Wiki, sources or renderer",
+  "performed_at": "2026-11-18T07:37:47.122077+00:00",
+  "performed_at_utc": "2026-11-18T07:37:47.122077+00:00",
   "blocking_issues": 0,
   "issues": [],
-  "nonblocking_observations": [
+  "resolved_findings": [
     {
-      "id": "OBS-FTC-01",
-      "severity": "info",
-      "slide": [
-        "s01",
-        "s02",
-        "s04",
-        "s07",
-        "s08",
-        "s11",
-        "s14"
+      "id": "R01",
+      "severity": "minor_metadata",
+      "status": "closed_after_author_fix_and_reinspection",
+      "paths": [
+        "wiki/concepts/basics.md",
+        "wiki/concepts/platforms.md",
+        "wiki/concepts/verification.md",
+        "wiki/catalog.json"
       ],
-      "source": [
-        "S03"
-      ],
-      "finding": "Historical limitation retained: S03 direct HTTP capture recorded 404 and no S03.html full capture exists. The 2026-11-15 reviewer reopened the official body using web reader but could not independently revalidate its exact 2023-03-20 archive date because archive requests timed out. Neither was reopened in this current review.",
-      "evidence": "independent-review-20261115.json official_source_checks and OBS-FTC-01; raw/manifest.json S03.capture; unchanged S03 raw hash.",
-      "required_action": "Preserve the limitation; do not claim eight successful direct full captures or a new 2026-11-16 official-original verification. No teaching correction required."
+      "finding": "本輪已修訂的三概念頁及W01/W04/W05.updated仍標2026-11-15。",
+      "correction_verified": "作者已改為2026-11-18；本審查重讀三頁與catalog確認。raw與原公告日期未改寫。"
     }
   ],
-  "prior_original_verification_reused": {
-    "archive": "evidence/independent-review-20261115.json",
-    "archive_sha256": "71ad59ee681545f78d1fa3b2b6ba961e70c22604aec208db5f24cebe7759f57a",
-    "performed_at": "2026-11-15T15:31:25+00:00",
-    "original_documents_reopened_on_2026_11_15": 8,
-    "current_original_documents_reopened": 0,
-    "prior_saved_full_capture_hash_matches": 7,
-    "reason": "Teaching/deck.json and all eight raw/Sxx.md bytes match the reviewed baseline exactly. Local claims and new diagrams were independently reviewed now. Prior official-page checks remain historical evidence, not new source-freshness verification.",
-    "manifest_note": "Current manifest hash differs from the prior recorded manifest hash; identity reuse is established by exact teaching/raw bytes, not a claim that the entire manifest is unchanged."
-  },
-  "coverage": {
-    "slides_with_existing_wiki_citations": 14,
-    "slides_reviewed_semantically": 14,
-    "quiz_options_and_feedback_reviewed": 6,
-    "unique_official_documents_reopened": 0,
-    "official_original_verifications_reused_from_2026_11_15": 8,
-    "minimum_five_documents_satisfied_for_content": true,
-    "cited_source_ids": [
+  "scope": {
+    "slides": 14,
+    "practice_cases": 5,
+    "official_archived_raw_extracts": [
       "S01",
       "S02",
       "S03",
@@ -80,665 +36,152 @@
       "S07",
       "S08"
     ],
-    "concept_pages_reviewed": 6,
-    "source_pages_reviewed": 8,
-    "raw_extracts_reviewed": 8,
-    "raw_hash_matches": 8,
-    "raw_baseline_hash_matches": 8,
-    "canonical_lf_hash_matches": 8,
-    "all_deck_text_strings_present_in_html": true,
-    "missing_wiki_claim_ids": 0,
-    "current_inline_svgs_reviewed": 45,
-    "current_desktop_renders_actually_viewed": 14,
-    "final_evidence_link_labels_and_slide_anchors_reviewed": 14,
-    "scope_note": "Hashes and string checks establish identity/coverage, not semantic truth. Official-source freshness after 2026-11-15, workflow chronology and runtime behavior are outside this result."
+    "wiki_concepts": [
+      "basics",
+      "trust",
+      "cases",
+      "platforms",
+      "verification",
+      "response"
+    ],
+    "queries_and_cards": [
+      "Q01",
+      "Q02",
+      "Q03",
+      "Q04",
+      "Q05",
+      "Q06"
+    ],
+    "included": "All authored text, options, feedback, notes, explain.prompt/reference/checkpoints; support versus retrieval; factual scope; novice teaching coherence; static functionality claims and confirmation sequence.",
+    "excluded": "No claim of fresh re-fetch of all official originals, forensic validation, learner efficacy testing or completed visual/browser acceptance."
   },
-  "baseline_identity": {
-    "teaching_json_exact_hash_matches_prior_review_and_before_copy": true,
-    "prior_teaching_sha256": "358a4c49f102cb48061d5e954525351cf61821fdd6ccae0c46e3d5cfe1597016",
-    "before_html_sha256": "0afd683a90b5135dd41f6c7dee8e1adbe91a28c0080040c91cd6e414700dcbd4",
-    "redesigned_html_differs_from_prior": true,
-    "raw_checks": [
-      {
-        "source": "S01",
-        "byte_sha256": "3baa5b73902bcd5e847baba815e9afef132e328ed8696ad70d719ee89d009216",
-        "manifest_original_byte_hash_matches": true,
-        "pre_revision_baseline_hash_matches": true,
-        "canonical_lf_hash_matches": true
-      },
-      {
-        "source": "S02",
-        "byte_sha256": "100ed386e5fb194bb65aa4053691d03d5362c435abcf2e92e91f25cbb0f2e8a6",
-        "manifest_original_byte_hash_matches": true,
-        "pre_revision_baseline_hash_matches": true,
-        "canonical_lf_hash_matches": true
-      },
-      {
-        "source": "S03",
-        "byte_sha256": "926d557d7a29a7fe45576022b5e7e2ac49283b0a8280cf0874dc3bba088bf5a8",
-        "manifest_original_byte_hash_matches": true,
-        "pre_revision_baseline_hash_matches": true,
-        "canonical_lf_hash_matches": true
-      },
-      {
-        "source": "S04",
-        "byte_sha256": "05b2700fe8faf43e5be6f59f36017c18c534d75db12de55d48286244a028a89d",
-        "manifest_original_byte_hash_matches": true,
-        "pre_revision_baseline_hash_matches": true,
-        "canonical_lf_hash_matches": true
-      },
-      {
-        "source": "S05",
-        "byte_sha256": "dc9c3ba57b4b3a24dd469216169fc4e2d106454bfb71e47a790b6147aac427a4",
-        "manifest_original_byte_hash_matches": true,
-        "pre_revision_baseline_hash_matches": true,
-        "canonical_lf_hash_matches": true
-      },
-      {
-        "source": "S06",
-        "byte_sha256": "e6474431079b1732fcaa4b3d09bb4acdf8cf621798233af8a46da68143e0b5b9",
-        "manifest_original_byte_hash_matches": true,
-        "pre_revision_baseline_hash_matches": true,
-        "canonical_lf_hash_matches": true
-      },
-      {
-        "source": "S07",
-        "byte_sha256": "99c3112263705b1572d074d3a0e2b1aa7b01a73758020e2a7bd37eef020c2f87",
-        "manifest_original_byte_hash_matches": true,
-        "pre_revision_baseline_hash_matches": true,
-        "canonical_lf_hash_matches": true
-      },
-      {
-        "source": "S08",
-        "byte_sha256": "918d28ff823c39242f9c7974343450fea0e2718172f24214b5f3e8252716db12",
-        "manifest_original_byte_hash_matches": true,
-        "pre_revision_baseline_hash_matches": true,
-        "canonical_lf_hash_matches": true
-      }
-    ]
-  },
-  "checked_slides": [
+  "slides_reviewed": 14,
+  "slide_reviews": [
     {
-      "slide": "s01",
-      "title": "聲音很像，為什麼還不能匯款",
-      "result": "pass",
-      "wiki_pages": [
-        "concepts/basics.md",
-        "concepts/trust.md"
-      ],
-      "claim_ids": [
-        "S01-C1",
-        "S04-C2",
-        "S03-C2"
-      ],
-      "sources": [
-        "S01",
-        "S03",
-        "S04"
-      ],
-      "semantic_assessment": "核心行動為核實身分與要求；熟悉聲音沒有被當成匯款授權。查閱日仍明示2026-11-15，沒有冒稱本日重查。",
-      "current_diagram_assessment": "波形→手機身分與問號，只有「聲音」「身分」兩個新SVG文字；概念示意說明仍需核實，無人物或案件偽證。",
-      "inline_svg_count": 1
+      "id": "s01",
+      "verdict": "PASS",
+      "finding": "熟悉影音與付款授權分開；開場未把仿聲模擬包成已證實案件。"
     },
     {
-      "slide": "s02",
-      "title": "這堂課要練會的三件事",
-      "result": "pass",
-      "wiki_pages": [
-        "concepts/basics.md",
-        "concepts/verification.md"
-      ],
-      "claim_ids": [
-        "S04-C1",
-        "S04-C2",
-        "S03-C2",
-        "S05-C3"
-      ],
-      "sources": [
-        "S03",
-        "S04",
-        "S05"
-      ],
-      "semantic_assessment": "三項目標分清形式、辨識要求、另行核實，均由後續內容與練習支援；沒有加入模型或偵測功效。",
-      "current_diagram_assessment": "三個目標搭配身分、問號與勾選圖示；編號與圖示不增加統計或安全保證。",
-      "inline_svg_count": 3
+      "id": "s02",
+      "verdict": "PASS",
+      "finding": "分概念、挑管道、說理由三目標具體，後續頁面及理由練習可對應。"
     },
     {
-      "slide": "s03",
-      "title": "深偽改變媒體，詐騙利用信任",
-      "result": "pass",
-      "wiki_pages": [
-        "concepts/basics.md"
-      ],
-      "claim_ids": [
-        "S01-C1",
-        "S04-C1",
-        "S04-C2"
-      ],
-      "sources": [
-        "S01",
-        "S04"
-      ],
-      "semantic_assessment": "聲音、影像影片與文字帳號分開；一般釣魚／帳號盜用未必深偽、AI合成本身不當然違法的限制保留。",
-      "current_diagram_assessment": "波形、影片與對話圖示對應三類媒體；沒有把文字帳號誤畫為已證實深偽。",
-      "inline_svg_count": 3
+      "id": "s03",
+      "verdict": "PASS",
+      "finding": "媒體製作、誘取認證資料、既有帳號控制三個操作性角度明確；不是互斥分類。"
     },
     {
-      "slide": "s04",
-      "title": "從內容到要求，風險藏在哪一步",
-      "result": "pass",
-      "wiki_pages": [
-        "concepts/trust.md",
-        "concepts/platforms.md"
-      ],
-      "claim_ids": [
-        "S02-C1",
-        "S02-C3",
-        "S03-C1",
-        "S08-C1"
-      ],
-      "sources": [
-        "S02",
-        "S03",
-        "S08"
-      ],
-      "semantic_assessment": "風險路線明示跨來源整理；沒有把香港主管、FTC仿聲與LINE投票合併為同一真實案件。",
-      "current_diagram_assessment": "箭頭呈現課程整理的路線；概念示意及跨來源說明可見，不冒充事件時間軸。",
-      "inline_svg_count": 3
+      "id": "s04",
+      "verdict": "PASS",
+      "finding": "LINE被盜帳號→投票索碼→另一帳號被盜的概念鏈符合S08；明言未證明深偽。"
     },
     {
-      "slide": "s05",
-      "title": "臺灣案例：影像威脅不代表影像是真的",
-      "result": "pass",
-      "wiki_pages": [
-        "concepts/cases.md"
-      ],
-      "claim_ids": [
-        "S05-C1",
-        "S05-C2",
-        "S05-C3"
-      ],
-      "sources": [
-        "S05"
-      ],
-      "semantic_assessment": "2025-03-15臺中官方公布、八個機關、紙本恐嚇信及警方鑑識說法與S05相符；未新增學生、私訊或損失數字。",
-      "current_diagram_assessment": "紙張、信封、資料夾與查核勾為抽象概念示意；沒有重製官方公文、警方畫面或原傷害影像。",
-      "inline_svg_count": 4
+      "id": "s05",
+      "verdict": "PASS",
+      "finding": "保留臺中2025-03-15、八個機關、紙本恐嚇信與警方鑑識說法；沒有虛構損失。"
     },
     {
-      "slide": "s06",
-      "title": "香港案例：熟悉的臉仍要另行查證",
-      "result": "pass",
-      "wiki_pages": [
-        "concepts/cases.md"
-      ],
-      "claim_ids": [
-        "S02-C1",
-        "S02-C2",
-        "S02-C3"
-      ],
-      "sources": [
-        "S02"
-      ],
-      "semantic_assessment": "2024年1月底接報、約港幣2億元、五個香港帳戶與S02相符；預錄、沒有互動、後續即時訊息的關鍵限制清楚保留。",
-      "current_diagram_assessment": "兩個抽象人形、播放鍵與後續訊息對應預錄影片→訊息指令；沒有即時通話標記或互動保證。",
-      "inline_svg_count": 4
+      "id": "s06",
+      "verdict": "PASS",
+      "finding": "保留香港2024年1月底接報、同年6月答覆、約港幣2億元及五帳戶；預錄、無互動與當時認知限制完整。"
     },
     {
-      "slide": "s07",
-      "title": "情境一：聽到室友聲音，你先做什麼",
-      "result": "pass",
-      "wiki_pages": [
-        "concepts/trust.md"
-      ],
-      "claim_ids": [
-        "S03-C1",
-        "S03-C2",
-        "S04-C4"
-      ],
-      "sources": [
-        "S03",
-        "S04"
-      ],
-      "semantic_assessment": "室友對話明示教學模擬；唯一正解B是掛斷並用已知電話回撥。A先付款與C同源更多語音皆不構成獨立核實，回饋合理。",
-      "current_diagram_assessment": "虛構手機有「教學模擬」「非真實聊天室」標示；波形不是實際錄音證據，B作答及完整回饋可讀。",
-      "inline_svg_count": 2,
-      "quiz_review": [
-        {
-          "option": "A",
-          "marked_correct": false,
-          "correctness_and_feedback_result": "pass",
-          "text": "先轉帳，晚點再確認",
-          "feedback": "熟悉聲音不能替付款要求授權；先停止付款。"
-        },
-        {
-          "option": "B",
-          "marked_correct": true,
-          "correctness_and_feedback_result": "pass",
-          "text": "掛斷，撥原本已知的室友電話",
-          "feedback": "離開對方提供的查證路線；聯絡不到時再向其他親友確認。"
-        },
-        {
-          "option": "C",
-          "marked_correct": false,
-          "correctness_and_feedback_result": "pass",
-          "text": "請他傳更多語音就相信",
-          "feedback": "更多同一來源的影音不等於獨立驗證。"
-        }
-      ]
+      "id": "s07",
+      "verdict": "PASS",
+      "finding": "B為唯一最合適第一步；A的新號碼及C的同來源視訊均未完成獨立核對，解說指出原因。"
     },
     {
-      "slide": "s08",
-      "title": "找破綻有幫助，但不是驗真保證",
-      "result": "pass",
-      "wiki_pages": [
-        "concepts/verification.md"
-      ],
-      "claim_ids": [
-        "S01-C2",
-        "S03-C2",
-        "S04-C4"
-      ],
-      "sources": [
-        "S01",
-        "S03",
-        "S04"
-      ],
-      "semantic_assessment": "視聽異常及密語只是線索，沒有被轉成準確率或驗真保證；已知電話／官方管道核實與來源一致。",
-      "current_diagram_assessment": "放大鏡、問號與電話對應線索、限制與另行聯絡；未呈現偵測器通過標章。",
-      "inline_svg_count": 3
+      "id": "s08",
+      "verdict": "PASS",
+      "finding": "密語與視聽線索只增加資訊，不保證驗真；另以已知電話核對本人及要求。"
     },
     {
-      "slide": "s09",
-      "title": "TikTok 的 AI 標籤能告訴你什麼",
-      "result": "pass",
-      "wiki_pages": [
-        "concepts/platforms.md"
-      ],
-      "claim_ids": [
-        "S06-C1",
-        "S06-C2",
-        "S06-C3"
-      ],
-      "sources": [
-        "S06"
-      ],
-      "semantic_assessment": "標示範圍綁定2024-05-09公告，中繼資料與導入限制保留；有標籤不保證陳述、無標籤不證明真人，均為合理限制性推論。",
-      "current_diagram_assessment": "一般內容卡分別有／無「AI」標示，另加放大鏡；明示概念示意，不冒充TikTok真實介面截圖或覆蓋率。",
-      "inline_svg_count": 6
+      "id": "s09",
+      "verdict": "PASS",
+      "finding": "TikTok說明限於2024公告的中繼資料與漸進導入；有無標籤都不驗證人物或投資說法。"
     },
     {
-      "slide": "s10",
-      "title": "Instagram、LINE：熟悉帳號也要查證",
-      "result": "pass",
-      "wiki_pages": [
-        "concepts/platforms.md"
-      ],
-      "claim_ids": [
-        "S07-C1",
-        "S07-C2",
-        "S08-C1",
-        "S08-C2"
-      ],
-      "sources": [
-        "S07",
-        "S08"
-      ],
-      "semantic_assessment": "LINE投票、認證碼與另行確認符合S08；Instagram官方入口符合S07，並保留2022公告及未登入實測／不保證復原的限制。",
-      "current_diagram_assessment": "對話、鎖與身分圖示支援帳號風險；沒有官方徽章或復原成功畫面。",
-      "inline_svg_count": 3
+      "id": "s10",
+      "verdict": "PASS",
+      "finding": "LINE索碼與IG存取問題區分；提供官方入口及原公告日期，不保證復原。"
     },
     {
-      "slide": "s11",
-      "title": "把查證做成四個動作",
-      "result": "pass",
-      "wiki_pages": [
-        "concepts/verification.md"
-      ],
-      "claim_ids": [
-        "S01-C3",
-        "S03-C2",
-        "S04-C4",
-        "S05-C3",
-        "S08-C2"
-      ],
-      "sources": [
-        "S01",
-        "S03",
-        "S04",
-        "S05",
-        "S08"
-      ],
-      "semantic_assessment": "停離查留明示本課自訂口訣，各步驟可回到官方建議；未假稱官方既有品牌或能阻擋全部詐騙。",
-      "current_diagram_assessment": "停離查留與箭頭支援動作順序；沒有新增官方品牌或防詐功效。",
-      "inline_svg_count": 4
+      "id": "s11",
+      "verdict": "PASS",
+      "finding": "完整示範不點不填、先前存的電話、核對邀請及必要留證；確認朋友本人仍不交LINE認證碼。"
     },
     {
-      "slide": "s12",
-      "title": "情境二：被影像威脅，先保護自己",
-      "result": "pass",
-      "wiki_pages": [
-        "concepts/response.md"
-      ],
-      "claim_ids": [
-        "S04-C3",
-        "S05-C3"
-      ],
-      "sources": [
-        "S04",
-        "S05"
-      ],
-      "semantic_assessment": "威脅對話明示教學模擬且不展示傷害影像；B留證停止交付求助為唯一正解。A公開轉傳增加傷害、C付款無刪除保證，回饋適當。",
-      "current_diagram_assessment": "虛構手機有模擬標示與鎖圖示，沒有性影像；B作答與完整回饋可讀。",
-      "inline_svg_count": 2,
-      "quiz_review": [
-        {
-          "option": "A",
-          "marked_correct": false,
-          "correctness_and_feedback_result": "pass",
-          "text": "公開轉傳圖片，請大家鑑定",
-          "feedback": "會擴大散播與傷害；保留必要證據，私下提供警方。"
-        },
-        {
-          "option": "B",
-          "marked_correct": true,
-          "correctness_and_feedback_result": "pass",
-          "text": "先保留證據，停止交付並向警方求助",
-          "feedback": "收到影像不代表內容真實；可向165諮詢，需要報案可找警方。"
-        },
-        {
-          "option": "C",
-          "marked_correct": false,
-          "correctness_and_feedback_result": "pass",
-          "text": "付款就能保證對方刪除",
-          "feedback": "沒有這種保證；不要把威脅者的承諾當作安全機制。"
-        }
-      ]
+      "id": "s12",
+      "verdict": "PASS",
+      "finding": "B為唯一較合適處理；不以先驗真作求助前提，避免先刪證據、公開散播及責怪受害者。"
     },
     {
-      "slide": "s13",
-      "title": "在臺灣，求助要找正式管道",
-      "result": "pass",
-      "wiki_pages": [
-        "concepts/response.md"
-      ],
-      "claim_ids": [
-        "S01-C3",
-        "S05-C3",
-        "S07-C1",
-        "S08-C3"
-      ],
-      "sources": [
-        "S01",
-        "S05",
-        "S07",
-        "S08"
-      ],
-      "semantic_assessment": "165諮詢、110或警察機關報案可追溯臺灣官方主張；LINE不直接刪App與IG官方支援分流正確，不承諾追回金錢或帳號。",
-      "current_diagram_assessment": "電話、鎖與留存圖示對應正式求助；未暗示個案已受理或追回款項。",
-      "inline_svg_count": 3
+      "id": "s13",
+      "verdict": "PASS",
+      "finding": "165諮詢、110或警察機關報案、官方帳號支援與留證界線符合封存官方主張。"
     },
     {
-      "slide": "s14",
-      "title": "下一次收到訊息，你會先問什麼",
-      "result": "pass",
-      "wiki_pages": [
-        "concepts/verification.md",
-        "concepts/platforms.md"
-      ],
-      "claim_ids": [
-        "S03-C2",
-        "S04-C4",
-        "S05-C3",
-        "S06-C3",
-        "S08-C2"
-      ],
-      "sources": [
-        "S03",
-        "S04",
-        "S05",
-        "S06",
-        "S08"
-      ],
-      "semantic_assessment": "三個收束問題對應身分、要求與行動；沒有新增臺灣Gen Z受害率或偵測保證，案例與兩道模擬題仍分開。",
-      "current_diagram_assessment": "盾牌與勾是抽象概念示意；配合自問句，沒有安全認證、偵測結果或保證文字。",
-      "inline_svg_count": 4
+      "id": "s14",
+      "verdict": "PASS",
+      "finding": "閉課自述同時練概念、管道與交碼界線；參考與未自動評分／未測成效界線清楚。"
     }
   ],
-  "official_source_checks": [
-    {
-      "source": "S01",
-      "url": "https://md-fraud.police.gov.taipei/News_Content.aspx?n=BD99F0864A7983ED&s=1A33FBCA5115E6C9",
-      "method": "Reused dated 2026-11-15 independent official-original check; not reopened today",
-      "body_result": "historical_pass_reused",
-      "prior_assessment": "官方正文110–132：換臉仿聲、暗語、先不匯款與個資交付、165；文章更新日期147行為民國113-04-08。",
-      "current_local_source_claim_review": "pass",
-      "current_raw_bytes_match_baseline": true,
-      "reopened_during_current_review": false,
-      "full_saved_capture": true
-    },
-    {
-      "source": "S02",
-      "url": "https://www.info.gov.hk/gia/general/202406/26/P2024062600192p.htm",
-      "method": "Reused dated 2026-11-15 independent official-original check; not reopened today",
-      "body_result": "historical_pass_reused",
-      "prior_assessment": "官方正文25–27：預錄、沒有互動、約HK$200 million、五個本地帳戶、後續即時訊息；未援用提問中的統計作已證實數字。",
-      "current_local_source_claim_review": "pass",
-      "current_raw_bytes_match_baseline": true,
-      "reopened_during_current_review": false,
-      "full_saved_capture": true
-    },
-    {
-      "source": "S03",
-      "url": "https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes",
-      "method": "Reused dated 2026-11-15 independent official-original check; not reopened today",
-      "body_result": "historical_pass_reused",
-      "prior_assessment": "官方正文2–12可讀：短音訊仿聲、已知電話回撥、找其他親友、難追回付款方式；未把開場解說或留言當查證個案。",
-      "current_local_source_claim_review": "pass",
-      "current_raw_bytes_match_baseline": true,
-      "reopened_during_current_review": false,
-      "full_saved_capture": false
-    },
-    {
-      "source": "S04",
-      "url": "https://www.ic3.gov/PSA/2024/PSA241203",
-      "method": "Reused dated 2026-11-15 independent official-original check; not reopened today",
-      "body_result": "historical_pass_reused",
-      "prior_assessment": "官方正文8–48：AI文字／圖像／音訊／影片、偽造性影像勒索、家庭暗語及掛斷另找聯絡方式；不保證偵測。",
-      "current_local_source_claim_review": "pass",
-      "current_raw_bytes_match_baseline": true,
-      "reopened_during_current_review": false,
-      "full_saved_capture": true
-    },
-    {
-      "source": "S05",
-      "url": "https://www.taichung.gov.tw/8868/8872/1269419/2931416",
-      "method": "Reused dated 2026-11-15 independent official-original check; not reopened today",
-      "body_result": "historical_pass_reused",
-      "prior_assessment": "官方正文137–157：八個機關、實體信封／郵戳、相片鑑識深偽、留證報案不轉傳、110／165、2025-03-15。",
-      "current_local_source_claim_review": "pass",
-      "current_raw_bytes_match_baseline": true,
-      "reopened_during_current_review": false,
-      "full_saved_capture": true
-    },
-    {
-      "source": "S06",
-      "url": "https://newsroom.tiktok.com/partnering-with-our-industry-to-advance-ai-transparency-and-literacy?lang=en",
-      "method": "Reused dated 2026-11-15 independent official-original check; not reopened today",
-      "body_result": "historical_pass_reused",
-      "prior_assessment": "官方正文4–18：2024-05-09、部分外來平台、C2PA、逼真AIGC創作者標示、中繼資料限制與漸進導入。",
-      "current_local_source_claim_review": "pass",
-      "current_raw_bytes_match_baseline": true,
-      "reopened_during_current_review": false,
-      "full_saved_capture": true
-    },
-    {
-      "source": "S07",
-      "url": "https://about.fb.com/news/2022/12/designing-account-security-across-our-apps/",
-      "method": "Reused dated 2026-11-15 independent official-original check; not reopened today",
-      "body_result": "historical_pass_reused",
-      "prior_assessment": "官方正文255–284：聯絡點安全、復原驗證與instagram.com/hacked官方入口；未實測2026介面或復原成功。",
-      "current_local_source_claim_review": "pass",
-      "current_raw_bytes_match_baseline": true,
-      "reopened_during_current_review": false,
-      "full_saved_capture": true
-    },
-    {
-      "source": "S08",
-      "url": "https://www.linecorp.com/tw/pr/news/2026/0909/",
-      "method": "Reused dated 2026-11-15 independent official-original check; not reopened today",
-      "body_result": "historical_pass_reused",
-      "prior_assessment": "官方正文25–46：2026-09-09、被盜帳號投票訊息、另行通話／面對面、認證碼不外流、不直接刪App及官方客服；97%未誤作人口受害率。",
-      "current_local_source_claim_review": "pass",
-      "current_raw_bytes_match_baseline": true,
-      "reopened_during_current_review": false,
-      "full_saved_capture": true
-    }
+  "practice_cases_reviewed": 5,
+  "semantic_findings": [
+    "Deepfake, phishing and account takeover are presented as overlapping operational angles with novice definitions and a sourced LINE relationship chain.",
+    "Independent verification is worked through with a prior saved phone number, the specific invitation/request, the no-contact fallback and the LINE code non-disclosure boundary even when identity is confirmed.",
+    "Real Taiwan/Hong Kong cases preserve date, location, currency, number, medium and investigative qualification; the five practice cases and new worked examples are clearly teaching simulations.",
+    "All six answers use their actual retrieved sections; cards distinguish used claim_ids from broader retrieved_claim_ids. Current card query_sha256 values match the actual query bytes. These checks establish traceability, while semantic support was separately read.",
+    "TikTok labeling, Meta recovery and LINE advice retain their announcement scope; there are no universal detection, coverage, prevention, recovery or learning-effect guarantees.",
+    "The practice implementation uses authored feedback and in-page self-comparison, with no audio/media detection or AI grading. Reason text is not sent or persisted by the inspected practice script."
   ],
-  "beginner_learning_assessment": {
-    "result": "pass",
-    "basis": [
-      "繁體中文、日常語言、三個目標與兩題練習適合臺灣初學者，不要求模型背景。",
-      "真實案例保留時間、地區、媒介及調查限制；手機對話明示模擬，不冒充受害者紀錄。",
-      "圖解連起媒體、要求與獨立查證，不把AI標籤、密語、外觀或單一偵測器當安全保證。",
-      "不展示性影像、不推論Gen Z受害率、不責備受害者、不保證金錢或帳號復原。"
+  "confirmation_sequence": {
+    "record": "planning/confirmation-20261118.json",
+    "confirmed_at": "2026-11-18T07:12:47.542901+00:00",
+    "commits_in_order": [
+      "b9a66eb",
+      "fa5f4da",
+      "2b3e11c"
     ],
-    "interpretation_note": "停離查留、標籤不能保證內容為真及付款不保證刪除，是課程整理與限制性推論，未冒充官方新統計。"
+    "assessment": "The record confirms this revision only. Observed Git sequence is confirmation→Wiki refinement→teaching build; no retroactive approval of the initial version is claimed."
   },
-  "visual_review": {
-    "performed_at": "2026-11-16T02:52:55.539Z",
-    "role": "fresh-context read-only SVG and static screenshot review",
-    "artifact_sha256": "553c5190291fb0d7fbacd8fa1e95f8a452adb491363787884fe788f860a777f3",
-    "screenshot_base_html_sha256": "97169fb87eaa6ef237de2cea618389a36ce1d1f3e70631266f5723a798b21b2c",
-    "final_html_delta": "Exactly fourteen 本頁證據 links; after removing these elements final HTML SHA256 equals the screenshot-base HTML SHA256. Link labels and matching slide anchors reviewed statically; final footer layout was not re-rendered by reviewer.",
-    "source_directory": "work/hw10_1110/revision-20261116/preview",
-    "checked_screenshots": [
-      {
-        "file": "s01.png",
-        "slide": "s01",
-        "result": "pass",
-        "scope": "Provided 1366px desktop render before final evidence-link insertion",
-        "observations": "波形→手機身分與問號，只有「聲音」「身分」兩個新SVG文字；概念示意說明仍需核實，無人物或案件偽證。",
-        "sha256": "45e48ff4ac6ae5df587e773fc48f065a9d4095634164419f10c667a56d994a62"
-      },
-      {
-        "file": "s02.png",
-        "slide": "s02",
-        "result": "pass",
-        "scope": "Provided 1366px desktop render before final evidence-link insertion",
-        "observations": "三個目標搭配身分、問號與勾選圖示；編號與圖示不增加統計或安全保證。",
-        "sha256": "6f883fe2371263d1db1da669d44674b4fd4ab59c3631c84cd1bc338cbf285cd3"
-      },
-      {
-        "file": "s03.png",
-        "slide": "s03",
-        "result": "pass",
-        "scope": "Provided 1366px desktop render before final evidence-link insertion",
-        "observations": "波形、影片與對話圖示對應三類媒體；沒有把文字帳號誤畫為已證實深偽。",
-        "sha256": "e2b4940431cfb1b22ad15aac7a6ca67a37c5b7e0124bdf2662a51c370228f222"
-      },
-      {
-        "file": "s04.png",
-        "slide": "s04",
-        "result": "pass",
-        "scope": "Provided 1366px desktop render before final evidence-link insertion",
-        "observations": "箭頭呈現課程整理的路線；概念示意及跨來源說明可見，不冒充事件時間軸。",
-        "sha256": "9d034fe81b66fb3b9fe48977df1f28339a277c99c192e3814d1eeafc72e218af"
-      },
-      {
-        "file": "s05.png",
-        "slide": "s05",
-        "result": "pass",
-        "scope": "Provided 1366px desktop render before final evidence-link insertion",
-        "observations": "紙張、信封、資料夾與查核勾為抽象概念示意；沒有重製官方公文、警方畫面或原傷害影像。",
-        "sha256": "e89dc89b0a3f4fb2086184896f55a784877cad5bc1c66f589c32d9409d2eea13"
-      },
-      {
-        "file": "s06.png",
-        "slide": "s06",
-        "result": "pass",
-        "scope": "Provided 1366px desktop render before final evidence-link insertion",
-        "observations": "兩個抽象人形、播放鍵與後續訊息對應預錄影片→訊息指令；沒有即時通話標記或互動保證。",
-        "sha256": "b2a3c160b8ea6f52d3379357341783a47e41482672fe5d148ccf7fb8953e7498"
-      },
-      {
-        "file": "s07.png",
-        "slide": "s07",
-        "result": "pass",
-        "scope": "Provided 1366px desktop render before final evidence-link insertion; answered B state",
-        "observations": "虛構手機有「教學模擬」「非真實聊天室」標示；波形不是實際錄音證據，B作答及完整回饋可讀。",
-        "sha256": "c6b7afa3700a8f4e2d81aa78b19a850e8887bb9fa12c3c6be5ac66520a01f802"
-      },
-      {
-        "file": "s08.png",
-        "slide": "s08",
-        "result": "pass",
-        "scope": "Provided 1366px desktop render before final evidence-link insertion",
-        "observations": "放大鏡、問號與電話對應線索、限制與另行聯絡；未呈現偵測器通過標章。",
-        "sha256": "c51556c9e634d437574b06b0fa98224b7ce4714e3d60a9376e6b47a13587e7f4"
-      },
-      {
-        "file": "s09.png",
-        "slide": "s09",
-        "result": "pass",
-        "scope": "Provided 1366px desktop render before final evidence-link insertion",
-        "observations": "一般內容卡分別有／無「AI」標示，另加放大鏡；明示概念示意，不冒充TikTok真實介面截圖或覆蓋率。",
-        "sha256": "a80e7b6460c665d739992541c7681607c8eabe6f373bb31b7c9bf885bfc38f53"
-      },
-      {
-        "file": "s10.png",
-        "slide": "s10",
-        "result": "pass",
-        "scope": "Provided 1366px desktop render before final evidence-link insertion",
-        "observations": "對話、鎖與身分圖示支援帳號風險；沒有官方徽章或復原成功畫面。",
-        "sha256": "06289cf34e24b31b85dc778119787cf690ed839f42a5e56dd0abe7c83d42d540"
-      },
-      {
-        "file": "s11.png",
-        "slide": "s11",
-        "result": "pass",
-        "scope": "Provided 1366px desktop render before final evidence-link insertion",
-        "observations": "停離查留與箭頭支援動作順序；沒有新增官方品牌或防詐功效。",
-        "sha256": "1cf083b8e430c1286966282252d41a9ad4e98ca80ee494037b5afa648627e6d9"
-      },
-      {
-        "file": "s12.png",
-        "slide": "s12",
-        "result": "pass",
-        "scope": "Provided 1366px desktop render before final evidence-link insertion; answered B state",
-        "observations": "虛構手機有模擬標示與鎖圖示，沒有性影像；B作答與完整回饋可讀。",
-        "sha256": "0fe909ff8fa9ca3a63882869fc8011d072ea6df0d9aaed43282027993cc84160"
-      },
-      {
-        "file": "s13.png",
-        "slide": "s13",
-        "result": "pass",
-        "scope": "Provided 1366px desktop render before final evidence-link insertion",
-        "observations": "電話、鎖與留存圖示對應正式求助；未暗示個案已受理或追回款項。",
-        "sha256": "e4abc993b4c8b7581589c58647bf3a215225b0d40783651d62005e7af8cac18a"
-      },
-      {
-        "file": "s14.png",
-        "slide": "s14",
-        "result": "pass",
-        "scope": "Provided 1366px desktop render before final evidence-link insertion",
-        "observations": "盾牌與勾是抽象概念示意；配合自問句，沒有安全認證、偵測結果或保證文字。",
-        "sha256": "a0c3a6218174367a01b02c196fa9c4a4b565c469f14414e8671e7bd886a21d65"
-      }
-    ],
-    "total_actually_viewed": 14,
-    "desktop_slides_checked": 14,
-    "desktop_slides_with_visible_wiki_footer": 14,
-    "quiz_answer_screenshots_checked": 2,
-    "mobile_screenshots_checked": 0,
-    "current_inline_svgs_reviewed": 45,
-    "issues": [],
-    "limitations": [
-      "Supplied static screenshots do not prove clicks, keyboard navigation or reset.",
-      "No current mobile/print screenshots or screenshots after final evidence-link insertion were reviewed.",
-      "Generic platform previews are conceptual, not live interface screenshots; no live-platform interface accuracy is certified."
-    ],
-    "overall_assessment": "所閱十四頁圖解、文字與來源頁尾清楚；概念示意及模擬標示未被改造成案件實拍、真實聊天或新事實證據。無需退回作者的語意或靜態畫面問題。",
-    "edits": "Review evidence only; no deck or screenshot modified."
+  "artifact_sha256": {
+    "teaching/deck.json": "db75ce8971bc90cfa204c29daa4ee8bb0a96ceb4cba82904478cd9f3b302a9f8",
+    "deck.html": "16bd30df9fcf6ec9ed2ccb87d988b914e460762f1723c8e1ebbe9ecd5bb0e194",
+    "teaching/practice.json": "61baa94e4404fee17443a7b35f8404f8b3cda16f5032b5f5fc0dd8da93456c0d",
+    "practice.html": "15fd1a672590a15a7ab3ec0e92bce52c00988d11c3e6ce433fe7feab086940b1",
+    "wiki/concepts/basics.md": "f53e8a5b74cdf6d3aea22548451492415714fdbf8a6387c0717c99a67dc72378",
+    "wiki/concepts/platforms.md": "a6ed39bdc9b03762109dfd5ef536d4b1428b3dba4fc472bc274497b433f48582",
+    "wiki/concepts/verification.md": "4c902c708a45fc7bb96116138a40744a930c221bc34b91b7eebed933157885bf"
+  },
+  "artifact_lf_sha256": {
+    "teaching/deck.json": "db75ce8971bc90cfa204c29daa4ee8bb0a96ceb4cba82904478cd9f3b302a9f8",
+    "deck.html": "16bd30df9fcf6ec9ed2ccb87d988b914e460762f1723c8e1ebbe9ecd5bb0e194",
+    "teaching/practice.json": "61baa94e4404fee17443a7b35f8404f8b3cda16f5032b5f5fc0dd8da93456c0d",
+    "practice.html": "ab01fc1f4cbc3fccc465cbab8b6cf175a1d9a920f1837e730db7bbf642d38519",
+    "wiki/concepts/basics.md": "3be8818d2956f94421a1816c075a34a494b1bd6a6a12c479b893b96ab540a157",
+    "wiki/concepts/platforms.md": "7c39e0a8e59bf888df3975d989a1d827d8c24ff4a23326b680acbc2eded1801e",
+    "wiki/concepts/verification.md": "3fb71f87156ac7d6f9707b0055fbe619bdc32c90004540b270854957778cd0fb"
+  },
+  "residual_minor_limitations": [
+    "這是對目前教材、證據與封存官方主張的獨立內容審查；不取代原案件鑑識，也不是2026年平台所有版本或帳號復原流程的實測。",
+    "五題均有理由輸入與自查判準，但沒有學習者前後測、延後測或真實受騙風險降低的證據；不能保證遷移效果。",
+    "部分錯誤選項仍會刻意暴露明顯風險，適合初學者；不足以證明面對複雜真實情境也能正確決策。",
+    "本審查核對已渲染HTML的教材文字；版面、鍵盤、手機、列印與公開發布狀態由另一輪實際瀏覽器驗收處理。"
+  ],
+  "review_integrity": "Reviewed current bytes directly, without treating prior review records or test counts as proof of factual truth. Only the four authorized review files were written.",
+  "publication_revision": {
+    "performed_at": "2026-11-18T07:39:25.995922+00:00",
+    "change": "Removed subjective numeric grade estimate from public evidence; semantic verdict, role, scope, limitations and closed findings preserved. No lesson changes."
+  },
+  "post_review_renderer_copy_adjustment": {
+    "performed_at": "2026-11-18T07:45:37.542732+00:00",
+    "checked_by": "Primary implementation agent, byte-for-byte derivative check after independent content review",
+    "scope": "Three navigation/helper labels only; reversing precisely those3substitutions reproduces independently reviewed HTML bytes. Case payload, source claims, options, feedback, reasoning prompts and criteria are unchanged. No second full semantic review is claimed.",
+    "reviewed_original_rendered_sha256": "ab01fc1f4cbc3fccc465cbab8b6cf175a1d9a920f1837e730db7bbf642d38519",
+    "current_rendered_sha256": "15fd1a672590a15a7ab3ec0e92bce52c00988d11c3e6ce433fe7feab086940b1",
+    "reverse_exact_match": true
   }
 }

@@ -2,27 +2,32 @@
 
 第十週作業1110；成大 P16157038 系統碩一 陳世豐。
 
+版本 1.3，2026年11月18日。本輪先討論並由本人確認修訂範圍，再更新 Wiki 與教材；見[確認紀錄](planning/confirmation-20261118.json)及[修訂計畫](planning/upgrade-20261118.md)。本輪確認與初版規劃分開保存。
+
 先開 `index.html`，選「開始上課」「知識 Wiki」「證據對照」或「製作流程」。`deck.html` 是十四頁教學簡報，直接用瀏覽器雙擊可讀；方向鍵換頁，情境題可選答案看解說。免登入、免金鑰，靜態成果不需伺服器維持連線。
 
 若要驗收，先開 `evidence.html`：六項繳交要求各有成果入口，逐頁對照器可選 s01–s14，查看該頁引用的主張、官方來源、Wiki、查詢與證據卡。日期和檢查數字來自實際紀錄；原始 JSON 仍提供下載。這是把既有證據整理成可讀介面，不以示意圖代替執行紀錄。
 
 此 LLM Wiki 是 Codex 研究代理逐篇讀官方資料、編寫來源及綜合知識、保留連結與日誌的成果；不是把普通搜尋功能假稱為聊天模型。網頁搜尋只做本機關鍵字篩選。新增知識時需 coding agent 依 `AGENTS.md` 讀來源並寫入；重跑以下腳本只重現資料與輸出，不會自行呼叫 LLM。
 
-`practice.html` 是使用者要求增加的五個情境練習：原本仿聲與影像威脅兩題，加上 LINE 投票／認證碼、TikTok 無標籤、Instagram 帳號存取三題。每題選答後說明各選項理由、完整處理步驟與來源。用 `python tools/build_practice.py` 依 `teaching/practice.json` 重建；不會接收真實音訊或自動判定個案真假。十四頁主課保持原稿，練習區是延伸教材。
+主課明確區分深偽、釣魚及帳號遭他人控制三個概念，說明它們如何組合，並以 LINE 投票示範完整的獨立查證：另用先前保存的聯絡方式核對本人與要求，仍不交出認證碼。保留十四頁及兩道主課互動題，不設定固定授課分鐘數。
+
+`practice.html` 是五個延伸情境：主課仿聲與影像威脅兩題，加上 LINE 投票／認證碼、TikTok 無標籤、Instagram 帳號存取三題。每題含三個選項、各選項理由、四步處理、轉用原則及來源；本輪以可信但不完整的查證作為干擾選項，另提供理由自答與三項參考判準。先寫理由再對照判準；自答文字不交由 AI 自動評分。網站不接收真實音訊或敏感影像，不自動判定個案真假；作答紀錄不等於學習成效。
+
+## 重建保存的成果
 
 ```text
-python tools/wiki.py lint
-python tools/wiki.py query Q01 "深偽 仿聲 基本概念"
-python tools/render.py
-python tools/check.py
+python tools/run_checks.py
 ```
+
+此流程檢查 Wiki、依保存的教材重建 HTML／練習／入口，再驗證結構與引用；它不呼叫 LLM，也不代替新的語意審查或瀏覽器驗收。`python tools/build_practice.py` 可單獨依 `teaching/practice.json` 重建練習區。若新增來源或修改教材，需依 `AGENTS.md` 重新整理、查詢、編寫與獨立核查。單獨執行 query 只保存檢索結果，答案與證據卡仍須由 coding agent 依讀到的 Wiki 編寫，不覆寫既有查詢來冒充完整更新。
 
 實作順序和每階段證據在 `evidence/`、Git 提交、`wiki/log.md`；來源清單位於 `raw/manifest.json`，來源擷取不可修改。完整官方網頁快取留在作者工作區，公開 raw 為有出處、日期、短摘與限制的封存節錄，不冒充全文。查詢產生的段落紀錄在 `queries/`；投影片用的證據卡在 `cards/`。
 
-教學需求、來源標準與設計決策保存於 `planning/discussion.md` 及後續修訂紀錄。Git 提交可核對規劃、來源整理、Wiki、查詢／證據卡及 HTML 的實作順序。
+教學需求、來源標準與設計決策保存於 `planning/discussion.md` 及後續修訂紀錄。實際流程為「逐頁稿與 HTML 試建 → 獨立忠實度審查 → 審查後重建 → 交付前驗收」；初版也曾在獨立審查前進行本機初測。Git 提交及各次紀錄可核對實作順序、歷史修正與本輪結果。
 
 ## 重跑瀏覽器檢查（僅開發者）
 
-既有成果直接開啟不需要安裝任何套件。若要重新執行瀏覽器測試，另外安裝 Node.js、Playwright 與 Chrome，再跑 `node tools/browser_redesign.cjs`；預設測本機HTML，`HW10_TEST_URL` 可指定已發布的 deck.html。請用隔離的 headless profile，不使用個人登入資料。新介面本機與公開網站紀錄分別保存在 `evidence/browser-local-redesign.json` 與 `evidence/browser-checks-redesign.json`，原二十項紀錄另行保留，不改寫成新版本已驗收。
+既有成果直接開啟不需要安裝任何套件。若要重新執行瀏覽器測試，另外安裝 Node.js、Playwright 與 Chrome，再跑 `node tools/browser_redesign.cjs`；預設測本機 HTML，`HW10_TEST_URL` 可指定已發布的 deck.html。五題練習另跑 `node tools/practice_browser.cjs`。請用隔離的 headless profile，不使用個人登入資料。重跑會更新對應紀錄；先另檔保留歷史結果，再以實際執行日期、範圍及教材版本判斷本輪是否通過。`evidence.html` 提供目前紀錄的入口，舊版通過不代表新版已驗收。
 
-.gitattributes 固定文字檔 LF，讓 Windows checkout 不會改變已封存 raw 的 SHA256。
+.gitattributes 固定文字檔 LF；跨平台完整性以統一 LF 後的內容雜湊核對，原始位元組雜湊另行保存。

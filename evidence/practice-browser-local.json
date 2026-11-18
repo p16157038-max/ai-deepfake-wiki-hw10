@@ -1,5 +1,5 @@
 {
-  "performed_at": "2026-11-16T07:59:14.854Z",
+  "performed_at": "2026-11-18T07:33:05.107Z",
   "base": "file:///C:/Users/win11/Documents/Codex/2026-10-10/b-n/outputs/HW10_1110_DEEPFAKE_WIKI/deepfake-wiki/practice.html",
   "scope": "Five educational simulations,15choices,20steptexts,feedback/reset/progress/directcase/keyboard/390px/home; isolated headlessbrowser; does not measure learner transfer or real scam prevention.",
   "cases": [
@@ -121,12 +121,29 @@
         "three_reasons_readable": true,
         "collapsible": true
       }
+    },
+    {
+      "id": "P09_reasoning_before_reference_and_reset",
+      "status": "passed",
+      "observed": {
+        "cases": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05"
+        ],
+        "own_answer_before_reference": true,
+        "three_criteria_each": true,
+        "reset_clears_text_and_reference": true,
+        "not_automatic_grading": true
+      }
     }
   ],
   "javascript_errors": [],
   "summary": {
-    "total": 12,
-    "passed": 12,
+    "total": 13,
+    "passed": 13,
     "failed": 0
   }
 }

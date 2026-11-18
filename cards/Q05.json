@@ -64,6 +64,6 @@
     }
   ],
   "boundaries": "Only actual retrieved Wiki sections; used claims are distinct from retrieval hits. Simulations and teaching inferences are labeled; no measured learning efficacy.",
-  "query_sha256": "55ab656d203a0f387ed91a5f9e7c5c36a3595bd4f63f575361289d6ffbefc774",
+  "query_sha256": "a478080329c580cfcd1566e3513d5b95941c09a0cdc01989eb4fc8b9f88be1fa",
   "authored_at": "2026-11-18T07:24:22.690349+00:00"
 }

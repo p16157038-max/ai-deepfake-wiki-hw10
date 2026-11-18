@@ -154,3 +154,43 @@ Q05：查證 165 證據 → concepts/verification.md,concepts/response.md,concep
 ## [2026-11-18T07:22:21.144335+00:00] query
 
 Q06：勒索 認證碼 復原 → concepts/verification.md,concepts/platforms.md,concepts/response.md,concepts/basics.md。
+
+## [2026-11-18T07:30:41.683320+00:00] lint
+
+{"performed_at": "2026-11-18T07:30:41.682815+00:00", "source_count": 8, "concept_count": 6, "raw_immutable": true, "errors": [], "semantic_truth_proved_by_script": false}
+
+## [2026-11-18T07:31:30.748436+00:00] lint
+
+{"performed_at": "2026-11-18T07:31:30.747933+00:00", "source_count": 8, "concept_count": 6, "raw_immutable": true, "errors": [], "semantic_truth_proved_by_script": false}
+
+## [2026-11-18T07:32:23.792268+00:00] lint
+
+{"performed_at": "2026-11-18T07:32:23.791769+00:00", "source_count": 8, "concept_count": 6, "raw_immutable": true, "errors": [], "semantic_truth_proved_by_script": false}
+
+## [2026-11-18T07:34:38.833565+00:00] synthesis
+
+W01：LLM 依 S01,S04,S08 綜合，保留 6 項主張及限制。
+
+## [2026-11-18T07:34:38.834064+00:00] synthesis
+
+W02：LLM 依 S02,S03,S04,S08 綜合，保留 9 項主張及限制。
+
+## [2026-11-18T07:34:38.835065+00:00] synthesis
+
+W03：LLM 依 S02,S05 綜合，保留 6 項主張及限制。
+
+## [2026-11-18T07:34:38.835565+00:00] synthesis
+
+W04：LLM 依 S04,S06,S07,S08 綜合，保留 11 項主張及限制。
+
+## [2026-11-18T07:34:38.836064+00:00] synthesis
+
+W05：LLM 依 S01,S03,S04,S05,S08 綜合，保留 7 項主張及限制。
+
+## [2026-11-18T07:34:38.836565+00:00] synthesis
+
+W06：LLM 依 S01,S04,S05,S07,S08 綜合，保留 6 項主張及限制。
+
+## [2026-11-18T07:38:59.063533+00:00] lint
+
+{"performed_at": "2026-11-18T07:38:59.063034+00:00", "source_count": 8, "concept_count": 6, "raw_immutable": true, "errors": [], "semantic_truth_proved_by_script": false}

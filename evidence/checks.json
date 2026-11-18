@@ -1,5 +1,5 @@
 {
-  "performed_at": "2026-11-16T08:02:27.988078+00:00",
+  "performed_at": "2026-11-18T07:39:00.031987+00:00",
   "passed": true,
   "sources": 8,
   "concept_pages": 6,
@@ -17,7 +17,7 @@
     "S07",
     "S08"
   ],
-  "local_link_checks": 187,
+  "local_link_checks": 197,
   "rendered_text_preserved": true,
   "raw_sha256_verified": true,
   "raw_hash_mode": "canonical LF content hash; original local byte hashes retained separately",
@@ -42,5 +42,43 @@
     }
   },
   "semantic_truth_proved_by_script": false,
-  "errors": []
+  "errors": [],
+  "evidence_card_precision": [
+    {
+      "query": "Q01",
+      "retrieved_claims": 23,
+      "used_claims": 5,
+      "query_sha256_matches": true
+    },
+    {
+      "query": "Q02",
+      "retrieved_claims": 13,
+      "used_claims": 6,
+      "query_sha256_matches": true
+    },
+    {
+      "query": "Q03",
+      "retrieved_claims": 22,
+      "used_claims": 5,
+      "query_sha256_matches": true
+    },
+    {
+      "query": "Q04",
+      "retrieved_claims": 19,
+      "used_claims": 8,
+      "query_sha256_matches": true
+    },
+    {
+      "query": "Q05",
+      "retrieved_claims": 18,
+      "used_claims": 6,
+      "query_sha256_matches": true
+    },
+    {
+      "query": "Q06",
+      "retrieved_claims": 19,
+      "used_claims": 8,
+      "query_sha256_matches": true
+    }
+  ]
 }
